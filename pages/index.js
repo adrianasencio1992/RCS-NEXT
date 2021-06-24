@@ -1,17 +1,23 @@
+import Link from "next/link";
 import Head from "next/head";
-import Layout, { siteTitle } from "../components/layout";
-import utilStyles from "../pages/styles/utils.module.css";
+import Layout from "../components/layout";
 
 export default function Home() {
   return (
-    <Layout home>
-      <section className={utilStyles.headingMd}>
-        <p>[Your Self Introduction]</p>
-        <p>
-          (This is a sample website - you’ll be building a site like this on{" "}
-          <a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
-        </p>
-      </section>
-    </Layout>
+    <div>
+      <Layout>
+        <Head>
+          <title>RCS | Reformas, Construcciones y Servicios</title>
+          <link rel="icon" href="/logo-imagenes.png" />
+        </Head>
+
+        <h2>
+          <Link href="/reformas-casas/reformas-casas">
+            <a>Reformas casas</a>
+          </Link>
+        </h2>
+        <p>REFORMAS</p>
+      </Layout>
+    </div>
   );
 }

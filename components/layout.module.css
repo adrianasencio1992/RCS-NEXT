@@ -1,3 +1,182 @@
-.h1 {
-  color: blue;
+.body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.contendorDashboard {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  height: 120px;
+  background-color: #fefbf1;
+}
+
+.logoNavbar {
+  width: 150px;
+  height: 80px;
+}
+
+.nombreEmpresa {
+  margin-top: 10px;
+}
+
+.h1Navbar {
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  border: 4px rgba(0, 0, 0, 0.25);
+  border-width: 4px 0;
+  width: 20em;
+  font-size: 24px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+/*ESLOGAN*/
+
+.divEslogan {
+  font-size: 15px;
+  margin-top: 5px;
+  text-align: center;
+}
+
+.eslogan {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.eslogan:first-of-type {
+  /* For increasing performance 
+                       ID/Class should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+.eslogan:last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+.eslogan:last-of-type span {
+  margin-left: -355px;
+  animation: slidein 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 150px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 150px;
+  }
+}
+
+/*Informacion de contacto y horario tienda*/
+.divUbicacionPrincipalDobles {
+  display: flex;
+  flex-direction: row;
+}
+
+.divInformacion {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 4px;
+}
+
+.ubicacion {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+}
+
+.ubicacion2 {
+  position: absolute;
+  margin-top: 20px;
+  margin-left: 10px;
+  width: 60px;
+  height: 60px;
+  visibility: visible;
+}
+
+.ubicacion2:hover {
+  opacity: 0;
+}
+
+.h2Ubicacion {
+  font-size: 16px;
+  color: rgb(218, 165, 32);
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4px;
+}
+
+.h3Ubicacion {
+  font-size: 13px;
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 4px;
+  margin-top: 0px;
+  font-weight: 100;
+}
+
+/*Navbar*/
+
+.navegador {
+  background-color: rgb(236, 167, 0);
+  font-family: "Oswald", sans-serif;
+}
+
+.nav-link {
+  color: pink;
 }

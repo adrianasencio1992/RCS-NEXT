@@ -18,6 +18,7 @@ export default function ReformasPisos() {
             <a>Back to home</a>
           </Link>
         </h2>
+        <h3>Hola</h3>
       </SCDashboard>
     </Layout>
   );

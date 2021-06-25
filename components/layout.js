@@ -1,5 +1,7 @@
+import Link from "next/link";
 import styles from "./layout.module.css";
 import Head from "next/head";
+import SCNavBar from "./navbar";
 
 export default function Layout({ children }) {
   return (
@@ -10,13 +12,13 @@ export default function Layout({ children }) {
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></script>
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
           rel="stylesheet"
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
-          crossorigin="anonymous"
+          crossOrigin="anonymous"
         ></link>
       </Head>
       <body className={styles.body}>
@@ -25,7 +27,7 @@ export default function Layout({ children }) {
           <link
             rel="preconnect"
             href="https://fonts.gstatic.com"
-            crossorigin
+            crossOrigin
           ></link>
           <link
             href="https://fonts.googleapis.com/css2?family=Oswald&display=swap"
@@ -91,215 +93,15 @@ export default function Layout({ children }) {
             </div>
           </div>
         </div>
-        <div className={styles.navegador}>
-          <ul class="nav nav-pills">
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-expanded="false"
-              >
-                REFORMAS
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    REFORMAS DE CASAS
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    REFORMAS DE PISOS
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    REFORMAS DE COCINAS
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    REFORMAS DE BAÑOS
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    REFORMAS DE PARQUET Y PUERTAS
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    REFORMAS DE VENTANAS DE ALUMINIO
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    PINTURA
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider"></hr>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    HAZ TU PROPIO PRESUPUESTO
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-expanded="false"
-              >
-                PRESUPUESTOS
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    DISEÑA TU PROPIO PRESUPUESTO
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    PRESUPUESTO ONLINE
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    FINANCIACIÓN
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider"></hr>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    CONTACTANOS
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-expanded="false"
-              >
-                PRECIOS
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    PRECIOS ORIENTATIVOS REFORMA
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    PRECIO MATERIALES
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider"></hr>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    FINANCIACIÓN
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-expanded="false"
-              >
-                DISEÑA TU REFORMA
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    DISEÑA TU PROPIA COCINA
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    DISEÑA TU PROPIO BAÑO
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    TE DISEÑAMOS NOSOTROS
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider"></hr>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    CONTACTANOS
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item dropdown">
-              <a
-                class="nav-link dropdown-toggle"
-                data-bs-toggle="dropdown"
-                href="#"
-                role="button"
-                aria-expanded="false"
-              >
-                SOBRE NOSOTROS
-              </a>
-              <ul class="dropdown-menu">
-                <li>
-                  <a class="dropdown-item" href="#">
-                    VENTAJAS
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    NUESTROS FABRICANTES
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    PREGUNTAS FRECUENTES
-                  </a>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    ¿QUIERES TRABAJAR CON NOSOTROS?
-                  </a>
-                </li>
-                <li>
-                  <hr class="dropdown-divider"></hr>
-                </li>
-                <li>
-                  <a class="dropdown-item" href="#">
-                    FILOSOFÍA DE LA EMPRESA
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">
-                CONTACTO
-              </a>
-            </li>
-          </ul>
-        </div>
+        <SCNavBar></SCNavBar>
+        <Link href="/#">
+          <div className={styles.divPrecio}>
+            <a>
+              <h3 className={styles.divH3Precio}>CALCULA TU PRESUPUESTO</h3>
+            </a>
+          </div>
+        </Link>
+
         {children}
       </body>
     </div>

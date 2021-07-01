@@ -210,4 +210,20 @@
   .divPrecio {
     display: none;
   }
+
+  .contendorDashboard {
+    margin-bottom: 10px;
+  }
+
+  @media (max-width: 700px) {
+    .contendorNombreYEslogan {
+      display: none;
+    }
+
+    .contendorDashboard {
+      display: flex;
+      justify-content: flex-start;
+      margin-bottom: 10px;
+    }
+  }
 }

@@ -11,27 +11,19 @@ const SCNavBar = styled.section`
  }
 
   .cuadrado{
-    width: 500px;
-    height:40px;
+    width: 100vw;
+    height:60px;
     background-color: rgb(254,251,241);
   }
 
   .triangulo {
-   border-bottom: 40px solid rgb(236, 167, 0); 
-    border-left: 60px solid rgb(254,251,241);      
-  }
-
-  .navegador {
-    background-color: rgb(236, 167, 0);
-    font-family: "Oswald", sans-serif;
-    width: 88%;
-    display: flex;
-    justify-content: center;
-    
+   border-bottom: 60px solid rgb(236, 167, 0); 
+    border-left: 80px solid rgb(254,251,241);      
   }
 
   .nav-link {
     color: white;
+    font-family: "Oswald", sans-serif;
   }
 
   .nav-link:hover{
@@ -44,6 +36,32 @@ const SCNavBar = styled.section`
 
   .dropdown-item:hover{
     background-color:rgb(254,251,241);
+  }
+
+.dropdown-item{
+font-family: "Oswald", sans-serif;
+}
+
+.text-white:hover{
+  color:black !important;
+}
+
+.bg-warning{
+  background-color: rgb(236,167,0) !important;
+}
+
+@media (max-width: 1000px) {
+  .triangulo {
+    display: none;
+  }
+
+  .cuadrado{
+    display:none;
+  }
+
+  .navbar{
+    position: absolute;
+    z-index: 2000;
   }
 `;
 

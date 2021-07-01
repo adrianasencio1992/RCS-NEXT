@@ -201,3 +201,13 @@
 .divH3Precio:hover {
   color: black;
 }
+
+@media (max-width: 1250px) {
+  .divUbicacionPrincipalDobles {
+    display: none;
+  }
+
+  .divPrecio {
+    display: none;
+  }
+}

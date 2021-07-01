@@ -4,6 +4,15 @@ const SCNavBar = styled.section`
     display:flex;
     justify-content:flex-end;
     }
+    
+.navbar{
+  position:fixed;
+  z-index:1100;
+}
+
+.margin{
+  margin-right:60px;
+}
 
 .dropdown:hover .dropdown-menu {
     display: block;
@@ -14,11 +23,6 @@ const SCNavBar = styled.section`
     width: 100vw;
     height:60px;
     background-color: rgb(254,251,241);
-  }
-
-  .triangulo {
-   border-bottom: 60px solid rgb(236, 167, 0); 
-    border-left: 80px solid rgb(254,251,241);      
   }
 
   .nav-link {

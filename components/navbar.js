@@ -5,7 +5,7 @@ export default function NavBar() {
   return (
     <SCNavBar>
       <div className="cuadrado"></div>
-      <div className="triangulo bg-warning bg-gradient"></div>
+
       <nav class="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
           <button
@@ -239,7 +239,7 @@ export default function NavBar() {
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white" href="#">
+                <a class="nav-link text-white margin" href="#">
                   CONTACTO
                 </a>
               </li>

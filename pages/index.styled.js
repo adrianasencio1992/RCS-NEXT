@@ -1,90 +1,158 @@
 import styled from "styled-components";
 
 const SCIndex = styled.section`
-  
+  font-family: "Oswald", sans-serif;
   }
-  /* SLIDE */
+  /*SLIDER*/
+ div#slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
+div#slider figure img { width: 20%; float: left; }
+
+div#slider figure { 
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
+}
+
+
+/*esta parte del código define el movimiento de las imágenes a la izquierda*/
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+/*Formulario*/
+@import url( 'https://fonts.googleapis.com/css?family=Roboto');
 
 *,
 *::before,
-*::after { box-sizing: border-box; }
-
-html,
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+::after {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
 }
 
+.section-formulario{
+background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/fondo-arquitectura.jpg");
 
-.card {
-  position: relative;
-  width: 100%;
-  height: 500px;
-  overflow: hidden;
+}
+
+.contenedor {
+  max-width: 1170px;
+  margin: 0 auto 1rem;
+  padding: 1.5rem;
+  
+}
+
+.wrapper {
+  box-shadow: 0 0 20px 0 rgba($color-principal, .7);
   border-radius: 5px;
-  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3);
+  @media screen and(min-width: $bk1) {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+  }
 }
 
-/*Light blue cover above the slide show*/
-.card::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  top: 0;
-  z-index: 900;
-  display: block;
-  width: 100%;
-  height: 100%;
-}
-
-.card_part {
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 7;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: 100%;
-  transform: translateX( 100% );
-  background-image: url("/masnou.jpg");
-  animation: opaqTransition 28s cubic-bezier(0, 0, 0, 0.97) infinite;
+.servicios {
+  list-style: none;
+  text-align: center;
+  @media screen and(min-width: $bk1) {
+    text-align: left;
+  }
 }
 
 
-.card_part.card_part-two {
-  z-index: 6;
-  background-image: url("/masnou2.jpeg");
-  animation-delay: 7s;
+
+.info-empresa {
+  padding: 1rem;
+  background-color: lighten($color-principal, 50%);
+
+  h3 {
+    @media screen and(min-width: $bk1) {
+      text-align: left;
+      margin-bottom: 0.5rem;
+    }
+    text-align: center;
+  }
 }
 
-.card_part.card_part-three {
-  z-index: 5;
-  background-image: url(/masnou3.jpeg);
-  animation-delay: 14s;
+.nombre-empresa {
+  color: darken($color-principal, 15%);
 }
 
-.card_part.card_part-four {
-  z-index: 4;
-  background-image: url(/masnou4.jpeg);
-  animation-delay: 21s;
+.contacto {
+  padding: 1rem;
+  background-color: lighten($color-principal, 60%);
+
+  h3 {
+    margin-bottom: 1rem;
+  }
 }
 
+.formulario {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 1.25rem;
 
-@keyframes opaqTransition {
-  3% { transform: translateX( 0 ); }
-  25% { transform: translateX( 0 ); }
-  28% { transform: translateX( -100% ); }
-  100% { transform: translateX( -100% ); }
+  label {
+    display: block;
+  }
+
+  button,
+  input,
+  textarea {
+    width: 100%;
+    padding: 1rem;
+    border: 1px solid lighten($color-principal, 50%);
+  }
+
+  textarea {
+    resize: none;
+  }
 }
 
+.full {
+  grid-column: 1 / 3;
+  
+}
 
+.full2{
+  display:flex;
+  justify-content:center;
+}
+
+.boton-enviar {
+  background-color: rgb(236,167,0);
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  width:33% !important;
+  
+
+  &:focus,
+  &:hover {
+    background-color: rgb(254,206,79);
+    color: #fff;
+    outline: 0;
+    transition: background-color 1s ease-out;
+  }
+}
+
+.input-formulario{
+  
+  outline:none;
+}
   `;
 
 export default SCIndex;

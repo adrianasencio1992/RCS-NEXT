@@ -97,7 +97,7 @@ export default function Layout({ children }) {
         <Link href="/#">
           <div className={styles.divPrecio}>
             <a>
-              <h3 className={styles.divH3Precio}>CALCULA TU PRESUPUESTO</h3>
+              <h3 className={styles.divH3Precio}>DISEÑA TU PRESUPUESTO</h3>
             </a>
           </div>
         </Link>

@@ -4,9 +4,8 @@ const SCNavBar = styled.section`
     display:flex;
     justify-content:flex-end;
     }
-    
+
 .navbar{
-  position:fixed;
   z-index:1100;
 }
 
@@ -67,6 +66,7 @@ font-family: "Oswald", sans-serif;
     position: absolute;
     z-index: 2000;
   }
+}
 `;
 
 export default SCNavBar;

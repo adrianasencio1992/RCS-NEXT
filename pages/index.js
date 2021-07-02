@@ -21,7 +21,7 @@ export default function Home() {
             <img src="/baño2.jpg" alt=""></img>
             <img src="/cocina.jpg" alt=""></img>
             <img src="/baño.jpg" alt=""></img>
-            <img src="/cocina3.jpg" alt=""></img>
+            <img src="/cocina2.jpg" alt=""></img>
           </figure>
         </div>
         <section className="section-formulario">
@@ -90,6 +90,57 @@ export default function Home() {
                   </p>
                 </form>
               </div>
+            </div>
+          </div>
+        </section>
+        <section className="section-provincia">
+          <h2 className="h2-provincia">
+            REFORMAS EN LA PROVINCIA DE BARCELONA
+          </h2>
+          <hr className="hr-titulo"></hr>
+          <div className="div-general-provincias">
+            <div className="div-subgeneral">
+              <img className="img-provincias" src="/reformas1.png" alt=""></img>
+              <h3 className="h3-provincias">SOMOS EXPERTOS</h3>
+              <hr className="hr-provincias"></hr>
+              <p className="p-provincias">
+                Seleccionamos en nuestro equipo a los mejores profesionales en
+                cada campo. Nos regimos por los más altos estándares de calidad
+                que nos caracterizan.
+              </p>
+            </div>
+
+            <div className="div-subgeneral">
+              <img className="img-provincias" src="/reformas2.png" alt=""></img>
+              <h3 className="h3-provincias">SOMOS CERCANOS</h3>
+              <hr className="hr-provincias"></hr>
+              <p className="p-provincias">
+                Nuestro objetivo es la total satisfacción de nuestros clientes.
+                Nos mantenemos en contacto en todo momento para convertir sus
+                deseos en una realidad.
+              </p>
+            </div>
+
+            <div className="div-subgeneral">
+              <img className="img-provincias" src="/reformas3.png" alt=""></img>
+              <h3 className="h3-provincias">SOMOS PERFECCIONISTAS</h3>
+              <hr className="hr-provincias"></hr>
+              <p className="p-provincias">
+                Cuidamos cada detalle en la ejecución de nuestros proyectos.
+                Velamos por la total satisfacción de todos y cada uno de
+                nuestros clientes.
+              </p>
+            </div>
+
+            <div className="div-subgeneral">
+              <img className="img-provincias" src="/reformas4.png" alt=""></img>
+              <h3 className="h3-provincias">SOMOS DE CONFIANZA</h3>
+              <hr className="hr-provincias"></hr>
+              <p className="p-provincias">
+                En RCS somos un equipo de profesionales expertos en sus labores.
+                Nuestros trabajadores son nuestro mayor tesoro, y juntos
+                formamos una gran familia.
+              </p>
             </div>
           </div>
         </section>

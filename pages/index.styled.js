@@ -29,6 +29,7 @@ div#slider figure {
 75% { left: -300%; }
 95% { left: -300%; }
 100% { left: -400%; }
+
 }
 /*Formulario*/
 @import url( 'https://fonts.googleapis.com/css?family=Roboto');
@@ -138,20 +139,99 @@ background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/f
   font-weight: bold;
   cursor: pointer;
   width:33% !important;
+  color: white;
+  font-family: 'Arial';
+  font-weight:100;
+ 
   
 
   &:focus,
   &:hover {
     background-color: rgb(254,206,79);
-    color: #fff;
+    color: black;
     outline: 0;
     transition: background-color 1s ease-out;
+    text-shadow: 0px 0px black;
   }
 }
 
 .input-formulario{
   
   outline:none;
+}
+
+
+/*SECCION DE REFORMAS PROVINCIA BARCELONA*/
+
+
+
+.h2-provincia{
+text-align:center;
+margin-top:30px;
+margin-bottom:30px;
+}
+
+.hr-titulo{
+  width:100px;
+  height:4px;
+  color: rgb(236,167,0);
+  margin:auto;
+  margin-bottom:45px;
+  
+  
+}
+
+.div-general-provincias{
+  display:flex;
+  flex-direction: row;
+  margin-left: 20px;
+  margin-right:20px;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:flex-start;
+
+ 
+}
+
+.div-subgeneral{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  width: 400px;
+  height:400px;
+  margin-left:20px;
+  margin-right:20px;
+  text-align:center;
+  
+}
+
+
+
+.img-provincias{
+  width:160px;
+  height:200px;
+  background-color: white;
+}
+
+.h3-provincias{
+  margin-bottom: 20px;
+  font-size: 22px;
+}
+
+.hr-provincias{
+  width:40px;
+  height:2px;
+  margin-bottom:20px;
+  color: rgb(236,167,0);
+ 
+  
+}
+
+.p-provincias{
+  color:grey;
+  font-weight:100;
+  font-family: 'Arial';
+  font-size: 15px;
 }
   `;
 

@@ -6,7 +6,7 @@ export default function NavBar() {
     <SCNavBar>
       <div className="cuadrado"></div>
 
-      <nav class="navbar navbar-expand-lg navbar-light bg-warning">
+      <nav className="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
           <button
             class="navbar-toggler"

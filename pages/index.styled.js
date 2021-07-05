@@ -4,6 +4,8 @@ const SCIndex = styled.section`
   font-family: "Oswald", sans-serif;
   }
   /*SLIDER*/
+
+
  div#slider { overflow: hidden; } /* las imágenes no van a salir del márgen de la pantalla*/
 div#slider figure img { width: 20%; float: left; }
 
@@ -233,6 +235,65 @@ margin-bottom:30px;
   font-family: 'Arial';
   font-size: 15px;
 }
+
+
+/*SECCION DE DISEÑA TU PRESUPUESTO*/
+
+.section-disena-presupuesto{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-direction:column;
+
+}
+
+.h2-disena-presupuesto{
+  text-align:center;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.hr-disena-presupuesto{
+  width:100px;
+  height:4px;
+  color: rgb(236,167,0);
+  margin:auto;
+  margin-bottom:45px;;
+ 
+}
+
+.p-disena-presupuesto{
+  text-align:center;
+  margin-bottom:40px;
+}
+
+.button-disena-presupuesto{
+  background-color: rgb(236,167,0);
+  border: none;
+  border-radius: 5px;
+  text-transform: uppercase;
+  font-weight: bold;
+  cursor: pointer;
+  width:13% !important;
+  height:40px;
+  color: white;
+  font-family: 'Arial';
+  font-weight:100;
+  z-index:10;
+  margin-bottom:40px;
+}
+
+.button-disena-presupuesto:hover{
+background-color: rgb(254,206,79);
+    color: black;
+    outline: 0;
+    transition: background-color 1s ease-out;
+    text-shadow: 0px 0px black;
+    z-index:10;
+}
+
+
+
   `;
 
 export default SCIndex;

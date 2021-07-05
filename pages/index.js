@@ -4,6 +4,7 @@ import Head from "next/head";
 import Layout from "../components/layout";
 import SCIndex from "./index.styled";
 import Image from "next/image";
+import SCCarrousel from "../components/carrousel";
 
 export default function Home() {
   return (
@@ -143,6 +144,16 @@ export default function Home() {
               </p>
             </div>
           </div>
+        </section>
+        <SCCarrousel></SCCarrousel>
+        <section className="section-disena-presupuesto">
+          <h2 className="h2-disena-presupuesto">DISEÑA TU PRESUPUESTO</h2>
+          <hr className="hr-disena-presupuesto"></hr>
+          <p className="p-disena-presupuesto">
+            ¿Te gustaría saber el precio de tu REFORMA/OBRA en menos de 1
+            minuto?
+          </p>
+          <button className="button-disena-presupuesto">CLICK AQUÍ</button>
         </section>
       </SCIndex>
     </div>

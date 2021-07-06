@@ -2,6 +2,7 @@ import styled from "styled-components";
 
 const SCIndex = styled.section`
   font-family: "Oswald", sans-serif;
+  overflow-x: hidden;
   }
   /*SLIDER*/
 
@@ -244,6 +245,7 @@ margin-bottom:30px;
   justify-content:center;
   align-items:center;
   flex-direction:column;
+  width: 100vw;
 
 }
 
@@ -265,6 +267,8 @@ margin-bottom:30px;
 .p-disena-presupuesto{
   text-align:center;
   margin-bottom:40px;
+  margin-left:20px;
+  margin-right:20px;
 }
 
 .button-disena-presupuesto{
@@ -274,7 +278,7 @@ margin-bottom:30px;
   text-transform: uppercase;
   font-weight: bold;
   cursor: pointer;
-  width:13% !important;
+  width:120px !important;
   height:40px;
   color: white;
   font-family: 'Arial';
@@ -292,6 +296,38 @@ background-color: rgb(254,206,79);
     z-index:10;
 }
 
+.imagen-arquitectos{
+  position: absolute;
+  max-width:100%;
+  
+}
+
+@media (max-width: 900px) {
+  .imagen-arquitectos {
+     position:absolute;
+     top: 3800px;
+  }
+}
+
+@media (max-width: 850px) {
+  .imagen-arquitectos {
+     position:absolute;
+     top: 3750px;
+  }
+}
+
+@media (max-width: 850px) {
+  .imagen-arquitectos {
+     position:absolute;
+     top: 3720px;
+  }
+}
+@media (max-width: 650px) {
+  .imagen-arquitectos {
+     position:absolute;
+     top: 3700px;
+  }
+}
 
 
   `;

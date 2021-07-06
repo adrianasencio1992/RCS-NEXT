@@ -154,6 +154,11 @@ export default function Home() {
             minuto?
           </p>
           <button className="button-disena-presupuesto">CLICK AQUÍ</button>
+          <img
+            className="imagen-arquitectos"
+            src="/chicos.png"
+            alt="arquitectos"
+          ></img>
         </section>
       </SCIndex>
     </div>

@@ -16,38 +16,6 @@ export default function Carrousel() {
             alrededores.
           </p>
 
-          <ul class="menu">
-            <li>
-              <a href="#slide1">1</a>
-            </li>
-            <li>
-              <a href="#slide2">2</a>
-            </li>
-            <li>
-              <a href="#slide3">3</a>
-            </li>
-            <li>
-              <a href="#slide4">4</a>
-            </li>
-            <li>
-              <a href="#slide5">5</a>
-            </li>
-            <li>
-              <a href="#slide6">6</a>
-            </li>
-            <li>
-              <a href="#slide7">7</a>
-            </li>
-            <li>
-              <a href="#slide8">8</a>
-            </li>
-            <li>
-              <a href="#slide9">9</a>
-            </li>
-            <li>
-              <a href="#slide10">10</a>
-            </li>
-          </ul>
           <ul class="slider">
             <li id="slide1">
               <img src="/texto1.png" />
@@ -78,6 +46,38 @@ export default function Carrousel() {
             </li>
             <li id="slide10">
               <img src="/texto10.png" />
+            </li>
+          </ul>
+          <ul class="menu">
+            <li>
+              <a href="#slide1">1</a>
+            </li>
+            <li>
+              <a href="#slide2">2</a>
+            </li>
+            <li>
+              <a href="#slide3">3</a>
+            </li>
+            <li>
+              <a href="#slide4">4</a>
+            </li>
+            <li>
+              <a href="#slide5">5</a>
+            </li>
+            <li>
+              <a href="#slide6">6</a>
+            </li>
+            <li>
+              <a href="#slide7">7</a>
+            </li>
+            <li>
+              <a href="#slide8">8</a>
+            </li>
+            <li>
+              <a href="#slide9">9</a>
+            </li>
+            <li>
+              <a href="#slide10">10</a>
             </li>
           </ul>
         </div>

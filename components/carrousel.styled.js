@@ -35,7 +35,6 @@ const SCCarrousel = styled.section`
   margin: auto;
   width: 100%;
   padding: 30px;
-  
 
 }
 
@@ -50,8 +49,6 @@ ul.slider{
   position: relative;
   width: 100%;
   height: 300px;
-  
-  
 }
 
 ul.slider li {
@@ -121,6 +118,8 @@ ul.slider li:target {
 .menu{
   text-align: center;
   margin: 20px;
+ 
+  
 }
 
 .menu li{

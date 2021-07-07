@@ -329,7 +329,26 @@ background-color: rgb(254,206,79);
   }
 }
 
+@media (max-width: 560px) {
+  .imagen-arquitectos {
+     position:absolute;
+     top: 3630px;
+  }
+}
 
+@media (max-width: 400px) {
+  .imagen-arquitectos {
+     position:absolute;
+     top: 3680px;
+  }
+}
+
+@media (max-width: 370px) {
+  .imagen-arquitectos {
+     position:absolute;
+     top: 3700px;
+  }
+}
   `;
 
 export default SCIndex;

@@ -27,7 +27,7 @@ const SCCarrousel = styled.section`
   text-align:center;
   margin-bottom:20px;
 }
-}
+
 
 
 
@@ -67,8 +67,6 @@ ul.slider li {
 ul.slider li img{
   width: 100%;
   height: 100%;
-  
-  
 }
 
 @media (max-width: 1000px) {
@@ -117,7 +115,7 @@ ul.slider li:target {
 
 .menu{
   text-align: center;
-  margin: 20px;
+  margin-bottom:30px;
  
   
 }
@@ -140,6 +138,8 @@ ul.slider li:target {
   height: 25px;
   font-size: 16px;
   border-radius: 100%;
+  z-index:10;
+  
 }
 
 .menu li a:hover{

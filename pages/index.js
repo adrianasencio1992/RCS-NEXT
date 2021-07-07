@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import SCIndex from "./index.styled";
 import Image from "next/image";
 import SCCarrousel from "../components/carrousel";
+import SCFooter from "../components/footer";
 
 export default function Home() {
   return (
@@ -160,6 +161,7 @@ export default function Home() {
             alt="arquitectos"
           ></img>
         </section>
+        <SCFooter></SCFooter>
       </SCIndex>
     </div>
   );

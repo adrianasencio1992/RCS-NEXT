@@ -34,11 +34,13 @@ export default function Layout({ children }) {
             rel="stylesheet"
           ></link>
           <div className={styles.contendorDashboard}>
-            <img
-              className={styles.logoNavbar}
-              src="../../../logo-inicio.png"
-              alt="lapiz"
-            />
+            <a href="/">
+              <img
+                className={styles.logoNavbar}
+                src="../../../logo-inicio.png"
+                alt="lapiz"
+              />
+            </a>
             <div className={styles.contendorNombreYEslogan}>
               <div className={styles.nombreEmpresa}>
                 <h1 className={styles.h1Navbar}>

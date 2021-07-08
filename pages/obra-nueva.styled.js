@@ -1,8 +1,9 @@
 import styled from "styled-components";
 
 const SCObraNueva = styled.section`
- width:100vw;
  overflow-x: hidden;
+ font-family: 'Arial';
+ font-size:15px;
  
   }
 
@@ -44,9 +45,8 @@ const SCObraNueva = styled.section`
 
 /*SECCION Y FORMULARIO*/
 
-${
-  "" /* .div-general-obra{
-  width:50%;
+  .div-general-obra{
+  width:70%;
 }
 
 .section-obra-formulario{
@@ -55,21 +55,99 @@ ${
   
 }
 
+.div-general-obra{
+  margin:30px 80px;;
+  
+}
+
+.p1-obra{
+  margin-top:30px;
+  text-align: justify;
+  margin-bottom: 30px;
+}
+
+.h2-formulario{
+  color:black;
+  margin-top:60px;
+  margin-bottom:20px;
+  font-family: 'Oswald','Arial';
+  text-align: center;
+  
+}
+
+
+.hr-formulario{
+  width:100px;
+  height:4px;
+  color: rgb(236,167,0);
+  margin:auto;
+}
+
+.div-primera-carta{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 30px;
+  
+}
+
+.div-primera-carta2{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.div-primera-subcarta{
+  margin-left: 60px;
+}
+.div-primera-subcarta2{
+  margin-right: 60px;
+}
+
+.imagen-carta{
+  width:200px;
+  height:200px;
+  margin-top:35px;
+  
+}
+
+
+.p2-obra{
+  text-align: justify;
+  text-align:center;
+  font-family: "Oswald", sans-serif;
+  font-size:25px;
+  color: rgb(236,167,0);
+  
+}
+
+.p3-obra{
+  text-align: justify;
+  
+}
+
+.p3-obra2{
+  text-align: justify;
+  
+  
+}
+
+
 @import url( 'https://fonts.googleapis.com/css?family=Roboto');
 
 *,
 *::before,
 ::after {
   box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+  
+
 }
 
 .contenedor {
-  width: 50%;
+  width: 30%;
   margin: 0;;
-  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/fondo-arquitectura.jpg");
-  
+  background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/fondo-arquitectura2.jpg");
+  font-family: "Oswald", sans-serif;
 }
 
 .wrapper {
@@ -96,6 +174,8 @@ ${
   background-color: lighten($color-principal, 50%);
 
   h3 {
+    margin-top: 40px;
+
     @media screen and(min-width: $bk1) {
       text-align: left;
       margin-bottom: 0.5rem;
@@ -118,7 +198,6 @@ ${
 }
 
 .formulario {
-  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 1.25rem;
 
@@ -176,7 +255,7 @@ ${
 .input-formulario{
   
   outline:none;
-} */
+} 
 }
   `;
 

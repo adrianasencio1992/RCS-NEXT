@@ -215,10 +215,8 @@
     .contendorNombreYEslogan {
       display: none;
     }
-
-    .contendorDashboard {
-      display: flex;
-      justify-content: flex-start;
+    .logoNavbar {
+      margin: 0;
     }
   }
 }

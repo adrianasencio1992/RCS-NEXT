@@ -46,43 +46,43 @@ export default function Footer() {
             <div className="div-li-footer">
               <ul className="ul-footer">
                 <li className="li-footer">
-                  <a href="#">Reformas en Barcelona</a>
+                  <a href="#">Reformas Barcelona</a>
                 </li>
 
                 <li className="li-footer">
-                  <a href="#">Reformas en Sabadell</a>
+                  <a href="#">Reformas Sabadell</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas en Terrassa</a>
+                  <a href="#">Reformas Terrassa</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas en Sant Cugat</a>
+                  <a href="#">Reformas Sant Cugat</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas en Valldoreix</a>
+                  <a href="#">Reformas Valldoreix</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas en Rubí</a>
+                  <a href="#">Reformas Rubí</a>
                 </li>
               </ul>
               <ul className="ul-footer">
                 <li className="li-footer">
-                  <a href="#">Reformas en Cerdanyola</a>
+                  <a href="#">Reformas Cerdanyola</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas en Sant Quirze</a>
+                  <a href="#">Reformas Sant Quirze</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas en Ripollet</a>
+                  <a href="#">Reformas Ripollet</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas en Matadepera</a>
+                  <a href="#">Reformas Matadepera</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas en Castellbisbal</a>
+                  <a href="#">Reformas Castellbisbal</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas en Molins de Rei</a>
+                  <a href="#">Reformas Molins de Rei</a>
                 </li>
               </ul>
             </div>

@@ -65,10 +65,6 @@ font-family: "Oswald", sans-serif;
     display: none;
   }
 
-  .cuadrado{
-    display:none;
-  }
-
   .navbar{
     position: absolute;
     z-index: 2000;

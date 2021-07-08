@@ -24,6 +24,13 @@ const SCNavBar = styled.section`
     background-color: rgb(254,251,241);
   }
 
+  .triangulo {
+    width: 0;
+    height: 0;
+    border-bottom: 60px solid rgb(236,167,0); 
+    border-left: 80px solid rgb(254,251,241);        
+}
+
   .nav-link {
     color: white;
     font-family: "Oswald", sans-serif;
@@ -53,7 +60,7 @@ font-family: "Oswald", sans-serif;
   background-color: rgb(236,167,0) !important;
 }
 
-@media (max-width: 1000px) {
+@media (max-width: 990px) {
   .triangulo {
     display: none;
   }

@@ -1,10 +1,10 @@
-import Head from "next/head";
 import SCNavBar from "./navbar.styled";
 
 export default function NavBar() {
   return (
     <SCNavBar>
       <div className="cuadrado"></div>
+      <div className="triangulo"></div>
 
       <nav className="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
@@ -34,12 +34,15 @@ export default function NavBar() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/obra-nueva">
                       OBRA NUEVA
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a
+                      class="dropdown-item"
+                      href="/reformas-casas/reformas-casas"
+                    >
                       REFORMAS DE CASAS
                     </a>
                   </li>

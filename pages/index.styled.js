@@ -246,6 +246,7 @@ margin-bottom:30px;
   align-items:center;
   flex-direction:column;
   width: 100vw;
+  margin-bottom:100px;
 
 }
 
@@ -300,12 +301,13 @@ background-color: rgb(254,206,79);
   position: absolute;
   max-width:100%;
   
+  
 }
 
 @media (max-width: 900px) {
   .imagen-arquitectos {
      position:absolute;
-     top: 3800px;
+     top: 3750px;
   }
 }
 
@@ -325,7 +327,7 @@ background-color: rgb(254,206,79);
 @media (max-width: 650px) {
   .imagen-arquitectos {
      position:absolute;
-     top: 3700px;
+     top: 3670px;
   }
 }
 

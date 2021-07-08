@@ -3,7 +3,6 @@ import React from "react";
 import Head from "next/head";
 import Layout from "../components/layout";
 import SCIndex from "./index.styled";
-import Image from "next/image";
 import SCCarrousel from "../components/carrousel";
 import SCFooter from "../components/footer";
 

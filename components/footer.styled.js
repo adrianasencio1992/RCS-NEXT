@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const SCFooter = styled.section`
-margin-top:100px;
 background-color: rgb(254,251,241);
 font-family: "Oswald", sans-serif;
 }

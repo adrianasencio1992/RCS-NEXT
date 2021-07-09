@@ -303,7 +303,9 @@ const SCReformasCasas = styled.section`
 .input-formulario{
   
   outline:none;
-} 
+}
+
+
 }`;
 
 export default SCReformasCasas;

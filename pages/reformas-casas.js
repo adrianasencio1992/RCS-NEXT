@@ -1,7 +1,7 @@
 import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCReformasCasas from "./reformas-casas.styled";
-import SCSlider from "../components/slider";
+import SCSliderReformasCasas from "../components/slider-reformas-casas";
 
 export default function ReformasCasas() {
   return (
@@ -55,7 +55,7 @@ export default function ReformasCasas() {
                 <p className="p3-obra">
                   Una vez elijas todos los elementos de tu hogar, elaboraremos
                   un diseño 3D que te permitira visualizar el resultado final de
-                  tu nuevo proyecto. Este diseño no tendrá ningun coste añadido.
+                  tu reforma. Este diseño no tendrá ningun coste añadido.
                 </p>
               </div>
             </div>
@@ -131,7 +131,7 @@ export default function ReformasCasas() {
       </section>
       <h2 className="h2-formulario">¡INSPIRATE!</h2>
       <hr className="hr-formulario"></hr>
-      <SCSlider></SCSlider>
+      <SCSliderReformasCasas></SCSliderReformasCasas>
       <SCFooter></SCFooter>
     </SCReformasCasas>
   );

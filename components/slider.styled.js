@@ -25,11 +25,16 @@ a:hover {
 .section{
   position: relative;
   width: 100%;
+
   display: block;
 }
+
 .full-height{
-  min-height: 100vh;
+  height:100%;
+  margin-top:20px;
+  margin-bottom:30px;
 }
+
 .over-hide{
   overflow: hidden;
 }

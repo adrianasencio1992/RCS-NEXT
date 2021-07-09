@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SCObraNueva = styled.section`
+const SCReformasCasas = styled.section`
  overflow-x: hidden;
  font-family: 'Arial';
  font-size:15px;
@@ -9,7 +9,7 @@ const SCObraNueva = styled.section`
 
   .div-obra-nueva{
   background-image: url(
-    /casa.jpg);
+    /reforma-casa.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -304,7 +304,6 @@ const SCObraNueva = styled.section`
   
   outline:none;
 } 
-}
-  `;
+}`;
 
-export default SCObraNueva;
+export default SCReformasCasas;

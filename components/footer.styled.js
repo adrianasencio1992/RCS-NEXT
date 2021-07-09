@@ -9,36 +9,17 @@ font-family: "Oswald", sans-serif;
     display: flex;
     flex-direction: row;
     justify-content:space-around;
-    flex-wrap:wrap;
+    margin-left:30px;
+    margin-right:30px;
 }
-
- @media (max-width: 1150px) {
-  .div-general-footer {
-    display:flex;
-    flex-direction:column;
-    align-items:center;
-  }
- }
-
- @media (max-width: 430px) {
-  .div-general-footer {
-    align-items:flex-start;
-  }
- }
 
 
 .div-subgeneral-footer{
     display:flex;
     flex-direction:column;
-    width: 400px;
-    
+    align-items:center;
+    width: 30%;
 }
-
-@media (max-width: 430px) {
-  .div-subgeneral-footer {
-    width:300px;
-  }
- }
 
 
 
@@ -46,7 +27,6 @@ font-family: "Oswald", sans-serif;
     color:rgb(236,167,0);
     margin-bottom:20px;
     margin-top:30px;
-    
 }
 
 .p-footer{
@@ -55,85 +35,46 @@ font-family: "Oswald", sans-serif;
     font-weight:100;
     font-size:14px;
     text-align:justify;
-    
+}
+
+.p2-footer{
+  padding:10px;
+  text-align:center;
 }
 
 .div-redes-sociales-footer{
     display:flex;
     flex-direction: row;
-
-    
 }
 
 .facebook{
     width:40px;
     height:40px;
-    left:8%;
     position:absolute;
+    left:47%;
     visibility: visible;
     cursor:pointer;
-    
-    
 }
 
 .facebook:hover{
     opacity:0;
 }
 
-@media (max-width: 1150px) {
-  .facebook {
-    left:55%;
-  }
- }
-
-@media (max-width: 390px) {
-  .facebook {
-    left:65%;
-  }
- }
- 
-
 .instagram{
     width:40px;
     height:40px;
     margin-left:10px;
     position:absolute;
-    left:12%;
+    left: 50%;
     visibility: visible;
-    cursor:pointer;
-    
+    cursor:pointer; 
 }
 
 .instagram:hover{
     opacity:0;
 }
 
-@media (max-width: 1150px) {
-  .instagram {
-    left:60%;
-  }
- }
 
- @media (max-width: 700px) {
-  .instagram {
-    left:65%;
-  }
- }
-
- @media (max-width: 390px) {
-  .instagram {
-    left:75%;
-  }
- }
-
-.div-subgeneral2-footer{
-    display:flex;
-    flex-direction:column;
-    width:430px;
-    margin-left:20px;
-    
-
-}
 
 .div-li-footer{
     display:flex;
@@ -150,7 +91,6 @@ font-family: "Oswald", sans-serif;
  }
 
 .ul-footer{
-    margin-right:20px;
     list-style-type: circle;
     color:rgb(236,167,0);
     
@@ -158,7 +98,6 @@ font-family: "Oswald", sans-serif;
 }
 
 .li-footer{
-    margin-right:30px;
     margin-bottom: 15px;
     
 }
@@ -170,12 +109,6 @@ color: black;
 
 a:hover{
 color:rgb(236,167,0);
-}
-
-.div-subgeneral3-footer{
-    display:flex;
-    flex-direction:column;
-    width: 230px;
 }
 
 .div-contacto-footer{
@@ -192,16 +125,40 @@ color:rgb(236,167,0);
     justify-content:center;
     align-items:center;
     margin-top:20px;
-    
-    
 }
 
 .p-final-footer{
     margin-left: 40px;
     font-family: 'Arial';
     margin:0;
-
 }
+
+
+ @media (max-width: 1220px) {
+  .div-general-footer {
+    flex-direction:column;
+    margin-left:20px;
+    margin-right:20px;
+    
+  }
+  .div-subgeneral-footer{
+    width:100%;
+    margin-bottom: 30px;
+  }
+  .facebook{
+    left:45%
+  }
+ }
+
+ @media (max-width: 650px) {
+  .facebook {
+    left:40%;
+  }
+
+   @media (max-width: 350px) {
+  .facebook {
+    left:35%;
+  }
 `;
 
 export default SCFooter;

@@ -39,10 +39,7 @@ export default function NavBar() {
                     </a>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="/reformas-casas/reformas-casas"
-                    >
+                    <a class="dropdown-item" href="/reformas-casas">
                       REFORMAS DE CASAS
                     </a>
                   </li>

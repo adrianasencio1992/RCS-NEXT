@@ -5,6 +5,7 @@ import Layout from "../components/layout";
 import SCIndex from "./index.styled";
 import SCCarrousel from "../components/carrousel";
 import SCFooter from "../components/footer";
+import SCSliderComentarios from "../components/slider-comentarios";
 
 export default function Home() {
   return (

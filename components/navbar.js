@@ -44,34 +44,34 @@ export default function NavBar() {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/reformas-pisos">
                       REFORMAS DE PISOS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/reformas-cocinas">
                       REFORMAS DE COCINAS
                     </a>
                   </li>
                   <li></li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/reformas-banos">
                       REFORMAS DE BAÑOS
                     </a>
                   </li>
                   <li></li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/reformas-parquet">
                       INSTALACIÓN DE PARQUET Y PUERTAS
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/reformas-aluminio">
                       INSTALACIÓN DE VENTANAS DE ALUMINIO
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/reformas-pintura">
                       PINTURA
                     </a>
                   </li>

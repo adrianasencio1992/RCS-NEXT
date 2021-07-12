@@ -53,13 +53,16 @@ export default function NavBar() {
                       REFORMAS DE COCINAS
                     </a>
                   </li>
-                  <li></li>
                   <li>
                     <a class="dropdown-item" href="/reformas-banos">
                       REFORMAS DE BAÑOS
                     </a>
                   </li>
-                  <li></li>
+                  <li>
+                    <a class="dropdown-item" href="/reformas-fontaneria">
+                      FONTANERÍA Y LAMPISTERÍA
+                    </a>
+                  </li>
                   <li>
                     <a class="dropdown-item" href="/reformas-parquet">
                       INSTALACIÓN DE PARQUET Y PUERTAS
@@ -73,6 +76,11 @@ export default function NavBar() {
                   <li>
                     <a class="dropdown-item" href="/reformas-pintura">
                       PINTURA
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="/reformas-comunidad">
+                      COMUNIDAD DE VECINOS
                     </a>
                   </li>
                   <li>

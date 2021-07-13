@@ -9,7 +9,7 @@ const SCDiseñaPresupuesto = styled.section`
 
   .div-obra-nueva{
   background-image: url(
-    /fontaneria.jpg);
+    /disena-presupuesto.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -46,7 +46,7 @@ const SCDiseñaPresupuesto = styled.section`
 /*SECCION Y FORMULARIO*/
 
   .div-general-obra{
-  width:70%;
+  width:100%;
 }
 
 .section-obra-formulario{

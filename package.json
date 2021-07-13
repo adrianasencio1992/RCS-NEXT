@@ -10,6 +10,7 @@
   "dependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "buttercms": "^1.2.7",
+    "jquery": "^3.6.0",
     "next": "^10.0.0",
     "next-images": "^1.8.1",
     "react": "17.0.1",

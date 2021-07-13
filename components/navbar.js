@@ -87,7 +87,10 @@ export default function NavBar() {
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a
+                      class="dropdown-item"
+                      href="/reformas-diseña-presupuesto"
+                    >
                       DISEÑA TU PROPIO PRESUPUESTO
                     </a>
                   </li>
@@ -106,7 +109,10 @@ export default function NavBar() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a
+                      class="dropdown-item"
+                      href="/reformas-diseña-presupuesto"
+                    >
                       DISEÑA TU PROPIO PRESUPUESTO
                     </a>
                   </li>

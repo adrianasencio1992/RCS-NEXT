@@ -68,6 +68,7 @@ const SCCarrouselPresupuestos = styled.section`
   line-height: 19px;
   font-size: 14px;
   color:black;
+  font-family: 'Arial';
   
 }
 
@@ -76,8 +77,9 @@ const SCCarrouselPresupuestos = styled.section`
 .text-container h3 {
   margin: 20px 0px 10px 0px;
   color: rgb(236,167,0);
-  font-size: 20px;
+  font-size: 24px;
   font-weight:700;
+  font-family: 'Oswald';
   
 }
 

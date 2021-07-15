@@ -11,7 +11,7 @@ export default function ReformasDiseñaPresupuesto() {
       <div className="div-obra-nueva">
         <h1 className="h1-obra-nueva">Diseña tu Presupuesto</h1>
         <p className="p-obra-nueva">
-          Pasos para saber el precio de una reforma integral ¿empezamos?
+          Pasos para saber el precio de su reforma ¿Empezamos?
         </p>
       </div>
       <div className="div-general-obra">
@@ -24,21 +24,22 @@ export default function ReformasDiseñaPresupuesto() {
           <h2 className="h2-formulario">NUESTROS PRECIOS</h2>
           <hr className="hr-formulario"></hr>
           <p className="p1-obra">
-            Nuestro equipo de profesionales se encargará de la reforma de su
-            baño, desde su diseño hasta su ejecución, dandole una nueva vida.
-            Utilizamos materiales de la mejor calidad y que se adapten a sus
-            gustos y necesidades. Puede encontrarnos en Rubí y trabajamos en
-            toda la provincia de Barcelona y alrededores.
+            En este apartado puede consultar los precios orientativos de los
+            distintos tipos de reformas. Estos siempre contemplan el uso de
+            materiales de calidad así como el coste de mano de obra.
           </p>
           <SCCarrouselPresupuestos></SCCarrouselPresupuestos>
         </div>
       </section>
+
       <div>
         <h2 className="h2-formulario">¡CALCULA EL PRECIO DE TU REFORMA!</h2>
         <hr className="hr-formulario"></hr>
-        <p className="p1-obra-2">
-          Selecciona las reformas que tienes pensado realizar y obtén una
-          estimación del coste de la reforma en base a los precios aproximados.
+        <p className="p1-obra">
+          A continuación puede seleccionar las reformas que tiene pensado
+          realizar y obtendrá una estimación del coste toal de su reforma en
+          base a los precios aproximados que puede consultar en el apartado
+          anterior.
         </p>
       </div>
       <div className="div-general-input">
@@ -112,6 +113,75 @@ export default function ReformasDiseñaPresupuesto() {
         <p className="p-total">Total de la reforma:</p>
         <input className="input-total" />
       </div>
+      <section className="section-formulario">
+        <div className="contenedor">
+          <div className="wrapper animated bounceInLeft">
+            <div className="info-empresa">
+              <h3>¿Desea un presupuesto GRATUITO?</h3>
+            </div>
+            <div className="contacto">
+              <h3>Rellene el Formulario</h3>
+              <form
+                class="formulario"
+                action="#"
+                method="post"
+                name="contacto"
+                id="contacto"
+              >
+                <p>
+                  <label>Nombre</label>
+                  <input
+                    className="input-formulario"
+                    type="text"
+                    name="nombre"
+                    required
+                  ></input>
+                </p>
+                <p>
+                  <label>Población</label>
+                  <input
+                    className="input-formulario"
+                    type="text"
+                    name="empresa"
+                    required
+                  ></input>
+                </p>
+                <p>
+                  <label>Correo</label>
+                  <input
+                    className="input-formulario"
+                    type="email"
+                    name="email"
+                    required
+                  ></input>
+                </p>
+                <p>
+                  <label>Teléfono</label>
+                  <input
+                    className="input-formulario"
+                    type="text"
+                    name="teléfono"
+                    required
+                  ></input>
+                </p>
+                <p className="full">
+                  <label>Mensaje</label>
+                  <textarea
+                    className="input-formulario"
+                    name="mensaje"
+                    required
+                  ></textarea>
+                </p>
+                <p className="full full2">
+                  <button className="boton-enviar" type="submit">
+                    Enviar
+                  </button>
+                </p>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
       <SCFooter></SCFooter>
     </SCDiseñaPresupuesto>
   );

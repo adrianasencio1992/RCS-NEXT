@@ -1,7 +1,8 @@
 import styled from "styled-components";
 
 const SCCarrouselPresupuestos = styled.section`
-  
+  background-color: rgb(254,251,241);
+  padding-bottom:70px;
   }
 
 .div-general-carousel-presupuestos{
@@ -9,6 +10,8 @@ const SCCarrouselPresupuestos = styled.section`
   align-items:center;
   flex-wrap:wrap;
   justify-content:center;
+ 
+  
   
 }
 
@@ -137,6 +140,46 @@ td{
 
 .p-iva{
   font-style: oblique;
+}
+
+
+@media (max-width: 1100px) {
+  .offcanvas {
+     width:800px;
+  }
+}
+
+@media (max-width: 900px) {
+  .offcanvas {
+     width:600px;
+  }
+}
+
+@media (max-width: 700px) {
+  .offcanvas {
+     width:500px;
+  }
+}
+
+@media (max-width: 600px) {
+  .offcanvas {
+     width:500px;
+     margin: 10px;
+  }
+}
+
+@media (max-width: 520px) {
+  .offcanvas {
+     width:450px;
+     margin: 5px;
+  }
+}
+
+@media (max-width: 460px) {
+  .offcanvas {
+     width:430px;
+     margin: 5px;
+  }
 }
 `;
 

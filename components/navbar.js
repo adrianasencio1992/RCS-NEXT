@@ -117,7 +117,10 @@ export default function NavBar() {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a
+                      class="dropdown-item"
+                      href="/reformas-solicita-presupuesto"
+                    >
                       SOLICITA PRESUPUESTO ONLINE
                     </a>
                   </li>
@@ -149,12 +152,15 @@ export default function NavBar() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a
+                      class="dropdown-item"
+                      href="/reformas-disena-presupuesto"
+                    >
                       PRECIO ORIENTATIVO<br></br>REFORMA/OBRA
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/materiales">
                       ESCOJE TUS MATERIALES
                     </a>
                   </li>

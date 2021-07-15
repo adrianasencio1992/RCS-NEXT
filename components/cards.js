@@ -7,29 +7,20 @@ export default function Cards() {
       <ul class="cards">
         <li>
           <a class="card">
-            <img
-              src="https://i.imgur.com/oYiTqum.jpg"
-              class="card__image"
-              alt=""
-            />
+            <img src="/dinero2.jpg" class="card__image" alt="" />
             <div class="card__overlay">
               <div class="card__header">
                 <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
-                <img
-                  class="card__thumb"
-                  src="https://i.imgur.com/7D7I6dI.png"
-                  alt=""
-                />
+                <img class="card__thumb" src="logo-inicio.png" alt="" />
                 <div class="card__header-text">
-                  <h3 class="card__title">Calcula el precio de tu reforma</h3>
-                  <span class="card__status">1 hour ago</span>
+                  <h3 class="card__title">Nuestros precios</h3>
                 </div>
               </div>
               <p class="card__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores, blanditiis?
+                A continuación puedes consultar los presupuestos detallados de
+                diferentes tipos de reforma.
               </p>
             </div>
           </a>
@@ -37,7 +28,7 @@ export default function Cards() {
         <li>
           <a class="card">
             <img
-              src="https://i.imgur.com/2DhmtJ4.jpg"
+              src="/materiales-construccion.jpg"
               class="card__image"
               alt=""
             />
@@ -46,79 +37,54 @@ export default function Cards() {
                 <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
-                <img
-                  class="card__thumb"
-                  src="https://i.imgur.com/sjLMNDM.png"
-                  alt=""
-                />
+                <img class="card__thumb" src="logo-inicio.png" alt="" />
                 <div class="card__header-text">
-                  <h3 class="card__title">
-                    Precio de materiales y mano de obra
-                  </h3>
-                  <span class="card__status">3 hours ago</span>
+                  <h3 class="card__title">Materiales</h3>
                 </div>
               </div>
               <p class="card__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores, blanditiis?
+                Le detallamos el precio de los materiales utilizados y el coste
+                de mano de obra.
               </p>
             </div>
           </a>
         </li>
         <li>
           <a class="card">
-            <img
-              src="https://i.imgur.com/oYiTqum.jpg"
-              class="card__image"
-              alt=""
-            />
+            <img src="/ordenador.jpg" class="card__image" alt="" />
             <div class="card__overlay">
               <div class="card__header">
                 <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
-                <img
-                  class="card__thumb"
-                  src="https://i.imgur.com/7D7I6dI.png"
-                  alt=""
-                />
+                <img class="card__thumb" src="/logo-inicio.png" alt="" />
                 <div class="card__header-text">
-                  <h3 class="card__title">Precios orientativos</h3>
-                  <span class="card__status">1 hour ago</span>
+                  <h3 class="card__title">Precio orientativo</h3>
                 </div>
               </div>
               <p class="card__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores, blanditiis?
+                Los precios expuestos son orinetativos y pueden variar en
+                función de sus necesidades.
               </p>
             </div>
           </a>
         </li>
         <li>
           <a class="card">
-            <img
-              src="https://i.imgur.com/2DhmtJ4.jpg"
-              class="card__image"
-              alt=""
-            />
+            <img src="ordenador2.jpg" class="card__image" alt="" />
             <div class="card__overlay">
               <div class="card__header">
                 <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
-                <img
-                  class="card__thumb"
-                  src="https://i.imgur.com/sjLMNDM.png"
-                  alt=""
-                />
+                <img class="card__thumb" src="/logo-inicio.png" alt="" />
                 <div class="card__header-text">
-                  <h3 class="card__title">Presupuesto final al detalle</h3>
-                  <span class="card__status">. . .</span>
+                  <h3 class="card__title">Presupuesto final</h3>
                 </div>
               </div>
               <p class="card__description">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Asperiores, blanditiis?
+                Finalmente tomaremos las medidad necesarias y realizaremos su
+                presupuesto final igual de detallado.
               </p>
             </div>
           </a>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SCDiseñaPresupuesto = styled.section`
+const SCSolicitaPresupuesto = styled.section`
  overflow-x: hidden;
  font-family: 'Arial';
  font-size:15px;
@@ -9,7 +9,7 @@ const SCDiseñaPresupuesto = styled.section`
 
   .div-obra-nueva{
   background-image: url(
-    /disena-presupuesto2.jpg);
+    /ordenador.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -18,22 +18,6 @@ const SCDiseñaPresupuesto = styled.section`
     height: 400px;
     overflow-x: hidden;
   }
-
-  .h2-formulario{
-  color:black;
-  margin-top:60px;
-  margin-bottom:20px;
-  font-family: 'Oswald','Arial';
-  text-align: center;
-  
-}
-
-.hr-formulario{
-  width:100px;
-  height:4px;
-  color: rgb(236,167,0);
-  margin:auto;
-}
 
 .p1-obra{
   text-align: justify;
@@ -71,72 +55,6 @@ const SCDiseñaPresupuesto = styled.section`
   padding-top:1px;
 }
 
-/*seccion Calcula el precio de tu reforma*/
-.div-general-input{
-  display:flex;
-  flex-direction: row;
-  justify-content:space-evenly;
-  flex-wrap:wrap;
-}
-
-.div-subgeneral-input{
-  display:flex;
-  flex-direction: column;
-  width:300px;
-  border-radius:20px;
-  margin-bottom:50px;
-  margin-left: 10px;
-  margin-right: 10px;
-box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.1) 0px 2px 15px -1px;
-}
-
-.div-trigeneral-input{
-  display:flex;
-  flex-direction: row;
-  align-items:center;
-  margin-bottom:5px;
-  margin-left: 50px;
-}
-
-.titulo-input{
-  text-align:center;
-  font-family: 'Oswald';
-  color: rgb(236,167,0);
-  font-size:20px;
-  margin-top:10px;
-}
-
-.caja3{
-  display:flex;
-  flex-direction:row;
-  margin-bottom:10px;
-}
-
-input{
-  margin-right:5px;
-}
-
-.div-total{
-  margin-left: 100px;
-  margin-bottom: 50px;
-}
-
-.input-total{
-  width:200px;
-  border-radius: 10px;
-  padding-left: 10px;
-  outline: none;
- border: 1px solid grey;
- box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.1) 0px 2px 15px -1px;}
-  
-  
-}
-
-.p-total{
-  font-family: 'Oswald';
-  font-size:20px;
-}
-
 /*Formulario*/
 @import url( 'https://fonts.googleapis.com/css?family=Roboto');
 
@@ -145,6 +63,7 @@ input{
 .section-formulario{
 background: linear-gradient(rgba(255,255,255,.5), rgba(255,255,255,.5)), url("/fondo-arquitectura.jpg");
 font-family: 'Oswald';
+
 }
 
 .contenedor {
@@ -261,4 +180,4 @@ font-family: 'Oswald';
 }
 `;
 
-export default SCDiseñaPresupuesto;
+export default SCSolicitaPresupuesto;

@@ -4,6 +4,7 @@ const SCMateriales = styled.section`
  overflow-x: hidden;
  font-family: 'Arial';
  font-size:15px;
+ background-color: rgb(254,251,241);
  
   }
 
@@ -17,6 +18,7 @@ const SCMateriales = styled.section`
     background-color: white;
     height: 400px;
     overflow-x: hidden;
+    margin-left:280px;
   }
 
   @media only screen and (max-width: 500px) {

@@ -4,7 +4,7 @@ import SCNavbarMateriales from "./navbar-materiales.styled";
 export default function NavbarMateriales() {
   return (
     <SCNavbarMateriales>
-      <div class="flex-shrink-0 p-3 bg-white">
+      <div class="flex-shrink-0 p-3 bg-white absolute">
         <ul class="list-unstyled ps-0">
           <li class="mb-1">
             <button
@@ -12,10 +12,12 @@ export default function NavbarMateriales() {
               data-bs-toggle="collapse"
               data-bs-target="#home-collapse"
               aria-expanded="false"
+              aria-controls="home-collapse"
             >
-              Cocinas
+              Cocinas <span>▼</span>
             </button>
-            <div class="collapse show" id="home-collapse">
+
+            <div class="collapse" id="home-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li>
                   <a href="#" class="link-dark rounded">
@@ -52,9 +54,10 @@ export default function NavbarMateriales() {
               data-bs-target="#dashboard-collapse"
               aria-expanded="false"
             >
-              Baños
+              Baños <span>▼</span>
             </button>
-            <div class="collapse show" id="dashboard-collapse">
+
+            <div class="collapse" id="dashboard-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
                 <li>
                   <a href="#" class="link-dark rounded">
@@ -63,12 +66,12 @@ export default function NavbarMateriales() {
                 </li>
                 <li>
                   <a href="#" class="link-dark rounded">
-                    Mamparas de ducha y bañeras
+                    Mamparas de ducha
                   </a>
                 </li>
                 <li>
                   <a href="#" class="link-dark rounded">
-                    Platos de ducha
+                    Platos de ducha y bañeras
                   </a>
                 </li>
                 <li>
@@ -83,27 +86,17 @@ export default function NavbarMateriales() {
                 </li>
                 <li>
                   <a href="#" class="link-dark rounded">
-                    Accesorios para la ducha
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
                     Espejos para baño
                   </a>
                 </li>
                 <li>
                   <a href="#" class="link-dark rounded">
-                    Accesorios y complementos de baño
+                    Complementos de baño
                   </a>
                 </li>
                 <li>
                   <a href="#" class="link-dark rounded">
                     Bañeras
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Hidromasaje y Wellnes
                   </a>
                 </li>
                 <li>
@@ -118,7 +111,7 @@ export default function NavbarMateriales() {
                 </li>
                 <li>
                   <a href="#" class="link-dark rounded">
-                    Extractores
+                    Accesorios para la ducha
                   </a>
                 </li>
               </ul>
@@ -131,7 +124,7 @@ export default function NavbarMateriales() {
               data-bs-target="#orders-collapse"
               aria-expanded="false"
             >
-              Cerámica
+              Cerámica <span>▼</span>
             </button>
             <div class="collapse" id="orders-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
@@ -166,7 +159,7 @@ export default function NavbarMateriales() {
               data-bs-target="#account-collapse"
               aria-expanded="false"
             >
-              Climatización y calefacción
+              Climatización y calefacción <span>▼</span>
             </button>
             <div class="collapse" id="account-collapse">
               <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">

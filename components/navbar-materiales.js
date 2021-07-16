@@ -4,222 +4,125 @@ import SCNavbarMateriales from "./navbar-materiales.styled";
 export default function NavbarMateriales() {
   return (
     <SCNavbarMateriales>
-      <div class="flex-shrink-0 p-3 bg-white absolute">
-        <ul class="list-unstyled ps-0">
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle align-items-center rounded collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#home-collapse"
-              aria-expanded="false"
-              aria-controls="home-collapse"
-            >
-              Cocinas <span>▼</span>
-            </button>
-
-            <div class="collapse" id="home-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Muebles de cocina
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Electrodomésticos
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Encimeras de cocina
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Fregaderos
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Grifos de cocina
-                  </a>
-                </li>
-              </ul>
-            </div>
+      <nav>
+        <h2 className="h2-formulario-2">
+          ELIJE AQUÍ<br></br>TUS MATERIALES
+        </h2>
+        <ul>
+          <li>
+            <a className="li">COCINAS</a>
+            <ul className="sub-ul">
+              <li>
+                <a href="/muebles-de-cocina/muebles-cocina">
+                  MUEBLES DE COCINA
+                </a>
+              </li>
+              <li>
+                <a href="#">ENCIMERAS</a>
+              </li>
+              <li>
+                <a href="#">FREGADEROS</a>
+              </li>
+              <li>
+                <a href="#">GRIFERÍA</a>
+              </li>
+              <li>
+                <a href="#">ELECTRODOMÉSTICOS</a>
+              </li>
+              <li>
+                <a href="#">TIRADORES</a>
+              </li>
+            </ul>
           </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle align-items-center rounded"
-              data-bs-toggle="collapse"
-              data-bs-target="#dashboard-collapse"
-              aria-expanded="false"
-            >
-              Baños <span>▼</span>
-            </button>
-
-            <div class="collapse" id="dashboard-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Muebles de baño
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Mamparas de ducha
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Platos de ducha y bañeras
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    WC
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Grifería de baño
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Espejos para baño
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Complementos de baño
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Bañeras
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Lavabos
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Iluminación para el baño
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Accesorios para la ducha
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <li>
+            <a className="li">BAÑOS</a>
+            <ul className="sub-ul1">
+              <li>
+                <a href="#">MUEBLES DE BAÑO</a>
+              </li>
+              <li>
+                <a href="#">LAVABOS</a>
+              </li>
+              <li>
+                <a href="#">PLATOS DE DUCHA</a>
+              </li>
+              <li>
+                <a href="#">BAÑERAS</a>
+              </li>
+              <li>
+                <a href="#">MAMPARAS</a>
+              </li>
+              <li>
+                <a href="#">WC</a>
+              </li>
+              <li>
+                <a href="#">BIDETS</a>
+              </li>
+              <li>
+                <a href="#">GRIFERÍA</a>
+              </li>
+              <li>
+                <a href="#">ESPEJOS</a>
+              </li>
+              <li>
+                <a href="#">ACCESORIOS</a>
+              </li>
+            </ul>
           </li>
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle align-items-center rounded collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#orders-collapse"
-              aria-expanded="false"
-            >
-              Cerámica <span>▼</span>
-            </button>
-            <div class="collapse" id="orders-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Azulejos cerámicos
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Suelos cerámicos
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Cerámica para exteriores y piscinas
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Cenefas y decoraciones cerámicas
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <li>
+            <a className="li">CERÁMICAS</a>
+            <ul className="sub-ul2">
+              <li>
+                <a href="#">AZULEJOS DE PAREDES</a>
+              </li>
+              <li>
+                <a href="#">SUELOS DE INTERIOR</a>
+              </li>
+              <li>
+                <a href="#">SUELOS DE EXTERIOR</a>
+              </li>
+              <li>
+                <a href="#">SENEFAS</a>
+              </li>
+            </ul>
           </li>
-
-          <li class="mb-1">
-            <button
-              class="btn btn-toggle align-items-center rounded collapsed"
-              data-bs-toggle="collapse"
-              data-bs-target="#account-collapse"
-              aria-expanded="false"
-            >
-              Climatización y calefacción <span>▼</span>
-            </button>
-            <div class="collapse" id="account-collapse">
-              <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Aires acondicionados
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Calderas y radiadores de agua
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Termos eléctricos
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Calentadores de agua
-                  </a>
-                </li>
-                <li>
-                  <a href="#" class="link-dark rounded">
-                    Radiadores eléctricos
-                  </a>
-                </li>
-              </ul>
-            </div>
+          <li>
+            <a className="li">CLIMATIZACIÓN</a>
+            <ul className="sub-ul3">
+              <li>
+                <a href="#">AIRES ACONDICIONADOS</a>
+              </li>
+              <li>
+                <a href="#">CALDERAS</a>
+              </li>
+              <li>
+                <a href="#">TERMOS ELECTRICOS</a>
+              </li>
+              <li>
+                <a href="#">RADIADORES</a>
+              </li>
+              <li>
+                <a href="#">CALENTADORES DE AGUA</a>
+              </li>
+            </ul>
           </li>
-          <li class="mb-1">
-            <a
-              href="#"
-              class="btn btn-toggle align-items-center rounded collapsed"
-              aria-expanded="false"
-            >
-              Iluminación
+          <li>
+            <a className="li" href="#">
+              PARQUETS
             </a>
           </li>
-          <li class="mb-1">
-            <a
-              href="#"
-              class="btn btn-toggle align-items-center rounded collapsed"
-              aria-expanded="false"
-            >
-              Parquet
+          <li>
+            <a className="li" href="#">
+              ILUMINACIÓN
             </a>
           </li>
-          <li class="mb-1">
-            <a
-              href="#"
-              class="btn btn-toggle align-items-center rounded collapsed"
-              aria-expanded="false"
-            >
-              Tejado
+          <li>
+            <a className="li" href="#">
+              TEJADOS
             </a>
           </li>
         </ul>
-      </div>
+      </nav>
     </SCNavbarMateriales>
   );
 }

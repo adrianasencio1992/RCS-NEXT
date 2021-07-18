@@ -13,17 +13,19 @@ export default function PuertasCocina() {
         <p className="p-obra-nueva">Nuestra gamma de productos</p>
       </div>
       <section className="section">
-        <Link href="/materiales">
-          <a className="link">Materiales</a>
-        </Link>
-        <span className="span"> ˃ </span>
-        <Link href="/muebles-de-cocina/muebles-cocina">
-          <a className="link2">Muebles cocina</a>
-        </Link>
-        <span className="span"> ˃ </span>
-        <Link href="#">
-          <a className="link2">Puertas cocina</a>
-        </Link>
+        <div className="div-links">
+          <Link href="/materiales">
+            <a className="link">Materiales</a>
+          </Link>
+          <span className="span"> ˃ </span>
+          <Link href="/muebles-de-cocina/muebles-cocina">
+            <a className="link2">Muebles cocina</a>
+          </Link>
+          <span className="span"> ˃ </span>
+          <Link href="#">
+            <a className="link2">Puertas cocina</a>
+          </Link>
+        </div>
         <div class="container">
           <a
             className="link3"

@@ -34,7 +34,7 @@ const SCTiradorPuertas = styled.section`
   text-shadow: 2px 2px black;
   font-size: 50px;
   font-weight: 700;
-  padding-top: 100px;
+  padding-top: 50px;
   margin-left:30px;
 }
 
@@ -51,11 +51,20 @@ const SCTiradorPuertas = styled.section`
 
 .section{
   margin-top:20px;
+ 
+}
+
+.section2{
   margin-bottom:50px;
 }
 
+.div-links{
+margin-left:30px;
+margin-right:30px;
+}
+
 .link{
-margin-left: 50px;
+
 text-decoration: none;
 color:rgb(237,173,18);
 
@@ -74,6 +83,28 @@ color:rgb(237,173,18);
 span{
   margin-left:5px;
   color: grey;
+}
+
+.h3-formulario{
+  color:black;
+  margin-top:60px;
+  margin-bottom:20px;
+  font-family: 'Oswald','Arial';
+  font-size:35px;
+  text-align: center;
+  
+}
+
+.hr-formulario{
+  width:100px;
+  height:4px;
+  color: rgb(236,167,0);
+  margin:auto;
+}
+
+.p-formulario{
+  text-align:center;
+  margin-top:20px;
 }
 
 
@@ -104,7 +135,7 @@ figure {
  box-sizing: border-box;
  display: flex;
  flex-wrap: wrap;
- justify-content: space-around;
+ justify-content: center;
 }
 .galeria li {
  margin: 5px 5px 2em 5px;
@@ -122,12 +153,49 @@ box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
   -moz-box-sizing: border-box;
  box-sizing: border-box;
 }
+
 .galeria img:hover {
   transform: scale(1.03);
   opacity: 1;
   -webkit-animation: flash 1.5s;
   animation: flash 1.5s;
 }
+
+/*GALERIA 2*/
+.galeria2 {
+ width: 90%;
+ margin: auto;
+ list-style: none;
+ padding: 20px;
+ box-sizing: border-box;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.galeria2 li {
+ margin: 5px 5px 2em 5px;
+ background: #fff;
+}
+.galeria2 img {
+ position: relative;
+ width: 150px;
+ height: 240px;
+ border: solid 7px #fff;
+ object-fit: cover;
+ transition: all .2s ease-in-out;
+ -webkit-box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+  -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+.galeria2 img:hover {
+  transform: scale(1.03);
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
 @-webkit-keyframes flash {
   0% {
     opacity: .4;

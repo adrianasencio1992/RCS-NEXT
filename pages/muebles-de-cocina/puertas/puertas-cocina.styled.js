@@ -34,7 +34,7 @@ const SCPuertasCocina = styled.section`
   text-shadow: 2px 2px black;
   font-size: 50px;
   font-weight: 700;
-  padding-top: 100px;
+  padding-top: 50px;
   margin-left:30px;
 }
 
@@ -46,6 +46,8 @@ const SCPuertasCocina = styled.section`
   text-shadow: 2px 2px black;
 }
 
+
+
 /*Seccion del lineal*/
 
 
@@ -54,8 +56,11 @@ const SCPuertasCocina = styled.section`
   margin-bottom:50px;
 }
 
+.div-links{
+  margin-left:30px;
+}
+
 .link{
-margin-left: 50px;
 text-decoration: none;
 color:rgb(237,173,18);
 

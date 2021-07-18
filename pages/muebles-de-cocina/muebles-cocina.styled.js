@@ -34,7 +34,7 @@ const SCMueblesCocina = styled.section`
   text-shadow: 2px 2px black;
   font-size: 50px;
   font-weight: 700;
-  padding-top: 100px;
+  padding-top: 50px;
   margin-left:30px;
 }
 

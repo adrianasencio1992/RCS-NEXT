@@ -614,6 +614,388 @@ export default function TiradorPuertas() {
         </div>
       </section>
 
+      {/*POLILAMINADAS*/}
+      <section className="section2">
+        <div className="div-nombre">
+          <h3 className="h3-formulario">POLILAMINADAS</h3>
+          <hr className="hr-formulario"></hr>
+          <p className="p-formulario">
+            Puertas Polilaminadas de diseños innovadores
+          </p>
+        </div>
+
+        <div class="demo1">
+          <ul class="galeria2">
+            <li>
+              <a href="#img1-p">
+                <img className="img-lacadas" src="/tirador/polilaminada1.gif" />
+              </a>
+              <p className="p-imagen">IBAÑETA Blanc brillant i seda</p>
+            </li>
+            <li>
+              <a href="#img2-p">
+                <img className="img-lacadas" src="/tirador/polilaminada2.gif" />
+              </a>
+              <p className="p-imagen">IBAÑETA Teka</p>
+            </li>
+            <li>
+              <a href="#img3-p">
+                <img className="img-lacadas" src="/tirador/polilaminada3.gif" />
+              </a>
+              <p className="p-imagen">ALMIC ROJA Triple capa. Cantell ABS</p>
+            </li>
+            <li>
+              <a href="#img4-p">
+                <img className="img-lacadas" src="/tirador/polilaminada4.gif" />
+              </a>
+              <p className="p-imagen">BALI Blanc brillant. PET</p>
+            </li>
+            <li>
+              <a href="#img5-p">
+                <img className="img-lacadas" src="/tirador/polilaminada5.gif" />
+              </a>
+              <p className="p-imagen">CARIBE Blanc brillant</p>
+            </li>
+            <li>
+              <a href="#img6-p">
+                <img className="img-lacadas" src="/tirador/polilaminada6.gif" />
+              </a>
+              <p className="p-imagen">CLASSIC PLATA Triple capa. Cantell ABS</p>
+            </li>
+            <li>
+              <a href="#img7-p">
+                <img className="img-lacadas" src="/tirador/polilaminada7.gif" />
+              </a>
+              <p className="p-imagen">IRABIA PET Blanc brillant</p>
+            </li>
+            <li>
+              <a href="#img8-p">
+                <img className="img-lacadas" src="/tirador/polilaminada8.gif" />
+              </a>
+              <p className="p-imagen">PISA Beige</p>
+            </li>
+            <li>
+              <a href="#img9-p">
+                <img className="img-lacadas" src="/tirador/polilaminada9.gif" />
+              </a>
+              <p className="p-imagen">RONCAL Beige</p>
+            </li>
+            <li>
+              <a href="#img10-p">
+                <img
+                  className="img-lacadas"
+                  src="/tirador/polilaminada10.gif"
+                />
+              </a>
+              <p className="p-imagen">ESTORIL PET Blanc brillant</p>
+            </li>
+            <li>
+              <a href="#img11-p">
+                <img
+                  className="img-lacadas"
+                  src="/tirador/polilaminada11.gif"
+                />
+              </a>
+              <p className="p-imagen">MAELLA TIPO 1 Marc 5 cm</p>
+            </li>
+            <li>
+              <a href="#img12-p">
+                <img
+                  className="img-lacadas"
+                  src="/tirador/polilaminada12.gif"
+                />
+              </a>
+              <p className="p-imagen">MAELLA TIPO 2 Marc 8 cm</p>
+            </li>
+            <li>
+              <a href="#img13-p">
+                <img
+                  className="img-lacadas"
+                  src="/tirador/polilaminada13.gif"
+                />
+              </a>
+              <p className="p-imagen">XÀTIVA 22 mm</p>
+            </li>
+            <li>
+              <a href="#img14-p">
+                <img
+                  className="img-lacadas"
+                  src="/tirador/polilaminada14.gif"
+                />
+              </a>
+              <p className="p-imagen">SEGURA Pi rústic</p>
+            </li>
+          </ul>
+
+          <figure id="img1-p" class="lbox bounce">
+            <span>
+              <a href="#img14-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada1.gif" />
+            <span id="right">
+              <a href="#img2-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>IBAÑETA Blanc brillant i seda</h2>
+          </figure>
+
+          <figure id="img2-p" class="lbox bounce">
+            <span>
+              <a href="#img1-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada2.gif" />
+            <span id="right">
+              <a href="#img3-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>IBAÑETA Teka</h2>
+          </figure>
+
+          <figure id="img3-p" class="lbox bounce">
+            <span>
+              <a href="#img2-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada3.gif" />
+            <span id="right">
+              <a href="#img4-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>ALMIC ROJA Triple capa. Cantell ABS</h2>
+          </figure>
+
+          <figure id="img4-p" class="lbox bounce">
+            <span>
+              <a href="#img3-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada4.gif" />
+            <span id="right">
+              <a href="#img5-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>BALI Blanc brillant. PET</h2>
+          </figure>
+
+          <figure id="img5-p" class="lbox bounce">
+            <span>
+              <a href="#img4-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada5.gif" />
+            <span id="right">
+              <a href="#img6-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>CARIBE Blanc brillant</h2>
+          </figure>
+
+          <figure id="img6-p" class="lbox bounce">
+            <span>
+              <a href="#img5-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada6.gif" />
+            <span id="right">
+              <a href="#img7-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>CLASSIC PLATA Triple capa. Cantell ABS</h2>
+          </figure>
+
+          <figure id="img7-p" class="lbox bounce">
+            <span>
+              <a href="#img6-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada7.gif" />
+            <span id="right">
+              <a href="#img8-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>IRABIA PET Blanc brillant</h2>
+          </figure>
+
+          <figure id="img8-p" class="lbox bounce">
+            <span>
+              <a href="#img7-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada8.gif" />
+            <span id="right">
+              <a href="#img9-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>PISA Beige</h2>
+          </figure>
+
+          <figure id="img9-p" class="lbox bounce">
+            <span>
+              <a href="#img8-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada9.gif" />
+            <span id="right">
+              <a href="#img10-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>RONCAL Beige</h2>
+          </figure>
+
+          <figure id="img10-p" class="lbox bounce">
+            <span>
+              <a href="#img9-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada10.gif" />
+            <span id="right">
+              <a href="#img11-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>ESTORIL PET Blanc brillant</h2>
+          </figure>
+
+          <figure id="img11-p" class="lbox bounce">
+            <span>
+              <a href="#img10-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada11.gif" />
+            <span id="right">
+              <a href="#img12-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>MAELLA TIPO 1 Marc 5 cm</h2>
+          </figure>
+
+          <figure id="img12-p" class="lbox bounce">
+            <span>
+              <a href="#img11-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada12.gif" />
+            <span id="right">
+              <a href="#img13-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>MAELLA TIPO 2 Marc 8 cm</h2>
+          </figure>
+
+          <figure id="img13-p" class="lbox bounce">
+            <span>
+              <a href="#img12-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada13.gif" />
+            <span id="right">
+              <a href="#img14-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>XÀTIVA 22 mm</h2>
+          </figure>
+
+          <figure id="img14-p" class="lbox bounce">
+            <span>
+              <a href="#img13-p" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador/polilaminada14.gif" />
+            <span id="right">
+              <a href="#img1-p" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>SEGURA Pi rústic</h2>
+          </figure>
+
+          <div id="img14-p" class="lbox bounce">
+            <span>
+              <a href="#img13-p" title="Anterior">
+                <i class="fas fa-angle-left"></i>
+              </a>
+            </span>
+            <span id="right">
+              <a href="#img1-p" title="Siguiente">
+                <i class="fas fa-angle-right"></i>
+              </a>{" "}
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+          </div>
+        </div>
+      </section>
       <SCFooter></SCFooter>
     </SCTiradorPuertas>
   );

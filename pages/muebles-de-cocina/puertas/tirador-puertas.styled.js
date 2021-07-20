@@ -115,7 +115,7 @@ text-align:center;
 margin-top: 10px;
 font-family: 'Oswald';
 font-size:14px;
-width: 140px;
+
 }
 
 figure {

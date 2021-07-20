@@ -115,7 +115,7 @@ text-align:center;
 margin-top: 10px;
 font-family: 'Oswald';
 font-size:14px;
-width: 140px;
+
 }
 
 figure {
@@ -143,7 +143,7 @@ figure {
 }
 .galeria img {
  position: relative;
- width: 140px;
+ width: 200px;
  height: 210px;
  border: solid 7px #fff;
  object-fit: cover;

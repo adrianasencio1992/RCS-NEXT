@@ -28,7 +28,7 @@ export default function MueblesCocina() {
               </div>
             </div>
           </a>
-          <a className="link3" href="#">
+          <a className="link3" href="/muebles-de-cocina/tiradores/tiradores">
             <div class="card card1">
               <div class="border">
                 <h2>Tiradores</h2>

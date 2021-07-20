@@ -180,8 +180,6 @@ margin-bottom:30px;
   color: rgb(236,167,0);
   margin:auto;
   margin-bottom:45px;
-  
-  
 }
 
 .div-general-provincias{

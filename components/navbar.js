@@ -125,7 +125,7 @@ export default function NavBar() {
                     </a>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/financiacion">
                       FINANCIACIÓN
                     </a>
                   </li>
@@ -173,7 +173,7 @@ export default function NavBar() {
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/financiacion">
                       FINANCIACIÓN
                     </a>
                   </li>

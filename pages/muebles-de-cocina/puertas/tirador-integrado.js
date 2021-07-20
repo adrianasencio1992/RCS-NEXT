@@ -2508,6 +2508,768 @@ export default function TiradorIntegrado() {
           </div>
         </div>
       </section>
+
+      {/*FENIX*/}
+      <section className="section2">
+        <div className="div-nombre">
+          <h3 className="h3-formulario">FENIX</h3>
+          <hr className="hr-formulario"></hr>
+          <p className="p-formulario">
+            FENIX NTM® es un material innovador para el diseño de interiores.
+            Una superficie inteligente, extremadamente mate, anti-huelas, muy
+            resistente y a su vez suave al tacto.
+          </p>
+        </div>
+
+        <div class="demo1">
+          <ul class="galeria3">
+            <li>
+              <a href="#img1-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix1.jpg"
+                />
+              </a>
+              <p className="p-imagen">0029 BIANCO MALE</p>
+            </li>
+            <li>
+              <a href="#img2-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix2.jpg"
+                />
+              </a>
+              <p className="p-imagen">0032 BIANCO KOS</p>
+            </li>
+            <li>
+              <a href="#img3-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix3.jpg"
+                />
+              </a>
+              <p className="p-imagen">0030 BIANCO ALASKA</p>
+            </li>
+            <li>
+              <a href="#img4-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix4.jpg"
+                />
+              </a>
+              <p className="p-imagen">0719 BEIGE LUXOR</p>
+            </li>
+            <li>
+              <a href="#img5-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix5.jpg"
+                />
+              </a>
+              <p className="p-imagen">0748 BEIGE ARIZONA</p>
+            </li>
+            <li>
+              <a href="#img6-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix6.jpg"
+                />
+              </a>
+              <p className="p-imagen">0717 CASTORO OTTAWA</p>
+            </li>
+            <li>
+              <a href="#img7-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix7.jpg"
+                />
+              </a>
+              <p className="p-imagen">0749 CACAO ORINOCO</p>
+            </li>
+            <li>
+              <a href="#img8-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix8.jpg"
+                />
+              </a>
+              <p className="p-imagen">0725 GRIGIO EFESO</p>
+            </li>
+            <li>
+              <a href="#img9-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix9.jpg"
+                />
+              </a>
+              <p className="p-imagen">0752 GRIGIO ANTRIM</p>
+            </li>
+            <li>
+              <a href="#img10-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix10.jpg"
+                />
+              </a>
+              <p className="p-imagen">0718 GRIGIO LONDRA</p>
+            </li>
+            <li>
+              <a href="#img11-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix11.jpg"
+                />
+              </a>
+              <p className="p-imagen">0724 GRIGIO BROMO</p>
+            </li>
+            <li>
+              <a href="#img12-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix12.jpg"
+                />
+              </a>
+              <p className="p-imagen">0750 VERDE COMODORO</p>
+            </li>
+            <li>
+              <a href="#img13-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix13.jpg"
+                />
+              </a>
+              <p className="p-imagen">0751 ROSSO JAIPUR</p>
+            </li>
+            <li>
+              <a href="#img14-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix14.jpg"
+                />
+              </a>
+              <p className="p-imagen">0754 BLU FES</p>
+            </li>
+            <li>
+              <a href="#img15-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix15.jpg"
+                />
+              </a>
+              <p className="p-imagen">0720 NERO INGO</p>
+            </li>
+            <li>
+              <a href="#img16-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix16.jpg"
+                />
+              </a>
+              <p className="p-imagen">2628 ZINCO DOHA</p>
+            </li>
+            <li>
+              <a href="#img17-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix17.jpg"
+                />
+              </a>
+              <p className="p-imagen">2638 TITANIO DOHA</p>
+            </li>
+            <li>
+              <a href="#img18-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix18.jpg"
+                />
+              </a>
+              <p className="p-imagen">2629 BRONZO DOHA</p>
+            </li>
+            <li>
+              <a href="#img19-f">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/fenix19.jpg"
+                />
+              </a>
+              <p className="p-imagen">2630 PIOMBO DOHA</p>
+            </li>
+          </ul>
+
+          <figure id="img1-f" class="lbox bounce">
+            <span>
+              <a href="#img19-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix1.jpg" />
+            <span id="right">
+              <a href="#img2-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0029 BIANCO MALE</h2>
+          </figure>
+
+          <figure id="img2-f" class="lbox bounce">
+            <span>
+              <a href="#img1-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix2.jpg" />
+            <span id="right">
+              <a href="#img3-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0032 BIANCO KOS</h2>
+          </figure>
+
+          <figure id="img3-f" class="lbox bounce">
+            <span>
+              <a href="#img2-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix3.jpg" />
+            <span id="right">
+              <a href="#img4-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0030 BIANCO ALASKA</h2>
+          </figure>
+
+          <figure id="img4-f" class="lbox bounce">
+            <span>
+              <a href="#img3-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix4.jpg" />
+            <span id="right">
+              <a href="#img5-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0719 BEIGE LUXOR</h2>
+          </figure>
+
+          <figure id="img5-f" class="lbox bounce">
+            <span>
+              <a href="#img4-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix5.jpg" />
+            <span id="right">
+              <a href="#img6-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0748 BEIGE ARIZONA</h2>
+          </figure>
+
+          <figure id="img6-f" class="lbox bounce">
+            <span>
+              <a href="#img5-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix6.jpg" />
+            <span id="right">
+              <a href="#img7-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0717 CASTORO OTTAWA</h2>
+          </figure>
+
+          <figure id="img7-f" class="lbox bounce">
+            <span>
+              <a href="#img6-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix7.jpg" />
+            <span id="right">
+              <a href="#img8-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0749 CACAO ORINOCO</h2>
+          </figure>
+
+          <figure id="img8-f" class="lbox bounce">
+            <span>
+              <a href="#img7-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix8.jpg" />
+            <span id="right">
+              <a href="#img9-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0725 GRIGIO EFESO</h2>
+          </figure>
+
+          <figure id="img9-f" class="lbox bounce">
+            <span>
+              <a href="#img8-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix9.jpg" />
+            <span id="right">
+              <a href="#img10-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0752 GRIGIO ANTRIM</h2>
+          </figure>
+
+          <figure id="img10-f" class="lbox bounce">
+            <span>
+              <a href="#img9-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix10.jpg" />
+            <span id="right">
+              <a href="#img11-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0718 GRIGIO LONDRA</h2>
+          </figure>
+
+          <figure id="img11-f" class="lbox bounce">
+            <span>
+              <a href="#img10-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix11.jpg" />
+            <span id="right">
+              <a href="#img12-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0724 GRIGIO BROMO</h2>
+          </figure>
+
+          <figure id="img12-f" class="lbox bounce">
+            <span>
+              <a href="#img11-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix12.jpg" />
+            <span id="right">
+              <a href="#img13-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0750 VERDE COMODORO</h2>
+          </figure>
+
+          <figure id="img13-f" class="lbox bounce">
+            <span>
+              <a href="#img12-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix13.jpg" />
+            <span id="right">
+              <a href="#img14-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0751 ROSSO JAIPUR</h2>
+          </figure>
+
+          <figure id="img14-f" class="lbox bounce">
+            <span>
+              <a href="#img13-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix14.jpg" />
+            <span id="right">
+              <a href="#img15-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0754 BLU FES</h2>
+          </figure>
+
+          <figure id="img15-f" class="lbox bounce">
+            <span>
+              <a href="#img14-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix15.jpg" />
+            <span id="right">
+              <a href="#img16-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0720 NERO INGO</h2>
+          </figure>
+
+          <figure id="img16-f" class="lbox bounce">
+            <span>
+              <a href="#img15-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix16.jpg" />
+            <span id="right">
+              <a href="#img17-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>2628 ZINCO DOHA</h2>
+          </figure>
+
+          <figure id="img17-f" class="lbox bounce">
+            <span>
+              <a href="#img16-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix17.jpg" />
+            <span id="right">
+              <a href="#img18-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>2638 TITANIO DOHA</h2>
+          </figure>
+
+          <figure id="img18-f" class="lbox bounce">
+            <span>
+              <a href="#img17-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix18.jpg" />
+            <span id="right">
+              <a href="#img19-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>2629 BRONZO DOHA</h2>
+          </figure>
+
+          <figure id="img19-f" class="lbox bounce">
+            <span>
+              <a href="#img18-f" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/fenix19.jpg" />
+            <span id="right">
+              <a href="#img1-f" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>2630 PIOMBO DOHA</h2>
+          </figure>
+
+          <div id="img19-f" class="lbox bounce">
+            <span>
+              <a href="#img18-f" title="Anterior">
+                <i class="fas fa-angle-left"></i>
+              </a>
+            </span>
+            <span id="right">
+              <a href="#img1-f" title="Siguiente">
+                <i class="fas fa-angle-right"></i>
+              </a>{" "}
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+          </div>
+        </div>
+      </section>
+
+      {/*POSTFORMADAS*/}
+      <section className="section2">
+        <div className="div-nombre">
+          <h3 className="h3-formulario">POSTFORMADAS</h3>
+          <hr className="hr-formulario"></hr>
+          <p className="p-formulario">
+            Cantos laterales romos y cantos superiores rectos
+          </p>
+        </div>
+
+        <div class="demo1">
+          <ul class="galeria4">
+            <li>
+              <a href="#img1-post">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/postformades1.gif"
+                />
+              </a>
+              <p className="p-imagen">ALUMINI 1/C</p>
+            </li>
+            <li>
+              <a href="#img2-post">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/postformades2.gif"
+                />
+              </a>
+              <p className="p-imagen">BLANC 3091</p>
+            </li>
+            <li>
+              <a href="#img3-post">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/postformades3.gif"
+                />
+              </a>
+              <p className="p-imagen">GRANATE</p>
+            </li>
+            <li>
+              <a href="#img4-post">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/postformades4.gif"
+                />
+              </a>
+              <p className="p-imagen">GRIS 35</p>
+            </li>
+            <li>
+              <a href="#img5-post">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/postformades5.gif"
+                />
+              </a>
+              <p className="p-imagen">METALICO BLANCO</p>
+            </li>
+            <li>
+              <a href="#img6-post">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/postformades6.gif"
+                />
+              </a>
+              <p className="p-imagen">HUESO</p>
+            </li>
+            <li>
+              <a href="#img7-post">
+                <img
+                  className="img-lacadas"
+                  src="/tirador-integrado/postformades7.gif"
+                />
+              </a>
+              <p className="p-imagen">VAINILLA 7932</p>
+            </li>
+          </ul>
+
+          <figure id="img1-post" class="lbox bounce">
+            <span>
+              <a href="#img7-post" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/postformades1.gif" />
+            <span id="right">
+              <a href="#img2-post" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+            <h2>0029 BIANCO MALE</h2>
+          </figure>
+
+          <figure id="img2-post" class="lbox bounce">
+            <span>
+              <a href="#img1-post" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/postformades2.gif" />
+            <span id="right">
+              <a href="#img3-post" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+          </figure>
+
+          <figure id="img3-post" class="lbox bounce">
+            <span>
+              <a href="#img2-post" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/postformades3.gif" />
+            <span id="right">
+              <a href="#img4-post" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+          </figure>
+
+          <figure id="img4-post" class="lbox bounce">
+            <span>
+              <a href="#img3-post" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/postformades4.gif" />
+            <span id="right">
+              <a href="#img5-post" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+          </figure>
+
+          <figure id="img5-post" class="lbox bounce">
+            <span>
+              <a href="#img4-post" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/postformades5.gif" />
+            <span id="right">
+              <a href="#img6-post" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+          </figure>
+
+          <figure id="img6-post" class="lbox bounce">
+            <span>
+              <a href="#img5-post" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/postformades6.gif" />
+            <span id="right">
+              <a href="#img7-post" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+          </figure>
+
+          <figure id="img7-post" class="lbox bounce">
+            <span>
+              <a href="#img6-post" title="Anterior">
+                <i class="fas fa-caret-left"></i>
+              </a>
+            </span>
+            <img src="/tirador-integrado/postformades7.gif" />
+            <span id="right">
+              <a href="#img1-post" title="Siguiente">
+                <i class="fas fa-caret-right"></i>
+              </a>
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+          </figure>
+
+          <div id="img7-post" class="lbox bounce">
+            <span>
+              <a href="#img6-post" title="Anterior">
+                <i class="fas fa-angle-left"></i>
+              </a>
+            </span>
+            <span id="right">
+              <a href="#img1-post" title="Siguiente">
+                <i class="fas fa-angle-right"></i>
+              </a>{" "}
+            </span>
+            <a title="Cerrar" href="#_">
+              <i class="fas fa-times"></i>
+            </a>
+          </div>
+        </div>
+      </section>
       <SCFooter></SCFooter>
     </SCTiradorIntegrado>
   );

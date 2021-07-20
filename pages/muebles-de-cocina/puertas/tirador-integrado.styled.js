@@ -231,6 +231,41 @@ box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
   animation: flash 1.5s;
 }
 
+/*GALERIA 4*/
+.galeria4 {
+ width: 90%;
+ margin: auto;
+ list-style: none;
+ padding: 20px;
+ box-sizing: border-box;
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: center;
+}
+.galeria4 li {
+ margin: 5px 5px 2em 5px;
+ background: #fff;
+}
+.galeria4 img {
+ position: relative;
+ width: 250px;
+ height: 350px;
+ border: solid 7px #fff;
+ object-fit: cover;
+ transition: all .2s ease-in-out;
+ -webkit-box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+box-shadow:0 5px 11px 0 rgba(0,0,0,.18),0 4px 15px 0 rgba(0,0,0,.15);
+  -moz-box-sizing: border-box;
+ box-sizing: border-box;
+}
+
+.galeria4 img:hover {
+  transform: scale(1.03);
+  opacity: 1;
+  -webkit-animation: flash 1.5s;
+  animation: flash 1.5s;
+}
+
 @-webkit-keyframes flash {
   0% {
     opacity: .4;

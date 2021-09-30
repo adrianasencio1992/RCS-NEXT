@@ -229,7 +229,7 @@ export default function NavBar() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/quienes-somos">
                       ¿QUIENES SOMOS?
                     </a>
                   </li>
@@ -259,7 +259,7 @@ export default function NavBar() {
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white margin" href="#">
+                <a class="nav-link text-white margin" href="/contacto">
                   CONTACTO
                 </a>
               </li>

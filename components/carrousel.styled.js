@@ -60,6 +60,9 @@ ul.slider li {
     height: inherit;
     transition: opacity .3s;
     background:rgb(244,244,244);
+    display: flex;
+  justify-content: center;
+  align-items: center;
     
     
 }
@@ -69,48 +72,14 @@ ul.slider li img{
   height: 100%;
 }
 
-@media (max-width: 1000px) {
-  ul.slider li img {
-    height: 75%;
-  }
-}
 
-@media (max-width: 770px) {
-  ul.slider li img {
-    height: 60%;
-  }
-}
-
-@media (max-width: 600px) {
-  ul.slider li img {
-     width: 100%;
-    height: 45%;
-    
-  }
-}
-
-@media (max-width: 450px) {
-  ul.slider li img {
-     width: 100%;
-    height: 35%;
-    
-  }
-}
-
-@media (max-width: 400px) {
-  ul.slider li img {
-     width: 100%;
-    height: 30%;
-    
-  }
-}
 
 ul.slider li:first-child {
-    opacity: 1; /*Mostramos el primer <li>*/
+    opacity: 1; 
 }
 
 ul.slider li:target {
-    opacity: 1; /*Mostramos el <li> del enlace que pulsemos*/
+    opacity: 1; 
 }
 
 .menu{
@@ -150,7 +119,50 @@ background-color: rgb(236,200,0);
 background-color: rgb(236,200,0);
 }
 
+/* COMENTARIOS*/
+
+.div-general-comentarios{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 1200px;
+  height: 200px;
+  background-color: white;
+  border: 1px solid gold;
+  padding: 50px;
+  
+}
+
+.div-comentarios{
+  display:flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+.div-foto-comentarios{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 1px solid gold;
+  display:flex;
+  flex-direction: column;
+}
+
+.img-comentario{
+  border-radius: 50%;
+  
+}
+
+.p-comentarios{
+  width: 900px;
+  margin-left:30px;
+  
+}
+
+span{
+  color:gold;
+}
 
 
-  `;
+`;
 export default SCCarrousel;

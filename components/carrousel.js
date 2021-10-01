@@ -18,10 +18,44 @@ export default function Carrousel() {
 
           <ul class="slider">
             <li id="slide1">
-              <img src="/texto1.png" />
+              <div className="div-general-comentarios">
+                <div className="div-comentarios">
+                  <div className="div-foto-comentarios">
+                    <img className="img-comentario" src="/bano1.jpg"></img>
+                  </div>
+                  <div>
+                    <p>Adrian Asencio</p>
+                  </div>
+                </div>
+                <p className="p-comentarios">
+                  ❝ <span>★★★★★</span> Valoro muy positivamente la atención
+                  recibida por Angel, es todo un profesional. Solicité un
+                  presupuesto para una reforma integral de un piso y agradezco
+                  su minuciosidad, conocimiento sobre materiales, consejos,
+                  amabilidad y esmero . Mi primera toma de contacto ha sido
+                  inmejorable. ¡Muchas gracias! ❞
+                </p>
+              </div>
             </li>
             <li id="slide2">
-              <img src="/texto2.png" />
+              <div className="div-general-comentarios">
+                <div className="div-comentarios">
+                  <div className="div-foto-comentarios">
+                    <img className="img-comentario" src="/bano1.jpg"></img>
+                  </div>
+                  <div>
+                    <p>Adrian Asencio</p>
+                  </div>
+                </div>
+                <p className="p-comentarios">
+                  ❝ <span>★★★★★</span> Valoro y me gusta muy positivamente la
+                  atención recibida por Angel, es todo un profesional. Solicité
+                  un presupuesto para una reforma integral de un piso y
+                  agradezco su minuciosidad, conocimiento sobre materiales,
+                  consejos, amabilidad y esmero . Mi primera toma de contacto ha
+                  sido inmejorable. ¡Muchas gracias! ❞
+                </p>
+              </div>
             </li>
             <li id="slide3">
               <img src="/texto3.png" />

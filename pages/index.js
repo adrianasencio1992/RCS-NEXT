@@ -18,9 +18,9 @@ export default function Home() {
         <div id="slider">
           <figure>
             <img src="/cocina2.jpg" alt=""></img>
-            <img src="/baño2.jpg" alt=""></img>
+            <img src="/puertas-tirador-index.jpg" alt=""></img>
+            <img src="/bano1.jpg" alt=""></img>
             <img src="/cocina.jpg" alt=""></img>
-            <img src="/baño.jpg" alt=""></img>
             <img src="/cocina2.jpg" alt=""></img>
           </figure>
         </div>

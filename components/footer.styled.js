@@ -84,18 +84,17 @@ font-family: "Oswald", sans-serif;
     font-size:14px;
 }
 
-@media (max-width: 430px) {
-  .div-li-footer {
-    flex-direction:column;
-  }
- }
 
 .ul-footer{
     list-style-type: circle;
     color:rgb(236,167,0);
-    
-    
+    margin-right:10px;
+    margin-left: 10px;
+
 }
+
+
+
 
 .li-footer{
     margin-bottom: 15px;
@@ -105,6 +104,7 @@ font-family: "Oswald", sans-serif;
 a{
 text-decoration:none;
 color: black;
+
 }
 
 a:hover{
@@ -130,7 +130,8 @@ color:rgb(236,167,0);
 .p-final-footer{
     margin-left: 40px;
     font-family: 'Arial';
-    margin:0;
+    margin-left:10px;
+    margin-right:10px;
 }
 
 
@@ -154,11 +155,27 @@ color:rgb(236,167,0);
   .facebook {
     left:40%;
   }
+ 
+
+  @media (max-width: 430px) {
+  .div-li-footer {
+    flex-direction:column;
+  }
+ }
 
    @media (max-width: 350px) {
   .facebook {
     left:35%;
   }
+   }
+ }
+
+ @media (max-width: 350px) {
+  .div-final-footer {
+    height:150px;
+  }
+   }
+   
 `;
 
 export default SCFooter;

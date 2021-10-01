@@ -18,7 +18,7 @@ export default function Home() {
         <div id="slider">
           <figure>
             <img src="/cocina2.jpg" alt=""></img>
-            <img src="/puertas-tirador-index.jpg" alt=""></img>
+            <img src="/casa.jpg" alt=""></img>
             <img src="/bano1.jpg" alt=""></img>
             <img src="/cocina.jpg" alt=""></img>
             <img src="/cocina2.jpg" alt=""></img>
@@ -146,18 +146,21 @@ export default function Home() {
         </section>
         <SCCarrousel></SCCarrousel>
         <section className="section-disena-presupuesto">
-          <h2 className="h2-disena-presupuesto">DISEÑA TU PRESUPUESTO</h2>
-          <hr className="hr-disena-presupuesto"></hr>
-          <p className="p-disena-presupuesto">
-            ¿Te gustaría saber el precio de tu REFORMA/OBRA en menos de 1
-            minuto?
-          </p>
-          <button className="button-disena-presupuesto">CLICK AQUÍ</button>
-          <img
-            className="imagen-arquitectos"
-            src="/chicos.png"
-            alt="arquitectos"
-          ></img>
+          <div>
+            <img className="imagen-disena-presupuesto" src="/chico.png"></img>
+          </div>
+          <div className="div-disena-presupuesto">
+            <h2 className="h2-disena-presupuesto">DISEÑA TU PRESUPUESTO</h2>
+            <hr className="hr-disena-presupuesto"></hr>
+            <p className="p-disena-presupuesto">
+              ¿Te gustaría saber el precio de tu REFORMA/OBRA en menos de 1
+              minuto?
+            </p>
+            <button className="button-disena-presupuesto">CLICK AQUÍ</button>
+          </div>
+          <div>
+            <img className="imagen-disena-presupuesto" src="/chica.png"></img>
+          </div>
         </section>
         <SCFooter></SCFooter>
       </SCIndex>

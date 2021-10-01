@@ -146,6 +146,7 @@ background-color: rgb(236,200,0);
   border: 1px solid gold;
   display:flex;
   flex-direction: column;
+  
 }
 
 .img-comentario{
@@ -156,12 +157,98 @@ background-color: rgb(236,200,0);
 .p-comentarios{
   width: 900px;
   margin-left:30px;
+  text-align:justify;
+  text-align:center;
   
 }
 
 span{
   color:gold;
 }
+
+@media (max-width: 1180px) {
+  .div-general-comentarios {
+     width: 1000px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .div-general-comentarios {
+     width: 800px;
+  }
+}
+
+@media (max-width: 870px) {
+  .div-general-comentarios {
+     width: 600px;
+  }
+}
+
+@media (max-width: 650px) {
+  .div-general-comentarios {
+     width: 500px;
+  }
+}
+
+@media (max-width: 520px) {
+  .div-general-comentarios {
+     width: 400px;
+     height: 300px;
+     flex-direction: column;
+     
+  }
+}
+
+@media (max-width: 520px) {
+  .p-comentarios {
+     width: 350px;
+     margin: 0; 
+  }
+}
+
+@media (max-width: 450px) {
+  .div-general-comentarios {
+     width: 370px;
+     height: 320px;
+     flex-direction: column;
+     
+  }
+}
+
+@media (max-width: 375px) {
+  .div-general-comentarios {
+     width: 330px;
+     height: 400px;
+     flex-direction: column;
+     
+  }
+}
+
+@media (max-width: 375px) {
+  .p-comentarios {
+     width: 320px;
+     margin: 0; 
+  }
+}
+
+@media (max-width: 375px) {
+  .menu {
+     margin-top:50px; 
+  }
+}
+
+@media (max-width: 375px) {
+  .p-opiniones {
+     margin-bottom:50px; 
+  }
+}
+
+@media (max-width: 325px) {
+  .p-comentarios {
+     width:280px;
+  }
+}
+
 
 
 `;

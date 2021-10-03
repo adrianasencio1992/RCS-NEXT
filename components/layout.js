@@ -48,7 +48,7 @@ export default function Layout({ children }) {
                 </h1>
               </div>
               <div className={styles.divEslogan}>
-                <div className={styles.eslogan}>Tu lo imaginas</div>
+                <div className={styles.eslogan}>Tú lo imaginas</div>
                 <div className={styles.eslogan}>
                   <span>, nosotros lo creamos</span>
                 </div>
@@ -96,9 +96,9 @@ export default function Layout({ children }) {
           </div>
         </div>
         <SCNavBar></SCNavBar>
-        <Link href="/#">
+        <Link href="/reformas-disena-presupuesto">
           <div className={styles.divPrecio}>
-            <a>
+            <a className={styles.aPrecio}>
               <h3 className={styles.divH3Precio}>DISEÑA TU PRESUPUESTO</h3>
             </a>
           </div>

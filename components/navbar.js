@@ -230,7 +230,7 @@ export default function NavBar() {
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <a class="dropdown-item" href="/quienes-somos">
-                      ¿QUIENES SOMOS?
+                      ¿QUIÉNES SOMOS?
                     </a>
                   </li>
                   <li>

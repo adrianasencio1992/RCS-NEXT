@@ -18,7 +18,7 @@ export default function Home() {
         <div id="slider">
           <figure>
             <img src="/cocina2.jpg" alt=""></img>
-            <img src="/casa.jpg" alt=""></img>
+            <img src="/cocina6.jpg" alt=""></img>
             <img src="/bano1.jpg" alt=""></img>
             <img src="/cocina.jpg" alt=""></img>
             <img src="/cocina2.jpg" alt=""></img>
@@ -156,7 +156,9 @@ export default function Home() {
               ¿Te gustaría saber el precio de tu REFORMA/OBRA en menos de 1
               minuto?
             </p>
-            <button className="button-disena-presupuesto">CLICK AQUÍ</button>
+            <a href="/reformas-disena-presupuesto">
+              <button className="button-disena-presupuesto">CLICK AQUÍ</button>
+            </a>
           </div>
           <div>
             <img className="imagen-disena-presupuesto" src="/chica.png"></img>

@@ -25,7 +25,6 @@ a:hover {
 .section{
   position: relative;
   width: 100%;
-
   display: block;
 }
 
@@ -61,7 +60,7 @@ a:hover {
   box-sizing: border-box;
   -webkit-transition: all 0.2s ease;
   transition: all 0.2s ease;
-  background-image: url('/casa-reformas2.jpg');
+  background-image: url('/casa-reformas11.jpg');
   animation: border-transform 6s linear infinite alternate forwards;
     -webkit-animation-play-state: paused;
     -moz-animation-play-state: paused;
@@ -74,13 +73,13 @@ a:hover {
   background-image: url('/casa-reformas4.jpg');
 }
 .checkbox.foth + label{
-  background-image: url('/casa-reformas5.jpg');
+  background-image: url('/casa-reformas12.jpg');
 }
 .checkbox.cinc + label{
   background-image: url('/casa-reformas6.jpg');
 }
 .checkbox.sis + label{
-  background-image: url('/casa-reformas7.jpg');
+  background-image: url('/casa-reformas13.jpg');
 }
 .checkbox.set + label{
   background-image: url('/casa-reformas8.jpg');
@@ -138,7 +137,7 @@ ul li {
   border: 5px solid rgb(250,233,192);
   background-size: cover;
   background-position: center;
-  background-image: url('/casa-reformas2.jpg');
+  background-image: url('/casa-reformas11.jpg');
   border-radius: 50%;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
@@ -164,13 +163,13 @@ ul li:nth-child(3) {
   background-image: url('/casa-reformas4.jpg');
 }
 ul li:nth-child(4) {
-  background-image: url('/casa-reformas5.jpg');
+  background-image: url('/casa-reformas12.jpg');
 }
 ul li:nth-child(5) {
   background-image: url('/casa-reformas6.jpg');
 }
 ul li:nth-child(6) {
-  background-image: url('/casa-reformas7.jpg');
+  background-image: url('/casa-reformas13.jpg');
 }
 ul li:nth-child(7) {
   background-image: url('/casa-reformas8.jpg');

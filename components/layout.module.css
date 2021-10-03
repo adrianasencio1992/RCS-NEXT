@@ -188,6 +188,10 @@
   border-radius: 30px;
 }
 
+.aPrecio {
+  text-decoration: none;
+}
+
 .divH3Precio {
   -webkit-transform: rotate(-90deg);
   -moz-transform: rotate(-90deg);

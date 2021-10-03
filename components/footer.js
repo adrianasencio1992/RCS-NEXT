@@ -11,43 +11,43 @@ export default function Footer() {
             <div className="div-li-footer">
               <ul className="ul-footer">
                 <li className="li-footer">
-                  <a href="#">Reformas Barcelona</a>
+                  <a href="#">Barcelona</a>
                 </li>
 
                 <li className="li-footer">
-                  <a href="#">Reformas Sabadell</a>
+                  <a href="#">Sabadell</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas Terrassa</a>
+                  <a href="#">Terrassa</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas Sant Cugat</a>
+                  <a href="#">Sant Cugat</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas Valldoreix</a>
+                  <a href="#">Valldoreix</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas Rubí</a>
+                  <a href="#">Rubí</a>
                 </li>
               </ul>
               <ul className="ul-footer">
                 <li className="li-footer">
-                  <a href="#">Reformas Cerdanyola</a>
+                  <a href="#">Cerdanyola</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas Sant Quirze</a>
+                  <a href="#">Sant Quirze</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas Ripollet</a>
+                  <a href="#">Ripollet</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas Matadepera</a>
+                  <a href="#">Matadepera</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas Castellbisbal</a>
+                  <a href="#">Castellbisbal</a>
                 </li>
                 <li className="li-footer">
-                  <a href="#">Reformas Molins de Rei</a>
+                  <a href="#">Molins de Rei</a>
                 </li>
               </ul>
             </div>
@@ -103,13 +103,13 @@ export default function Footer() {
             <h2 className="h2-footer">RCS</h2>
             <p className="p-footer">
               Somos una empresa especializada en obra nueva y reformas de
-              cocinas, baños, carpinteria, lampisteria, ventanas de aluminio,
-              etc. LLevamos más de 30 años en el sector y nos ocupamos de todo:
+              cocinas, baños, carpintería, lampistería, ventanas de aluminio,
+              etc. Llevamos más de 30 años en el sector y nos ocupamos de todo:
               paletas, lampistas, carpinteros, pintores, etc. Tenemos tienda
-              física y online, así que usted podra elegir los materiales y
-              nosotros satisfaceremos sus necesidades. Nos adaptarnos a todos
-              los precios del mercado y a su presupuesto para la reforma del
-              hogar. Tú lo imaginas, nosotros lo creamos.
+              física y online, así que usted podrá elegir los materiales y
+              nosotros satisfaceremos sus necesidades. Nos adaptamos a todos los
+              precios del mercado y a su presupuesto para la reforma del hogar.
+              Tú lo imaginas, nosotros lo creamos.
             </p>
           </div>
         </div>

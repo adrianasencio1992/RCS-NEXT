@@ -159,6 +159,7 @@ background-color: rgb(236,200,0);
   margin-left:30px;
   text-align:justify;
   text-align:center;
+  font-family: 'Arial';
   
 }
 

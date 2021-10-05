@@ -198,7 +198,7 @@ export default function ReformasCarrouselPresupuestos() {
         aria-labelledby="offcanvasRightLabel"
       >
         <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">PRESUPUESTO COCINA</h5>
+          <h5 id="offcanvasRightLabel">PRESUPUESTO COCINA MATERIALES</h5>
           <button
             type="button"
             class="btn-close text-reset"

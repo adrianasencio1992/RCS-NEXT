@@ -8,54 +8,57 @@ export default function ReformasFontaneria() {
     <SCFontaneria>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Reforma tu Fontaneria</h1>
-        <p className="p-obra-nueva">¿Te gusta tu fontaneria?</p>
+        <h1 className="h1-obra-nueva">Fontanería y Lampistería</h1>
+        <p className="p-obra-nueva">
+          Instalaciones eléctricas y de agua, calefacción, calderas, aires
+          acondicionados ¡y mucho más!
+        </p>
       </div>
 
       <section className="section-obra-formulario">
         <div className="div-general-obra">
           <p className="p1-obra">
-            Nuestro equipo de profesionales se encargará de la reforma de su
-            baño, desde su diseño hasta su ejecución, dandole una nueva vida.
-            Utilizamos materiales de la mejor calidad y que se adapten a sus
-            gustos y necesidades. Puede encontrarnos en Rubí y trabajamos en
-            toda la provincia de Barcelona y alrededores.
+            Nuestros profesionales realizarán las variaciones de electricidad,
+            agua o gas que su vivienda necesite. También estamos especializados
+            en la instalación de aparatos de aire acondicionado, calefacciones y
+            calderas. Para todo ello, utilizamos materiales de la mejor calidad
+            y que se adapten a sus necesidades. Puede encontrarnos en Rubí y
+            trabajamos en toda la provincia de Barcelona y alrededores.
           </p>
-          <h2 className="h2-formulario">¿COMO FUNCIONAMOS?</h2>
+          <h2 className="h2-formulario">¿QUÉ SERVICIOS OFRECEMOS?</h2>
           <hr className="hr-formulario"></hr>
           <div className="div-general-cartas">
             <div className="div-primera-carta">
-              <img className="imagen-carta" src="/reforma5.png"></img>
+              <img className="imagen-carta" src="/logo-aire.png"></img>
               <div className="div-primera-subcarta">
-                <p className="p2-obra">ESTAMOS CERCA DE TÍ</p>
+                <p className="p2-obra">AIRES ACONDICIONADOS</p>
                 <p className="p3-obra">
-                  ¿Quieres reformar tu baño? Puedes contactar con nosotos por
-                  teléfono, via mail, pagina web, redes sociales o en nuesta
-                  tienda física. Escucharemos todas tus propuestas y juntos
-                  crearemos el diseño que deseas.
+                  Aumenta el confort de su hogar tanto en invierno como en
+                  verano. Le instalamos aires acondicionados de las mejores
+                  marcas, al mejor precio y con garantía.
                 </p>
               </div>
             </div>
             <div className="div-primera-carta2">
               <div className="div-primera-subcarta2">
-                <p className="p2-obra">PRESUPUESTO GRATUITO</p>
+                <p className="p2-obra">CALEFACCIÓN</p>
                 <p className="p3-obra2">
-                  A tu lado crearemos el presupuesto que se adapate mejor a tus
-                  necesidades, pudiendo elegir todos los elementos de tu baño.
-                  Elaboramos este presupuesto sin ningún tipo de compromiso en
-                  un plazo de 24 a 48 horas.
+                  Di adiós a los inviernos fríos e instala un sistema de
+                  calefacción eléctrico o de agua. Nosotros le recomendaremos
+                  los mejores equipos y nos encargaremos de todo.
                 </p>
               </div>
-              <img className="imagen-carta" src="/reforma7.png"></img>
+              <img className="imagen-carta" src="/logo-calefaccion.png"></img>
             </div>
             <div className="div-primera-carta">
-              <img className="imagen-carta" src="/reforma6.png"></img>
+              <img className="imagen-carta" src="/logo-caldera.png"></img>
               <div className="div-primera-subcarta">
-                <p className="p2-obra">DISEÑO 3D GRATUITO</p>
+                <p className="p2-obra">CALDERAS</p>
                 <p className="p3-obra">
-                  Una vez elijas todos los elementos de tu baño, elaboraremos un
-                  diseño 3D que te permitira visualizar el resultado final de tu
-                  reforma. Este diseño no tendrá ningun coste añadido.
+                  También ofrecemos servicio de instalación de calderas a la
+                  mejor relación calidad - precio, tenemos en cuenta su
+                  eficiencia energética y así ayudamos a controlar los gastos de
+                  su hogar.
                 </p>
               </div>
             </div>
@@ -129,7 +132,7 @@ export default function ReformasFontaneria() {
           </div>
         </div>
       </section>
-      <h2 className="h2-formulario">¡INSPIRATE!</h2>
+      <h2 className="h2-formulario">¡INSPÍRATE!</h2>
       <hr className="hr-formulario"></hr>
       <SCSliderFontaneria></SCSliderFontaneria>
       <SCFooter></SCFooter>

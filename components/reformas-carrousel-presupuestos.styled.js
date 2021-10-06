@@ -142,6 +142,9 @@ td{
   font-style: oblique;
 }
 
+.cocina-tabla-manodeobra{
+  margin-left:70px;
+}
 
 @media (max-width: 1100px) {
   .offcanvas {

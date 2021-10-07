@@ -8,31 +8,31 @@ export default function ReformasAluminio() {
     <SCAluminio>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Reforma tu Aluminio</h1>
-        <p className="p-obra-nueva">¿Te gusta tu aluminio?</p>
+        <h1 className="h1-obra-nueva">Carpintería Metálica y de Aluminio</h1>
+        <p className="p-obra-nueva">¡Innovación que hará tu vida más fácil!</p>
       </div>
 
       <section className="section-obra-formulario">
         <div className="div-general-obra">
           <p className="p1-obra">
-            Nuestro equipo de profesionales se encargará de la reforma de su
-            baño, desde su diseño hasta su ejecución, dandole una nueva vida.
-            Utilizamos materiales de la mejor calidad y que se adapten a sus
-            gustos y necesidades. Puede encontrarnos en Rubí y trabajamos en
-            toda la provincia de Barcelona y alrededores.
+            Disfrutar de unas vistas inigualables sobre el espectáculo de la
+            ciudad o del mar, aprovechar los efectos benéficos de los rayos de
+            sol en cualquier momento del día, respetar el estilo original de una
+            vivienda y, al mismo tiempo, modernizarla: el acierto en la elección
+            de las carpinterías facilita la vida familiar y garantiza el
+            bienestar cotidiano.
           </p>
-          <h2 className="h2-formulario">¿COMO FUNCIONAMOS?</h2>
+          <h2 className="h2-formulario">¿CÓMO FUNCIONAMOS?</h2>
           <hr className="hr-formulario"></hr>
           <div className="div-general-cartas">
             <div className="div-primera-carta">
               <img className="imagen-carta" src="/reforma5.png"></img>
               <div className="div-primera-subcarta">
-                <p className="p2-obra">ESTAMOS CERCA DE TÍ</p>
+                <p className="p2-obra">ESTAMOS CERCA DE TI</p>
                 <p className="p3-obra">
-                  ¿Quieres reformar tu baño? Puedes contactar con nosotos por
-                  teléfono, via mail, pagina web, redes sociales o en nuesta
-                  tienda física. Escucharemos todas tus propuestas y juntos
-                  crearemos el diseño que deseas.
+                  Puedes contactar con nosotros por teléfono, vía mail, página
+                  web, redes sociales o en nuestra tienda física. Escucharemos
+                  todas tus propuestas y juntos crearemos el diseño que deseas.
                 </p>
               </div>
             </div>
@@ -40,7 +40,7 @@ export default function ReformasAluminio() {
               <div className="div-primera-subcarta2">
                 <p className="p2-obra">PRESUPUESTO GRATUITO</p>
                 <p className="p3-obra2">
-                  A tu lado crearemos el presupuesto que se adapate mejor a tus
+                  A tu lado crearemos el presupuesto que se adapte mejor a tus
                   necesidades, pudiendo elegir todos los elementos de tu baño.
                   Elaboramos este presupuesto sin ningún tipo de compromiso en
                   un plazo de 24 a 48 horas.
@@ -54,8 +54,8 @@ export default function ReformasAluminio() {
                 <p className="p2-obra">DISEÑO 3D GRATUITO</p>
                 <p className="p3-obra">
                   Una vez elijas todos los elementos de tu baño, elaboraremos un
-                  diseño 3D que te permitira visualizar el resultado final de tu
-                  reforma. Este diseño no tendrá ningun coste añadido.
+                  diseño 3D que te permitirá visualizar el resultado final de tu
+                  reforma. Este diseño no tendrá ningún coste añadido.
                 </p>
               </div>
             </div>
@@ -129,7 +129,7 @@ export default function ReformasAluminio() {
           </div>
         </div>
       </section>
-      <h2 className="h2-formulario">¡INSPIRATE!</h2>
+      <h2 className="h2-formulario">¡INSPÍRATE!</h2>
       <hr className="hr-formulario"></hr>
       <SCSliderAluminio></SCSliderAluminio>
       <SCFooter></SCFooter>

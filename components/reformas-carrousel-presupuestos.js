@@ -25,7 +25,7 @@ export default function ReformasCarrouselPresupuestos() {
                 <h3>COCINAS</h3>
                 <div>
                   Consulte el precio estimado de la reforma integral de una
-                  cocina completa incluyendo sus electrodomesticos.
+                  cocina completa incluyendo sus electrodomésticos.
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function ReformasCarrouselPresupuestos() {
                 <h3>ELECTRICIDAD</h3>
                 <div>
                   Consulte el precio estimado de la variación en instalación
-                  electrica en función de su estancia.
+                  eléctrica en función de su estancia.
                 </div>
               </div>
             </div>

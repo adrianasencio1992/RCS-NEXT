@@ -8,7 +8,7 @@ export default function Contacto() {
       <Layout></Layout>
       <div className="div-obra-nueva">
         <h1 className="h1-obra-nueva">Contacto</h1>
-        <p className="p-obra-nueva">Conoce nuestra empresa</p>
+        <p className="p-obra-nueva">Estamos a tu disposición</p>
       </div>
       <section className="section-contacto">
         <h2 className="h2-contacto">CONTÁCTANOS</h2>

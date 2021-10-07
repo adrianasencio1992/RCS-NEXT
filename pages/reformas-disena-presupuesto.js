@@ -37,7 +37,7 @@ export default function ReformasDiseñaPresupuesto() {
         <hr className="hr-formulario"></hr>
         <p className="p1-obra">
           A continuación puede seleccionar las reformas que tiene pensado
-          realizar y obtendrá una estimación del coste toal de su reforma en
+          realizar y obtendrá una estimación del coste total de su reforma en
           base a los precios aproximados que puede consultar en el apartado
           anterior.
         </p>
@@ -113,6 +113,7 @@ export default function ReformasDiseñaPresupuesto() {
         <p className="p-total">Total de la reforma:</p>
         <input className="input-total" />
       </div>
+
       <section className="section-formulario">
         <div className="contenedor">
           <div className="wrapper animated bounceInLeft">

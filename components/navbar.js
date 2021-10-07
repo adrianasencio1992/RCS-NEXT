@@ -133,7 +133,7 @@ export default function NavBar() {
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
+                    <a class="dropdown-item" href="/contacto">
                       CONTACTANOS
                     </a>
                   </li>

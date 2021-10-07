@@ -33,9 +33,9 @@ export default function QuienesSomos() {
                 <p className="p2-obra">OBRA NUEVA</p>
                 <p className="p3-obra2">
                   En los proyectos de obra nueva nos encargamos de todas las
-                  fases de contrucción: buscar aquel terreno mas adecuado a las
+                  fases de construcción: buscar aquel terreno más adecuado a las
                   necesidades del cliente, diseñar el proyecto, tramitar su
-                  aprovación y finalmente su construcción hasta la entrega de
+                  aprobación y finalmente su construcción hasta la entrega de
                   llaves.
                 </p>
               </div>
@@ -74,7 +74,7 @@ export default function QuienesSomos() {
                 <p className="p3-obra">
                   En nuestra oficina localizada en Rubí nuestros clientes pueden
                   transmitirnos sus necesidades e ideas para su hogar y allí
-                  podran elegir todo tipo de materiales de nuestra exposición.
+                  podrán elegir todo tipo de materiales de nuestra exposición.
                 </p>
               </div>
             </div>
@@ -106,8 +106,8 @@ export default function QuienesSomos() {
             </div>
             <h2 className="p-escoger">EXPERIENCIA</h2>
             <p className="p-texto">
-              Somos una empresa con mas de 30 años de experiencia en el sector
-              de la contstrucción. Para nosotros lo más importante es su
+              Somos una empresa con más de 30 años de experiencia en el sector
+              de la construcción. Para nosotros lo más importante es su
               satisfacción, por eso le ofrecemos un servicio totalmente
               personalizado.
             </p>

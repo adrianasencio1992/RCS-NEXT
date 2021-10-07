@@ -34,10 +34,10 @@ export default function Financiacion() {
                   </div>
                 </div>
                 <div class="text-container">
-                  <h3>Pago con targeta hasta 12 MESES</h3>
+                  <h3>Pago con tarjeta hasta 12 MESES</h3>
                   <div>
-                    Consulte el precio de la reforma de un baño, un aseo o la
-                    sustitución de su bañera por plato de ducha.
+                    Consulte el precio estimado de la reforma de un baño, un
+                    aseo o la sustitución de su bañera por plato de ducha.
                   </div>
                 </div>
               </div>
@@ -57,8 +57,8 @@ export default function Financiacion() {
                 <div class="text-container">
                   <h3>3 PAGOS</h3>
                   <div>
-                    Consulte el precio de la instalación de una nueva caldera,
-                    aire acondicionado o calefacción.
+                    Consulte el precio estimado de la instalación de una nueva
+                    caldera, aire acondicionado o calefacción.
                   </div>
                 </div>
               </div>
@@ -77,10 +77,10 @@ export default function Financiacion() {
                   </div>
                 </div>
                 <div class="text-container">
-                  <h3>Hsta 36 MESES sin intereses</h3>
+                  <h3>Hasta 36 MESES sin intereses</h3>
                   <div>
-                    Consulte el precio estimado de la variación en instalación
-                    electrica en función de su estancia.
+                    Consulte el precio estimado de la variación de la
+                    instalación electrica en función de su estancia.
                   </div>
                 </div>
               </div>

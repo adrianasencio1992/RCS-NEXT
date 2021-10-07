@@ -63,8 +63,8 @@ export default function Cards() {
                 </div>
               </div>
               <p class="card__description">
-                Los precios expuestos son orinetativos y pueden variar en
-                función de sus necesidades.
+                Los precios expuestos son orintativos y pueden variar en función
+                de sus necesidades.
               </p>
             </div>
           </a>
@@ -83,7 +83,7 @@ export default function Cards() {
                 </div>
               </div>
               <p class="card__description">
-                Finalmente tomaremos las medidad necesarias y realizaremos su
+                Finalmente tomaremos las medidas necesarias y realizaremos su
                 presupuesto final igual de detallado.
               </p>
             </div>

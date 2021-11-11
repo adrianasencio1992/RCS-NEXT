@@ -135,7 +135,20 @@ input{
 .p-total{
   font-family: 'Oswald';
   font-size:20px;
+ 
 }
+
+.input-div{
+  display:flex;
+  align-items:center;
+  padding-left: 10px;
+  width: 200px;
+  height:30px;
+  border-radius:5px;
+  border: 1px solid black;
+}
+
+
 
 /*Formulario*/
 @import url( 'https://fonts.googleapis.com/css?family=Roboto');

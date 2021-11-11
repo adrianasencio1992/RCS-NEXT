@@ -1,20 +1,57 @@
-import React from "react"; // Importamos `useState` usando destructuring luego de importar React
-import SCGithub from "./github.styled";
-function ContadorDeSustancias() {
-  const [kilos, setKilos] = useState(0); // Usamos useState para definir un estado para nuestro componente, el primer valor dentro de los corchetes va a ser el `valor` de nuestro estado, el segundo valor va a ser una funcion `seter`, significa que va a actualizar el `valor` de nuestro estado con cualquier cosa que le pasemos, lo que pasemos entre los paréntesis de useState será el valor inicial
+import React, { useState } from "react";
+export default function App() {
+  class App extends React.Component {
+    constructor() {
+      super();
+      this.state = {
+        colors: {
+          red: true,
+          green: false,
+          blue: true,
+          yellow: false,
+          cyan: false,
+        },
+      };
+    }
 
-  return (
-    <SCGithub>
-      <div>
-        <h1 className="h1-titulo">Kilos de sustancia: {kilos}</h1>{" "}
-        {/* Usando llaves podemos meter código javascript dentro de nuestro JSX */}
-        <button onClick={() => setKilos(kilos - 1)}> - </button>{" "}
-        {/* Disminuimos nuestro estado al hacer click */}
-        <button onClick={() => setKilos(kilos + 1)}> + </button>{" "}
-        {/* Aumentamos nuestro estado al hacer click */}
-      </div>
-    </SCGithub>
-  );
+    handleClick = (event) => {
+      const { name, checked } = event.target;
+
+      this.setState((prevState) => {
+        const colors = prevState.colors;
+        colors[name] = checked;
+        return colors;
+      });
+    };
+    render() {
+      const favColors = Object.keys(this.state.colors)
+        .filter((key) => this.state.colors[key])
+        .join(", ");
+
+      return (
+        <SCGithub>
+          <form name="formulario">
+            <div className="div-trigeneral-input">
+              <input type="checkbox" name="checkbox" value="checkbox"></input>
+              Baño completo
+            </div>
+            <div className="div-trigeneral-input">
+              <input name="checkbox" type="checkbox" value="checkbox" />
+              Aseo
+            </div>
+            <div className="div-trigeneral-input">
+              <input ame="checkbox" type="checkbox" value="checkbox" />
+              Cambio bañera por plato
+            </div>
+            <div className="div-total">
+              <p className="p-total" type="text" name="total" value="0">
+                Total de la reforma:
+              </p>
+              <div className="input-div"></div>
+            </div>
+          </form>
+        </SCGithub>
+      );
+    }
+  }
 }
-
-export default ContadorDeSustancias;

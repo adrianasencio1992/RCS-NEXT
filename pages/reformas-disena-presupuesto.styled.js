@@ -146,9 +146,64 @@ input{
   height:30px;
   border-radius:5px;
   border: 1px solid black;
+  
 }
 
+ul {
+  counter-reset: checked;
+  list-style: none;
+}
 
+.li1 input:checked {
+  counter-increment: checked 6500;
+}
+
+.li2 input:checked {
+  counter-increment: checked 10000;
+}
+
+.li3 input:checked {
+  counter-increment: checked 5000;
+}
+
+.li4 input:checked {
+  counter-increment: checked 7000;
+}
+
+.li5 input:checked {
+  counter-increment: checked 3000;
+}
+
+.li6 input:checked {
+  counter-increment: checked 1000;
+}
+
+.li7 input:checked {
+  counter-increment: checked 2000;
+}
+
+.li8 input:checked {
+  counter-increment: checked 4000;
+}
+
+.li9 input:checked {
+  counter-increment: checked 6000;
+}
+
+.li10 input:checked {
+  counter-increment: checked 8000;
+}
+
+.li11 input:checked {
+  counter-increment: checked 10000;
+}
+
+.li12 input:checked {
+  counter-increment: checked 12000;
+}
+.count:after {
+  content: counter(checked);
+}
 
 /*Formulario*/
 @import url( 'https://fonts.googleapis.com/css?family=Roboto');

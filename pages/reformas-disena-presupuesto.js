@@ -35,96 +35,121 @@ function ContadorReformas() {
           <SCCarrouselPresupuestos></SCCarrouselPresupuestos>
         </div>
       </section>
+
+      {/*Precio reformas*/}
+
       <form name="formulario">
-        <div>
-          <h2 className="h2-formulario">¡CALCULA EL PRECIO DE TU REFORMA!</h2>
-          <hr className="hr-formulario"></hr>
-          <p className="p1-obra">
-            A continuación puede seleccionar las reformas que tiene pensado
-            realizar y obtendrá una estimación del coste total de su reforma en
-            base a los precios aproximados que puede consultar en el apartado
-            anterior.
-          </p>
-        </div>
-        <div className="div-general-input">
-          <div className="div-subgeneral-input">
-            <p className="titulo-input">PRESUPUESTO BAÑO</p>
-
-            <div className="div-trigeneral-input">
-              <input type="checkbox" onClick={() => setKilos(!kilos)}></input>
-              Baño completo
-            </div>
-            <div className="div-trigeneral-input">
-              <input
-                name="checkbox"
-                type="checkbox"
-                value="checkbox"
-                onClick={() => setKilos(!kilos)}
-              />
-              Aseo
-            </div>
-            <div className="div-trigeneral-input">
-              <input name="checkbox" type="checkbox" value="checkbox" />
-              Cambio bañera por plato
-            </div>
+        <ul>
+          <div>
+            <h2 className="h2-formulario">¡CALCULA EL PRECIO DE TU REFORMA!</h2>
+            <hr className="hr-formulario"></hr>
+            <p className="p1-obra">
+              A continuación puede seleccionar las reformas que tiene pensado
+              realizar y obtendrá una estimación del coste total de su reforma
+              en base a los precios aproximados que puede consultar en el
+              apartado anterior.
+            </p>
           </div>
+          <div className="div-general-input">
+            <div className="div-subgeneral-input">
+              <p className="titulo-input">PRESUPUESTO BAÑO</p>
 
-          <div className="div-subgeneral-input">
-            <p className="titulo-input">PRESUPUESTO FONTANERÍA</p>
-            <div className="div-trigeneral-input">
-              <input type="checkbox" />
-              Calefacción
-            </div>
-            <div className="div-trigeneral-input">
-              <input type="checkbox" />
-              Aire Acondicionado
-            </div>
-            <div className="div-trigeneral-input">
-              <input type="checkbox" />
-              Caldera
-            </div>
-          </div>
-
-          <div className="div-subgeneral-input">
-            <p className="titulo-input">OTROS</p>
-            <div className="caja3">
-              <div className="subcaja3">
-                <div className="div-trigeneral-input">
-                  <input type="checkbox" />
-                  Cocina
-                </div>
-                <div className="div-trigeneral-input">
-                  <input type="checkbox" />
-                  Parquet
-                </div>
-                <div className="div-trigeneral-input">
-                  <input type="checkbox" />
-                  Puertas
-                </div>
+              <div className="div-trigeneral-input">
+                <li className="li1">
+                  <input type="checkbox" id="box1"></input>
+                  <label for="box1">Baño completo</label>
+                </li>
               </div>
-              <div className="subcaja3">
-                <div className="div-trigeneral-input">
-                  <input type="checkbox" />
-                  Pintura
-                </div>
-                <div className="div-trigeneral-input">
-                  <input type="checkbox" />
-                  Electricidad
-                </div>
-                <div className="div-trigeneral-input">
-                  <input type="checkbox" />
-                  Aluminio
-                </div>
+              <div className="div-trigeneral-input">
+                <li className="li2">
+                  <input type="checkbox" id="box2"></input>
+                  <label for="box2">Aseo</label>
+                </li>
+              </div>
+              <div className="div-trigeneral-input">
+                <li className="li3">
+                  <input type="checkbox" id="box3"></input>
+                  <label for="box3">Cambio bañera por plato</label>
+                </li>
               </div>
             </div>
+
+            <div className="div-subgeneral-input">
+              <p className="titulo-input">PRESUPUESTO FONTANERÍA</p>
+              <div className="div-trigeneral-input">
+                <li className="li4">
+                  <input type="checkbox" id="box4"></input>
+                  <label for="box4">Calefacción</label>
+                </li>
+              </div>
+              <div className="div-trigeneral-input">
+                <li className="li5">
+                  <input type="checkbox" id="box5"></input>
+                  <label for="box5">Aire Acondicionado</label>
+                </li>
+              </div>
+              <div className="div-trigeneral-input">
+                <li className="li6">
+                  <input type="checkbox" id="box6"></input>
+                  <label for="box6">Caldera</label>
+                </li>
+              </div>
+            </div>
+
+            <div className="div-subgeneral-input">
+              <p className="titulo-input">OTROS</p>
+              <div className="caja3">
+                <div className="subcaja3">
+                  <div className="div-trigeneral-input">
+                    <li className="li7">
+                      <input type="checkbox" id="box7"></input>
+                      <label for="box7">Cocina</label>
+                    </li>
+                  </div>
+                  <div className="div-trigeneral-input">
+                    <li className="li8">
+                      <input type="checkbox" id="box8"></input>
+                      <label for="box8">Parquet</label>
+                    </li>
+                  </div>
+                  <div className="div-trigeneral-input">
+                    <li className="li9">
+                      <input type="checkbox" id="box9"></input>
+                      <label for="box9">Puertas</label>
+                    </li>
+                  </div>
+                </div>
+                <div className="subcaja3">
+                  <div className="div-trigeneral-input">
+                    <li className="li10">
+                      <input type="checkbox" id="box10"></input>
+                      <label for="box10">Pintura</label>
+                    </li>
+                  </div>
+                  <div className="div-trigeneral-input">
+                    <li className="li11">
+                      <input type="checkbox" id="box11"></input>
+                      <label for="box11">Electricidad</label>
+                    </li>
+                  </div>
+                  <div className="div-trigeneral-input">
+                    <li className="li12">
+                      <input type="checkbox" id="box12"></input>
+                      <label for="box12">Aluminio</label>
+                    </li>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
-        </div>
-        <div className="div-total">
-          <p className="p-total">Total de la reforma:</p>
-          <div className="input-div">{kilos ? "14.000 €" : "0 €"}</div>
-        </div>
+          <div className="div-total">
+            <p className="p-total">Total de la reforma:</p>
+            <div className="count"></div>
+          </div>
+        </ul>
       </form>
 
+      {/* FORMULARIO*/}
       <section className="section-formulario">
         <div className="contenedor">
           <div className="wrapper animated bounceInLeft">

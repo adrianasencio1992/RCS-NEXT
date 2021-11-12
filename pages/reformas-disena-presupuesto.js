@@ -4,11 +4,8 @@ import SCFooter from "../components/footer";
 import SCDiseñaPresupuesto from "./reformas-disena-presupuesto.styled";
 import SCCarrouselPresupuestos from "../components/reformas-carrousel-presupuestos";
 import SCCards from "../components/cards";
-import Checkbox from "../components/checkbox";
 
 function ContadorReformas() {
-  const [kilos, setKilos] = useState(false); // Usamos useState para definir un estado para nuestro componente, el primer valor dentro de los corchetes va a ser el `valor` de nuestro estado, el segundo valor va a ser una funcion `seter`, significa que va a actualizar el `valor` de nuestro estado con cualquier cosa que le pasemos, lo que pasemos entre los paréntesis de useState será el valor inicial
-
   return (
     <SCDiseñaPresupuesto>
       <Layout></Layout>
@@ -145,6 +142,14 @@ function ContadorReformas() {
           <div className="div-total">
             <p className="p-total">Total de la reforma:</p>
             <div className="count"></div>
+            <p className="p-total">€</p>
+            <div className="div-iva">
+              <p className="p-iva">
+                Precios sin IVA (si el 60% o más del importe es mano de obra se
+                aplica un tipo impositivo del 10%, en caso contrario se aplicará
+                del 21%)
+              </p>
+            </div>
           </div>
         </ul>
       </form>
@@ -219,7 +224,6 @@ function ContadorReformas() {
           </div>
         </div>
       </section>
-      <Checkbox></Checkbox>
       <SCFooter></SCFooter>
     </SCDiseñaPresupuesto>
   );

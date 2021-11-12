@@ -198,7 +198,9 @@ export default function ReformasCarrouselPresupuestos() {
         aria-labelledby="offcanvasRightLabel"
       >
         <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">PRESUPUESTO COCINA</h5>
+          <h5 id="offcanvasRightLabel">
+            PRESUPUESTO COCINA - PRECIO TOTAL COCINA COMPLETA 14.294,50€
+          </h5>
           <button
             type="button"
             class="btn-close text-reset"
@@ -253,9 +255,9 @@ export default function ReformasCarrouselPresupuestos() {
             </tr>
 
             <tr className="td-naranja">
-              <td>36</td>
+              <td>22</td>
 
-              <td>m2</td>
+              <td>uds</td>
 
               <td className="td-texto">
                 Materiales de paleteria(mortero, pegoland flexible, borada
@@ -264,7 +266,7 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>9€</td>
 
-              <td>324€</td>
+              <td>198€</td>
             </tr>
             <tr>
               <td>8</td>
@@ -356,19 +358,19 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>630€</td>
 
-              <td>2835€</td>
+              <td>2.835€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>2,20</td>
+              <td>3,20</td>
 
-              <td>m2</td>
+              <td>ml</td>
 
               <td className="td-texto">Silestone precio medio estimado</td>
 
-              <td>410€</td>
+              <td>380€</td>
 
-              <td>902€</td>
+              <td>1.216€</td>
             </tr>
 
             <tr>
@@ -391,9 +393,9 @@ export default function ReformasCarrouselPresupuestos() {
                 Encimera de induccion 3 zonas Bosch o similar (precio medio)
               </td>
 
-              <td>395€</td>
+              <td>425€</td>
 
-              <td>395€</td>
+              <td>425€</td>
             </tr>
 
             <tr>
@@ -489,7 +491,7 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>7.900€</td>
+              <td>7.681€</td>
             </tr>
           </table>
           <p className="p-iva">* Los precios son sin IVA</p>
@@ -503,7 +505,11 @@ export default function ReformasCarrouselPresupuestos() {
 
               <th>MANO DE OBRA PROFESIONAL</th>
 
-              <th></th>
+              <th>
+                PRECIO
+                <br />
+                UNIDAD
+              </th>
 
               <th>
                 PRECIO<br></br>TOTAL
@@ -511,31 +517,27 @@ export default function ReformasCarrouselPresupuestos() {
             </tr>
 
             <tr className="td-naranja">
-              <td>28</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Desmontar muebles de cocina</td>
 
-              <td></td>
+              <td>135€</td>
 
-              <td>560€</td>
+              <td>135€</td>
             </tr>
 
             <tr>
-              <td>8</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Desmontar Horno</td>
 
-              <td></td>
+              <td>15€</td>
 
-              <td>176€</td>
+              <td>15€</td>
             </tr>
 
             <tr className="td-naranja">
@@ -543,37 +545,139 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>m2</td>
 
-              <td className="td-texto">
-                Materiales de paleteria(mortero, pegoland flexible, borada
-                impermeable)
-              </td>
+              <td className="td-texto">Desmontar Campana extractora</td>
 
-              <td></td>
+              <td>20€</td>
 
-              <td>324€</td>
+              <td>20€</td>
             </tr>
             <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar fregadera</td>
+
+              <td>20€</td>
+
+              <td>20€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar Vitro</td>
+
+              <td>15€</td>
+
+              <td>15€</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Desmontar encimera de madera o marmol
+              </td>
+
+              <td>55€</td>
+
+              <td>55€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar falso techo</td>
+
+              <td>95€</td>
+
+              <td>95€</td>
+            </tr>
+
+            <tr>
+              <td>28</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">
+                Picado de racholas pared incluido retirada de escombros
+              </td>
+
+              <td>15€</td>
+
+              <td>420€</td>
+            </tr>
+
+            <tr className="td-naranja">
               <td>8</td>
 
               <td>m2</td>
 
-              <td className="td-texto">Techo de pladur</td>
+              <td className="td-texto">
+                Picado de pavimento del suelo y retirada de escombros
+              </td>
 
-              <td></td>
+              <td>25€</td>
 
-              <td>160€</td>
+              <td>200€</td>
             </tr>
+            <tr>
+              <td>8</td>
 
-            <tr className="td-naranja">
-              <td>1</td>
+              <td>ml</td>
 
-              <td>ud</td>
-
-              <td className="td-texto">Materiales pintura techo</td>
-
-              <td></td>
+              <td className="td-texto">
+                Hacer regatas para instalaciones de luz, agua y desagues
+              </td>
 
               <td>30€</td>
+
+              <td>240€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>28</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">Rebozar paredes con mortero M-75</td>
+
+              <td>22€</td>
+
+              <td>616€</td>
+            </tr>
+
+            <tr>
+              <td>28</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">
+                Colocación racholas de pared incluido borada
+              </td>
+
+              <td>45€</td>
+
+              <td>1.260€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>8</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">
+                Colocación pavimento del suelo incluido borada
+              </td>
+
+              <td>45€</td>
+
+              <td>360€</td>
             </tr>
 
             <tr>
@@ -581,13 +685,34 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>ud</td>
 
-              <td className="td-texto">
-                Materiales de lampisteria instalaciones nuevas
-              </td>
+              <td className="td-texto">Instalación de agua completa</td>
 
-              <td></td>
+              <td>428€</td>
 
-              <td>185€</td>
+              <td>428€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Instalación de luz completa</td>
+
+              <td>355€</td>
+
+              <td>355€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Instalación desague</td>
+
+              <td>95€</td>
+
+              <td>95€</td>
             </tr>
             <tr className="td-naranja">
               <td>1</td>
@@ -595,41 +720,34 @@ export default function ReformasCarrouselPresupuestos() {
               <td>ud</td>
 
               <td className="td-texto">
-                Materiales de electricidad instalaciones nuevas
+                Desmontar tapetas puerta y volver a colocar
               </td>
 
-              <td></td>
+              <td>45€</td>
 
-              <td>145€</td>
+              <td>45€</td>
             </tr>
-
             <tr>
-              <td>3</td>
+              <td>1</td>
 
-              <td>uds</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Downlight empotrado redondo alver blanco o inox
-              </td>
+              <td className="td-texto">Cepillar puerta</td>
 
-              <td></td>
+              <td>25€</td>
 
-              <td>69€</td>
+              <td>25€</td>
             </tr>
-
             <tr className="td-naranja">
-              <td>10</td>
+              <td>1</td>
 
-              <td>uds</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                8 Enchufes y 2 interruptores a elegir de la exposición (precio
-                medio)
-              </td>
+              <td className="td-texto">Colocación pletina suelo</td>
 
-              <td></td>
+              <td>20€</td>
 
-              <td>120€</td>
+              <td>20€</td>
             </tr>
             <tr>
               <td>4,50</td>
@@ -637,136 +755,106 @@ export default function ReformasCarrouselPresupuestos() {
               <td>ml</td>
 
               <td className="td-texto">
-                Mobiliario de cocina segun plano entre bajos y altos
+                Colocación muebles de cocina altos y bajos
               </td>
 
-              <td></td>
+              <td>225€</td>
 
-              <td>2835€</td>
+              <td>1.012,50€</td>
             </tr>
-
             <tr className="td-naranja">
-              <td>2,20</td>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación de campana extractora</td>
+
+              <td>70€</td>
+
+              <td>70€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Colocación fregadera, grifería y desague
+              </td>
+
+              <td>80€</td>
+
+              <td>80€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación vitro</td>
+
+              <td>40€</td>
+
+              <td>40€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación horno</td>
+
+              <td>25€</td>
+
+              <td>25€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación Microondas</td>
+
+              <td>30€</td>
+
+              <td>30€</td>
+            </tr>
+            <tr>
+              <td>3,20</td>
+
+              <td>ml</td>
+
+              <td className="td-texto">
+                Colocación encimera silestone o granito
+              </td>
+
+              <td>98€</td>
+
+              <td>313€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>8</td>
 
               <td>m2</td>
 
-              <td className="td-texto">Silestone precio medio estimado</td>
-
-              <td></td>
-
-              <td>902€</td>
-            </tr>
-
-            <tr>
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">Tubos y accesorios campana</td>
-
-              <td></td>
-
-              <td>62€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">
-                Encimera de induccion 3 zonas Bosch o similar (precio medio)
-              </td>
-
-              <td></td>
-
-              <td>395€</td>
-            </tr>
-
-            <tr>
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">
-                Horno pirolitico-multifuncion Bosch o similar (precio medio)
-              </td>
-
-              <td></td>
-
-              <td>405€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">
-                Microondas 20l integrable Bosch o similar (precio medio)
-              </td>
-
-              <td></td>
-
-              <td>230€</td>
-            </tr>
-            <tr>
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">
-                Campana decorativa 60 Bosch o similar (precio medio)
-              </td>
-
-              <td></td>
-
-              <td>335€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">Pack fregadera inox y grifo</td>
-
-              <td></td>
-
-              <td>390€</td>
-            </tr>
-            <tr>
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">Material Tapetas nuevas (carpintero)</td>
-
-              <td></td>
+              <td className="td-texto">Colocación techo de pladur</td>
 
               <td>60€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>1</td>
 
-              <td>ud</td>
-
-              <td className="td-texto">Pletina suelo</td>
-
-              <td></td>
-
-              <td>15€</td>
+              <td>480€</td>
             </tr>
             <tr>
-              <td>2</td>
+              <td>8</td>
 
-              <td>uds</td>
+              <td>m2</td>
 
               <td className="td-texto">
-                Sacas de runa autorizadas y recogida de las mismas
+                Encitar, lijar y pintar techo de pladur
               </td>
 
-              <td></td>
+              <td>18€</td>
 
-              <td>65€</td>
+              <td>144€</td>
             </tr>
 
             <tr className="td-naranja-oscuro">
@@ -775,7 +863,7 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>7.900€</td>
+              <td>6.613,50€</td>
             </tr>
           </table>
           <p className="p-iva">* Los precios son sin IVA</p>
@@ -790,7 +878,9 @@ export default function ReformasCarrouselPresupuestos() {
         aria-labelledby="offcanvasRightLabel"
       >
         <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">PRESUPUESTO BAÑO</h5>
+          <h5 id="offcanvasRightLabel">
+            PRESUPUESTO BAÑO PRECIO TOTAL BAÑO COMPLET0 ((14.294,50€))
+          </h5>
           <button
             type="button"
             class="btn-close text-reset"
@@ -805,7 +895,7 @@ export default function ReformasCarrouselPresupuestos() {
 
               <th>TIPO</th>
 
-              <th>CONCEPTO</th>
+              <th>MATERIALES BAÑO</th>
 
               <th>
                 PRECIO<br></br>UNIDAD
@@ -817,7 +907,7 @@ export default function ReformasCarrouselPresupuestos() {
             </tr>
 
             <tr className="td-naranja">
-              <td>25</td>
+              <td>20</td>
 
               <td>m2</td>
 
@@ -825,13 +915,13 @@ export default function ReformasCarrouselPresupuestos() {
                 Azulejos pared a escoger segun muestras exposicion
               </td>
 
-              <td>25€</td>
+              <td>20€</td>
 
-              <td>25€</td>
+              <td>400€</td>
             </tr>
 
             <tr>
-              <td>7</td>
+              <td>4</td>
 
               <td>m2</td>
 
@@ -839,220 +929,242 @@ export default function ReformasCarrouselPresupuestos() {
                 Pavimento suelo a escoger segun muestras exposicion
               </td>
 
-              <td>25€</td>
+              <td>22€</td>
 
-              <td>175€</td>
+              <td>88€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>32</td>
+              <td>18</td>
 
-              <td>m2</td>
+              <td>uds</td>
 
               <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
+                Materiales de paleteria(mortero, pegoland flexible, borada
                 impermeable)
               </td>
 
-              <td>11€</td>
+              <td>9€</td>
 
-              <td>352€</td>
+              <td>162€</td>
             </tr>
             <tr>
-              <td>25</td>
+              <td>4</td>
 
               <td>m2</td>
 
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Techo de pladur</td>
 
-              <td>25€</td>
+              <td>20€</td>
 
-              <td>25€</td>
+              <td>80€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>7</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Materiales pintura techo</td>
 
-              <td>25€</td>
+              <td>30€</td>
 
-              <td>175€</td>
+              <td>30€</td>
             </tr>
 
             <tr>
-              <td>32</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
+                Materiales de lampisteria instalaciones nuevas
               </td>
 
-              <td>11€</td>
+              <td>235€</td>
 
-              <td>352€</td>
+              <td>235€</td>
             </tr>
             <tr className="td-naranja">
-              <td>25</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
+                Materiales de electricidad instalaciones nuevas
               </td>
 
-              <td>25€</td>
+              <td>125€</td>
 
-              <td>25€</td>
+              <td>125€</td>
             </tr>
 
             <tr>
-              <td>7</td>
+              <td>2</td>
 
-              <td>m2</td>
+              <td>uds</td>
 
               <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
+                Downlight empotrado redondo alver blanco o inox
               </td>
 
-              <td>25€</td>
+              <td>23€</td>
 
-              <td>175€</td>
+              <td>46€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>32</td>
+              <td>4</td>
 
-              <td>m2</td>
+              <td>uds</td>
 
               <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
+                2 Enchufes y 2 interruptores a elegir de la exposición (precio
+                medio)
               </td>
 
-              <td>11€</td>
+              <td>12€</td>
 
-              <td>352€</td>
+              <td>48€</td>
             </tr>
             <tr>
-              <td>25</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
+                Pack mueble de baño 120cm + lavabo + espejo + aplique LED
               </td>
 
-              <td>25€</td>
+              <td>465€</td>
 
-              <td>25€</td>
+              <td>465€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>7</td>
+              <td>1</td>
 
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
+                WC the gap roca adosado blanco con tapa amortiguada
               </td>
 
-              <td>11€</td>
+              <td>415€</td>
 
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
+              <td>415€</td>
             </tr>
 
             <tr>
-              <td>7</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
+
+              <td className="td-texto">Tubos y accesorios campana</td>
+
+              <td>62€</td>
+
+              <td>62€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
 
               <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
+                Encimera de induccion 3 zonas Bosch o similar (precio medio)
               </td>
 
-              <td>25€</td>
+              <td>425€</td>
 
-              <td>175€</td>
+              <td>425€</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Horno pirolitico-multifuncion Bosch o similar (precio medio)
+              </td>
+
+              <td>405€</td>
+
+              <td>405€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>32</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
+                Microondas 20l integrable Bosch o similar (precio medio)
               </td>
 
-              <td>11€</td>
+              <td>230€</td>
 
-              <td>352€</td>
+              <td>230€</td>
             </tr>
             <tr>
-              <td>32</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
+                Campana decorativa 60 Bosch o similar (precio medio)
               </td>
 
-              <td>11€</td>
+              <td>335€</td>
 
-              <td>352€</td>
+              <td>335€</td>
             </tr>
             <tr className="td-naranja">
-              <td>32</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
+
+              <td className="td-texto">Pack fregadera inox y grifo</td>
+
+              <td>390€</td>
+
+              <td>390€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Material Tapetas nuevas (carpintero)</td>
+
+              <td>60€</td>
+
+              <td>60€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Pletina suelo</td>
+
+              <td>15€</td>
+
+              <td>15€</td>
+            </tr>
+            <tr>
+              <td>2</td>
+
+              <td>uds</td>
 
               <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
+                Sacas de runa autorizadas y recogida de las mismas
               </td>
 
-              <td>11€</td>
+              <td>32,50€</td>
 
-              <td>3522€</td>
+              <td>65€</td>
             </tr>
 
             <tr className="td-naranja-oscuro">
@@ -1061,7 +1173,379 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>7.900€</td>
+              <td>7.681€</td>
+            </tr>
+          </table>
+          <p className="p-iva">* Los precios son sin IVA</p>
+
+          {/* Mano de obra baño */}
+          <table>
+            <tr className="td-naranja-oscuro">
+              <th> UNIDADES </th>
+
+              <th>TIPO</th>
+
+              <th>MANO DE OBRA PROFESIONAL</th>
+
+              <th>
+                PRECIO
+                <br />
+                UNIDAD
+              </th>
+
+              <th>
+                PRECIO<br></br>TOTAL
+              </th>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar muebles de cocina</td>
+
+              <td>135€</td>
+
+              <td>135€</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar Horno</td>
+
+              <td>15€</td>
+
+              <td>15€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>36</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">Desmontar Campana extractora</td>
+
+              <td>20€</td>
+
+              <td>20€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar fregadera</td>
+
+              <td>20€</td>
+
+              <td>20€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar Vitro</td>
+
+              <td>15€</td>
+
+              <td>15€</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Desmontar encimera de madera o marmol
+              </td>
+
+              <td>55€</td>
+
+              <td>55€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar falso techo</td>
+
+              <td>95€</td>
+
+              <td>95€</td>
+            </tr>
+
+            <tr>
+              <td>28</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">
+                Picado de racholas pared incluido retirada de escombros
+              </td>
+
+              <td>15€</td>
+
+              <td>420€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>8</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">
+                Picado de pavimento del suelo y retirada de escombros
+              </td>
+
+              <td>25€</td>
+
+              <td>200€</td>
+            </tr>
+            <tr>
+              <td>8</td>
+
+              <td>ml</td>
+
+              <td className="td-texto">
+                Hacer regatas para instalaciones de luz, agua y desagues
+              </td>
+
+              <td>30€</td>
+
+              <td>240€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>28</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">Rebozar paredes con mortero M-75</td>
+
+              <td>22€</td>
+
+              <td>616€</td>
+            </tr>
+
+            <tr>
+              <td>28</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">
+                Colocación racholas de pared incluido borada
+              </td>
+
+              <td>45€</td>
+
+              <td>1.260€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>8</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">
+                Colocación pavimento del suelo incluido borada
+              </td>
+
+              <td>45€</td>
+
+              <td>360€</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Instalación de agua completa</td>
+
+              <td>428€</td>
+
+              <td>428€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Instalación de luz completa</td>
+
+              <td>355€</td>
+
+              <td>355€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Instalación desague</td>
+
+              <td>95€</td>
+
+              <td>95€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Desmontar tapetas puerta y volver a colocar
+              </td>
+
+              <td>45€</td>
+
+              <td>45€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Cepillar puerta</td>
+
+              <td>25€</td>
+
+              <td>25€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación pletina suelo</td>
+
+              <td>20€</td>
+
+              <td>20€</td>
+            </tr>
+            <tr>
+              <td>4,50</td>
+
+              <td>ml</td>
+
+              <td className="td-texto">
+                Colocación muebles de cocina altos y bajos
+              </td>
+
+              <td>225€</td>
+
+              <td>1.012,50€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación de campana extractora</td>
+
+              <td>70€</td>
+
+              <td>70€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Colocación fregadera, grifería y desague
+              </td>
+
+              <td>80€</td>
+
+              <td>80€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación vitro</td>
+
+              <td>40€</td>
+
+              <td>40€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación horno</td>
+
+              <td>25€</td>
+
+              <td>25€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación Microondas</td>
+
+              <td>30€</td>
+
+              <td>30€</td>
+            </tr>
+            <tr>
+              <td>3,20</td>
+
+              <td>ml</td>
+
+              <td className="td-texto">
+                Colocación encimera silestone o granito
+              </td>
+
+              <td>98€</td>
+
+              <td>313€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>8</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">Colocación techo de pladur</td>
+
+              <td>60€</td>
+
+              <td>480€</td>
+            </tr>
+            <tr>
+              <td>8</td>
+
+              <td>m2</td>
+
+              <td className="td-texto">
+                Encitar, lijar y pintar techo de pladur
+              </td>
+
+              <td>18€</td>
+
+              <td>144€</td>
+            </tr>
+
+            <tr className="td-naranja-oscuro">
+              <td className="td-blanco"></td>
+              <td className="td-blanco"></td>
+              <td className="td-blanco"></td>
+              <td>TOTAL</td>
+
+              <td>6.613,50€</td>
             </tr>
           </table>
           <p className="p-iva">* Los precios son sin IVA</p>

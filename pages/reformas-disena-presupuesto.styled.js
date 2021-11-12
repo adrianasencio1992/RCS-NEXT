@@ -117,8 +117,14 @@ input{
 }
 
 .div-total{
-  margin-left: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items:center;
+  justify-content:center;
+  flex-wrap:wrap;
+  height:35px;
   margin-bottom: 50px;
+  
 }
 
 .input-total{
@@ -135,6 +141,8 @@ input{
 .p-total{
   font-family: 'Oswald';
   font-size:20px;
+  margin-right: 10px;
+  margin-bottom: 0px;
  
 }
 
@@ -147,6 +155,27 @@ input{
   border-radius:5px;
   border: 1px solid black;
   
+}
+
+.div-iva{
+display:flex;
+align-items:center;
+justify-content:center;
+height:35px;
+}
+
+.p-iva{
+  color: grey;
+  font-style: oblique;
+  font-size: 12px;
+  margin-bottom: 0px;
+  
+}
+
+@media (max-width: 765px) {
+  .p-iva {
+    margin-top:20px;
+  }
 }
 
 ul {
@@ -199,11 +228,26 @@ ul {
 }
 
 .li12 input:checked {
-  counter-increment: checked 12000;
+ counter-increment: checked 10000;
 }
 .count:after {
   content: counter(checked);
+  font-family: 'Oswald';
+  font-size:20px;
+  margin-left: 10px;
+  margin-right: 5px;
+  display:flex;
+  align-items:center;
+  padding-left: 10px;
+  width: 100px;
+  height:30px;
+  border-radius:5px;
+  border: 1px solid black;
+  color: rgb(236,167,0);
+  
 }
+
+
 
 /*Formulario*/
 @import url( 'https://fonts.googleapis.com/css?family=Roboto');

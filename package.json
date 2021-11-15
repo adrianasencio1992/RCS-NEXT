@@ -2,10 +2,10 @@
   "name": "learn-starter",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://adrianasencio1992.github.io/RCS-NEXT",
+  "homepage": "http://www.rcs.cat",
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "next build && next export",
     "start": "next start"
   },
   "dependencies": {

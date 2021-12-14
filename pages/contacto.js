@@ -36,13 +36,13 @@ export default function Contacto() {
             </div>
             <div className="div-subgeneral-contacto">
               <div className="div-circulo-contacto">✆</div>
-              <div className="div-p-contacto">937 234 618</div>
+              <div className="div-p-contacto">635126596 - 674686045</div>
             </div>
             <div className="div-subgeneral-contacto">
               <a className="a-contacto" href="mailto:rcs.reformas@hotmail.com">
                 <div className="div-circulo-contacto">✉</div>
               </a>
-              <div className="div-p-contacto">info@grupgres.cat</div>
+              <div className="div-p-contacto">rcs.reformas@hotmail.com</div>
             </div>
             <div className="div-subgeneral-contacto">
               <div className="div-circulo-contacto-redes">

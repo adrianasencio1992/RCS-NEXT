@@ -263,6 +263,7 @@ export default function NavBar() {
                   CONTACTO
                 </a>
               </li>
+             
             </ul>
           </div>
         </div>

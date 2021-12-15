@@ -40,60 +40,61 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/reformas-casas">
-                      REFORMAS DE CASAS
-                    </a>
+                    <Link href="/reformas-casas">
+                      <a class="dropdown-item">REFORMAS DE CASAS</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/reformas-pisos">
-                      REFORMAS DE PISOS
-                    </a>
+                    <Link href="/reformas-pisos">
+                      <a class="dropdown-item">REFORMAS DE PISOS</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/reformas-cocinas">
-                      REFORMAS DE COCINAS
-                    </a>
+                    <Link href="/reformas-cocinas">
+                      <a class="dropdown-item">REFORMAS DE COCINAS</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/reformas-banos">
-                      REFORMAS DE BAÑOS
-                    </a>
+                    <Link href="/reformas-baños">
+                      <a class="dropdown-item">REFORMAS DE BAÑOS</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/reformas-fontaneria">
-                      FONTANERÍA Y LAMPISTERÍA
-                    </a>
+                    <Link href="/reformas-fontaneria">
+                      <a class="dropdown-item">FONTANERÍA Y LAMPISTERÍA</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/reformas-parquet">
-                      INSTALACIÓN DE PARQUET Y PUERTAS
-                    </a>
+                    <Link href="/reformas-parquet">
+                      <a class="dropdown-item">
+                        INSTALACIÓN DE PARQUET Y PUERTAS
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/reformas-aluminio">
-                      INSTALACIÓN DE VENTANAS DE ALUMINIO
-                    </a>
+                    <Link href="/reformas-aluminio">
+                      <a class="dropdown-item">
+                        INSTALACIÓN DE VENTANAS DE ALUMINIO
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/reformas-pintura">
-                      PINTURA
-                    </a>
+                    <Link href="/reformas-pintura">
+                      <a class="dropdown-item">PINTURA</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/reformas-comunidad">
-                      COMUNIDAD DE VECINOS
-                    </a>
+                    <Link href="/reformas-comunidad">
+                      <a class="dropdown-item">COMUNIDAD DE VECINOS</a>
+                    </Link>
                   </li>
                   <li>
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="/reformas-disena-presupuesto"
-                    >
-                      DISEÑA TU PROPIO PRESUPUESTO
-                    </a>
+                    <Link href="/reformas-disena-presupuesto">
+                      <a class="dropdown-item">DISEÑA TU PROPIO PRESUPUESTO</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -110,33 +111,27 @@ export default function NavBar() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="/reformas-disena-presupuesto"
-                    >
-                      DISEÑA TU PROPIO PRESUPUESTO
-                    </a>
+                    <Link href="/reformas-disena-presupuesto">
+                      <a class="dropdown-item">DISEÑA TU PROPIO PRESUPUESTO</a>
+                    </Link>
                   </li>
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="/reformas-solicita-presupuesto"
-                    >
-                      SOLICITA PRESUPUESTO ONLINE
-                    </a>
+                    <Link href="/reformas-disena-presupuesto">
+                      <a class="dropdown-item">SOLICITA PRESUPUESTO ONLINE</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/financiacion">
-                      FINANCIACIÓN
-                    </a>
+                    <Link href="/financiacion">
+                      <a class="dropdown-item">FINANCIACIÓN</a>
+                    </Link>
                   </li>
                   <li>
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/contacto">
-                      CONTACTANOS
-                    </a>
+                    <Link href="/contacto">
+                      <a class="dropdown-item">CONTACTANOS</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -153,30 +148,29 @@ export default function NavBar() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a
-                      class="dropdown-item"
-                      href="/reformas-disena-presupuesto"
-                    >
-                      PRECIO ORIENTATIVO<br></br>REFORMA/OBRA
-                    </a>
+                    <Link href="/reformas-disena-presupuesto">
+                      <a class="dropdown-item">
+                        PRECIO ORIENTATIVO<br></br>REFORMA/OBRA
+                      </a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/materiales">
-                      ESCOJE TUS MATERIALES
-                    </a>
+                    <Link href="/materiales">
+                      <a class="dropdown-item">ESCOJE TUS MATERIALES</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      PROMOCIONES
-                    </a>
+                    <Link href="#">
+                      <a class="dropdown-item">PROMOCIONES</a>
+                    </Link>
                   </li>
                   <li>
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="/financiacion">
-                      FINANCIACIÓN
-                    </a>
+                    <Link href="/financiacion">
+                      <a class="dropdown-item">FINANCIACIÓN</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -193,27 +187,27 @@ export default function NavBar() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="#">
-                      DISEÑA TU PROPIA COCINA
-                    </a>
+                    <Link href="#">
+                      <a class="dropdown-item">DISEÑA TU PROPIA COCINA</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      DISEÑA TU PROPIO BAÑO
-                    </a>
+                    <Link href="#">
+                      <a class="dropdown-item">DISEÑA TU PROPIO BAÑO</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      SOLICITA TU DISEÑO 3D
-                    </a>
+                    <Link href="#">
+                      <a class="dropdown-item">SOLICITA TU DISEÑO 3D</a>
+                    </Link>
                   </li>
                   <li>
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      CONTACTANOS
-                    </a>
+                    <Link href="/contacto">
+                      <a class="dropdown-item">CONTACTANOS</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
@@ -230,39 +224,41 @@ export default function NavBar() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="/quienes-somos">
-                      ¿QUIÉNES SOMOS?
-                    </a>
+                    <Link href="/quienes-somos">
+                      <a class="dropdown-item">¿QUIÉNES SOMOS?</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      NUESTROS FABRICANTES
-                    </a>
+                    <Link href="#">
+                      <a class="dropdown-item">NUESTROS FABRICANTES</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      PREGUNTAS FRECUENTES
-                    </a>
+                    <Link href="#">
+                      <a class="dropdown-item">PREGUNTAS FRECUENTES</a>
+                    </Link>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      ¿QUIERES TRABAJAR CON NOSOTROS?
-                    </a>
+                    <Link href="#">
+                      <a class="dropdown-item">
+                        ¿QUIERES TRABAJAR CON NOSOTROS?
+                      </a>
+                    </Link>
                   </li>
                   <li>
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <a class="dropdown-item" href="#">
-                      FILOSOFÍA DE LA EMPRESA
-                    </a>
+                    <Link href="#">
+                      <a class="dropdown-item">FILOSOFÍA DE LA EMPRESA</a>
+                    </Link>
                   </li>
                 </ul>
               </li>
               <li class="nav-item">
-                <a class="nav-link text-white margin" href="/contacto">
-                  CONTACTO
-                </a>
+                <Link href="/contacto">
+                  <a class="nav-link text-white margin">CONTACTO</a>
+                </Link>
               </li>
             </ul>
           </div>

@@ -35,7 +35,7 @@ export default function Home() {
                 <h3>Rellene el Formulario</h3>
                 <form
                   class="formulario"
-                  action="#"
+                  action="send.php"
                   method="post"
                   name="contacto"
                   id="contacto"
@@ -54,7 +54,7 @@ export default function Home() {
                     <input
                       className="input-formulario"
                       type="text"
-                      name="empresa"
+                      name="poblacion"
                       required
                     ></input>
                   </p>

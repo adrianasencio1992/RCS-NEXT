@@ -1,5 +1,6 @@
 import React from "react";
 import SCNavbarMateriales from "./navbar-materiales.styled";
+import Link from "next/link";
 
 export default function NavbarMateriales() {
   return (

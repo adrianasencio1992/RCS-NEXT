@@ -55,7 +55,7 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/reformas-baños">
+                    <Link href="/reformas-banos">
                       <a class="dropdown-item">REFORMAS DE BAÑOS</a>
                     </Link>
                   </li>
@@ -116,7 +116,7 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li>
-                    <Link href="/reformas-disena-presupuesto">
+                    <Link href="/reformas-solicita-presupuesto">
                       <a class="dropdown-item">SOLICITA PRESUPUESTO ONLINE</a>
                     </Link>
                   </li>

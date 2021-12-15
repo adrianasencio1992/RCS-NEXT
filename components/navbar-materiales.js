@@ -13,9 +13,9 @@ export default function NavbarMateriales() {
             <a className="li">COCINAS</a>
             <ul className="sub-ul">
               <li>
-                <a href="/muebles-de-cocina/muebles-cocina">
-                  MUEBLES DE COCINA
-                </a>
+                <Link href="/muebles-de-cocina/muebles-cocina">
+                  <a>MUEBLES DE COCINA</a>
+                </Link>
               </li>
               <li>
                 <a href="#">ENCIMERAS</a>

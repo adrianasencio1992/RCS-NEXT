@@ -21,20 +21,24 @@ export default function MueblesCocina() {
           <a className="link2">Muebles cocina</a>
         </Link>
         <div class="container">
-          <a className="link3" href="/muebles-de-cocina/puertas/puertas-cocina">
-            <div class="card card0">
-              <div class="border">
-                <h2>Puertas</h2>
+          <Link href="/muebles-de-cocina/puertas/puertas-cocina">
+            <a className="link3">
+              <div class="card card0">
+                <div class="border">
+                  <h2>Puertas</h2>
+                </div>
               </div>
-            </div>
-          </a>
-          <a className="link3" href="/muebles-de-cocina/tiradores/tiradores">
-            <div class="card card1">
-              <div class="border">
-                <h2>Tiradores</h2>
+            </a>
+          </Link>
+          <Link href="/muebles-de-cocina/tiradores/tiradores">
+            <a className="link3">
+              <div class="card card1">
+                <div class="border">
+                  <h2>Tiradores</h2>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </Link>
           <a className="link3" href="#">
             <div class="card card2">
               <div class="border">

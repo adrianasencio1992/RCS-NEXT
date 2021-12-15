@@ -49,7 +49,7 @@ export default function Home() {
                       required
                     ></input>
                   </p>
-                  <p>
+                  {/* <p>
                     <label>Población</label>
                     <input
                       className="input-formulario"
@@ -83,7 +83,7 @@ export default function Home() {
                       name="mensaje"
                       required
                     ></textarea>
-                  </p>
+                  </p> */}
                   <p className="full full2">
                     <button className="boton-enviar" type="submit">
                       Enviar

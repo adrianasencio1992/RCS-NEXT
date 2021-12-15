@@ -67,9 +67,9 @@ export default function ReformasParquet() {
             <div className="contacto">
               <h3>Rellene el Formulario</h3>
               <form
+                action="https://formspree.io/f/xyyoynvg"
+                method="POST"
                 class="formulario"
-                action="#"
-                method="post"
                 name="contacto"
                 id="contacto"
               >

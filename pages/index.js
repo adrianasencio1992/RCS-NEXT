@@ -34,9 +34,9 @@ export default function Home() {
               <div className="contacto">
                 <h3>Rellene el Formulario</h3>
                 <form
+                  action="https://formsubmit.co/rcs.reformas@hotmail.com"
+                  method="POST"
                   class="formulario"
-                  action="/pages/send.php"
-                  method="post"
                   name="contacto"
                   id="contacto"
                 >
@@ -49,7 +49,7 @@ export default function Home() {
                       required
                     ></input>
                   </p>
-                  {/* <p>
+                  <p>
                     <label>Población</label>
                     <input
                       className="input-formulario"
@@ -83,7 +83,7 @@ export default function Home() {
                       name="mensaje"
                       required
                     ></textarea>
-                  </p> */}
+                  </p>
                   <p className="full full2">
                     <button className="boton-enviar" type="submit">
                       Enviar

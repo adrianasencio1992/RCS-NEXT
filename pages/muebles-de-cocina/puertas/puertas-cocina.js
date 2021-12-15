@@ -27,26 +27,24 @@ export default function PuertasCocina() {
           </Link>
         </div>
         <div class="container">
-          <a
-            className="link3"
-            href="/muebles-de-cocina/puertas/tirador-puertas"
-          >
-            <div class="card card0">
-              <div class="border">
-                <h2>Con tirador</h2>
+          <Link href="/muebles-de-cocina/puertas/tirador-puertas">
+            <a className="link3">
+              <div class="card card0">
+                <div class="border">
+                  <h2>Con tirador</h2>
+                </div>
               </div>
-            </div>
-          </a>
-          <a
-            className="link3"
-            href="/muebles-de-cocina/puertas/tirador-integrado"
-          >
-            <div class="card card1">
-              <div class="border">
-                <h2>Tirador integrado</h2>
+            </a>
+          </Link>
+          <Link href="/muebles-de-cocina/puertas/tirador-integrado">
+            <a className="link3">
+              <div class="card card1">
+                <div class="border">
+                  <h2>Tirador integrado</h2>
+                </div>
               </div>
-            </div>
-          </a>
+            </a>
+          </Link>
         </div>
       </section>
 

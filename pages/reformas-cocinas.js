@@ -69,7 +69,7 @@ export default function ReformasCocinas() {
             <div className="contacto">
               <h3>Rellene el Formulario</h3>
               <form
-                action="https://formspree.io/f/xyyoynvg"
+                action="https://formsubmit.co/rcs.reformas@hotmail.com"
                 method="POST"
                 class="formulario"
                 name="contacto"

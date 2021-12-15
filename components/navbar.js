@@ -154,7 +154,7 @@ export default function NavBar() {
                       </a>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="/materiales">
                       <a class="dropdown-item">ESCOJE TUS MATERIALES</a>
                     </Link>
@@ -163,7 +163,7 @@ export default function NavBar() {
                     <Link href="#">
                       <a class="dropdown-item">PROMOCIONES</a>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
                     <hr class="dropdown-divider"></hr>
                   </li>
@@ -174,7 +174,7 @@ export default function NavBar() {
                   </li>
                 </ul>
               </li>
-              <li class="nav-item dropdown">
+              {/* <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle text-white"
                   href="#"
@@ -210,7 +210,7 @@ export default function NavBar() {
                     </Link>
                   </li>
                 </ul>
-              </li>
+              </li> */}
               <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle text-white"
@@ -228,7 +228,7 @@ export default function NavBar() {
                       <a class="dropdown-item">¿QUIÉNES SOMOS?</a>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="#">
                       <a class="dropdown-item">NUESTROS FABRICANTES</a>
                     </Link>
@@ -244,15 +244,15 @@ export default function NavBar() {
                         ¿QUIERES TRABAJAR CON NOSOTROS?
                       </a>
                     </Link>
-                  </li>
-                  <li>
+                  </li> */}
+                  {/* <li>
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
                     <Link href="#">
                       <a class="dropdown-item">FILOSOFÍA DE LA EMPRESA</a>
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </li>
               <li class="nav-item">

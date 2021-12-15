@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SCIndex from "./index.styled";
 import SCCarrousel from "../components/carrousel";
 import SCFooter from "../components/footer";
+import Link from "next/dist/client/link";
 
 export default function Home() {
   return (
@@ -156,9 +157,13 @@ export default function Home() {
               ¿Te gustaría saber el precio de tu REFORMA/OBRA en menos de 1
               minuto?
             </p>
-            <a href="/reformas-disena-presupuesto">
-              <button className="button-disena-presupuesto">CLICK AQUÍ</button>
-            </a>
+            <Link href="/reformas-disena-presupuesto">
+              <a>
+                <button className="button-disena-presupuesto">
+                  CLICK AQUÍ
+                </button>
+              </a>
+            </Link>
           </div>
           <div>
             <img className="imagen-disena-presupuesto" src="/chica.png"></img>

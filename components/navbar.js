@@ -1,4 +1,5 @@
 import SCNavBar from "./navbar.styled";
+import Link from "next/link";
 
 export default function NavBar() {
   return (
@@ -34,9 +35,9 @@ export default function NavBar() {
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="/obra-nueva">
-                      OBRA NUEVA
-                    </a>
+                    <Link href="/obra-nueva">
+                      <a class="dropdown-item">OBRA NUEVA</a>
+                    </Link>
                   </li>
                   <li>
                     <a class="dropdown-item" href="/reformas-casas">
@@ -263,7 +264,6 @@ export default function NavBar() {
                   CONTACTO
                 </a>
               </li>
-             
             </ul>
           </div>
         </div>

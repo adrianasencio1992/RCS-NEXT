@@ -208,7 +208,7 @@ ul {
 }
 
 .li7 input:checked {
-  counter-increment: checked 2000;
+  counter-increment: checked 14294;
 }
 
 .li8 input:checked {
@@ -230,6 +230,7 @@ ul {
 .li12 input:checked {
  counter-increment: checked 10000;
 }
+
 .count:after {
   content: counter(checked);
   font-family: 'Oswald';
@@ -238,8 +239,8 @@ ul {
   margin-right: 5px;
   display:flex;
   align-items:center;
-  padding-left: 10px;
-  width: 100px;
+  padding-left: 5px;
+  width: 70px;
   height:30px;
   border-radius:5px;
   border: 1px solid black;

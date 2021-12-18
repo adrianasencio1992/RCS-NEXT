@@ -67,24 +67,24 @@ export default function Fabricantes() {
             </button>
             <button
               class="nav-link"
-              id="nav-contact-tab"
+              id="nav-griferia-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-contact"
+              data-bs-target="#nav-griferia"
               type="button"
               role="tab"
-              aria-controls="nav-contact"
+              aria-controls="nav-griferia"
               aria-selected="false"
             >
               GRIFERÍA
             </button>
             <button
               class="nav-link"
-              id="nav-contact-tab"
+              id="nav-sanitarios-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-contact"
+              data-bs-target="#nav-sanitarios"
               type="button"
               role="tab"
-              aria-controls="nav-contact"
+              aria-controls="nav-sanitarios"
               aria-selected="false"
             >
               SANITARIOS
@@ -244,8 +244,8 @@ export default function Fabricantes() {
             role="tabpanel"
             aria-labelledby="nav-banos-tab"
           >
-            <Link href="https://www.google.es">
-              <a className="espaciado">
+            <Link href="https://uraldi.com/">
+              <a className="espaciado" target="_blank">
                 <Image
                   className="imagen"
                   src="/marcas/uraldii.jpg"
@@ -255,8 +255,19 @@ export default function Fabricantes() {
               </a>
             </Link>
 
-            <Link href="https://www.google.es">
-              <a className="espaciado">
+            <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/sensea.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.roca.es/">
+              <a className="espaciado" target="_blank">
                 <Image
                   className="imagen"
                   src="/marcas/roca.jpg"
@@ -266,8 +277,8 @@ export default function Fabricantes() {
               </a>
             </Link>
 
-            <Link href="https://www.google.es">
-              <a className="espaciado">
+            <Link href="https://www.manillons.com">
+              <a className="espaciado" target="_blank">
                 <Image
                   className="imagen"
                   src="/marcas/mt.jpg"
@@ -285,8 +296,167 @@ export default function Fabricantes() {
             role="tabpanel"
             aria-labelledby="nav-ducha-tab"
           >
-            <Link href="https://www.google.es">
-              <a className="espaciado">
+            <Link href="https://fiorabath.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/fiora.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.kyrya.es">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/kyrya.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.acquabella.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/aquabell.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/sensea.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.gmelorente.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/gme.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.roca.es">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/roca.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+          </div>
+
+          {/* Mamparas*/}
+          <div
+            class="tab-pane fade"
+            id="nav-mampara"
+            role="tabpanel"
+            aria-labelledby="nav-mampara-tab"
+          >
+            <Link href="https://glassinox.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/glass.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.alexban.com/">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/alexbn.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://bylassen.dk">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/Captura-1.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.gmelorente.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/gme.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.mamparasvelvet.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/vee.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/sensea.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+          </div>
+
+          {/*Griferia*/}
+          <div
+            class="tab-pane fade"
+            id="nav-griferia"
+            role="tabpanel"
+            aria-labelledby="nav-griferia-tab"
+          >
+            <Link href="https://tresgriferia.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/Captura.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.roca.es/">
+              <a className="espaciado" target="_blank">
                 <Image
                   className="imagen"
                   src="/marcas/roca.jpg"
@@ -296,22 +466,151 @@ export default function Fabricantes() {
               </a>
             </Link>
 
-            <Link href="https://www.google.es">
-              <a className="espaciado">
+            <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
+              <a className="espaciado" target="_blank">
                 <Image
                   className="imagen"
-                  src="/marcas/uraldii.jpg"
+                  src="/marcas/sensea.png"
                   width="150"
                   height="100"
                 />
               </a>
             </Link>
 
-            <Link href="https://www.google.es">
-              <a className="espaciado">
+            <Link href="https://www.grohe.es/es_es/">
+              <a className="espaciado" target="_blank">
                 <Image
                   className="imagen"
-                  src="/marcas/mt.jpg"
+                  src="/marcas/gr.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.hansa.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/hansa.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.griferiasgalindo.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/galindo.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.teka.com/es-es/">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/teka.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+          </div>
+
+          {/*Sanitarios*/}
+          <div
+            class="tab-pane fade"
+            id="nav-sanitarios"
+            role="tabpanel"
+            aria-labelledby="nav-sanitarios-tab"
+          >
+            <Link href="https://tresgriferia.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/Captura.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.teka.com/es-es/">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/teka.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.roca.es/">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/roca.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/sensea.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.grohe.es/es_es/">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/gr.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.hansa.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/hansa.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.griferiasgalindo.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/galindo.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.griferiasgalindo.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/galindo.jpg"
                   width="150"
                   height="100"
                 />

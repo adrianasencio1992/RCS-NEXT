@@ -1,7 +1,6 @@
 import styled from "styled-components";
 
 const SCFabricantes = styled.section`
- overflow-x: hidden;
  font-family: 'Arial';
  font-size:15px;
  
@@ -61,7 +60,7 @@ const SCFabricantes = styled.section`
   font-size:15px;
   font-family: 'Oswald';
   border:0;
-  margin-bottom:20px;
+ 
   
 }
 
@@ -75,16 +74,30 @@ const SCFabricantes = styled.section`
   text-decoration: underline;
 }
 
+.nav-link:active {
+  color:rgb(236,167,0);
+  text-decoration: underline;
+}
+
 /*CONTENIDO*/
 
 .tab-content{
   margin:30px;
   display:flex;
   justify-content:center;
+  
+}
+
+.active{
+  display:flex;
+  justify-content:center;
+  flex-wrap: wrap;
+  
 }
 
 .espaciado{
   padding:10px;
+  
 }
 
 .imagen:hover{

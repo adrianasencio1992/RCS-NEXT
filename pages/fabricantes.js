@@ -1,8 +1,7 @@
 import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCFabricantes from "./fabricantes.styled";
-import Image from "next/image";
-import Link from "next/dist/client/link";
+import Link from "next/link";
 
 export default function Fabricantes() {
   return (
@@ -248,7 +247,7 @@ export default function Fabricantes() {
           >
             <Link href="https://uraldi.com/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/uraldii.jpg"
                   width="150"
@@ -259,7 +258,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/sensea.png"
                   width="150"
@@ -270,7 +269,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.roca.es/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/roca.jpg"
                   width="150"
@@ -281,7 +280,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.manillons.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/mt.jpg"
                   width="150"
@@ -300,7 +299,7 @@ export default function Fabricantes() {
           >
             <Link href="https://fiorabath.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/fiora.jpg"
                   width="150"
@@ -311,7 +310,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.kyrya.es">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/kyrya.jpg"
                   width="150"
@@ -322,7 +321,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.acquabella.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/aquabell.jpg"
                   width="150"
@@ -333,7 +332,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/sensea.png"
                   width="150"
@@ -344,7 +343,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.gmelorente.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/gme.jpg"
                   width="150"
@@ -355,7 +354,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.roca.es">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/roca.jpg"
                   width="150"
@@ -374,7 +373,7 @@ export default function Fabricantes() {
           >
             <Link href="https://glassinox.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/glass.jpg"
                   width="150"
@@ -385,7 +384,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.alexban.com/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/alexbn.jpg"
                   width="150"
@@ -396,7 +395,7 @@ export default function Fabricantes() {
 
             <Link href="https://bylassen.dk">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/Captura-1.png"
                   width="150"
@@ -407,7 +406,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.gmelorente.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/gme.jpg"
                   width="150"
@@ -418,7 +417,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.mamparasvelvet.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/vee.png"
                   width="150"
@@ -429,7 +428,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/sensea.png"
                   width="150"
@@ -448,7 +447,7 @@ export default function Fabricantes() {
           >
             <Link href="https://tresgriferia.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/Captura.png"
                   width="150"
@@ -459,7 +458,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.roca.es/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/roca.jpg"
                   width="150"
@@ -470,7 +469,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/sensea.png"
                   width="150"
@@ -481,7 +480,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.grohe.es/es_es/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/gr.png"
                   width="150"
@@ -492,7 +491,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.hansa.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/hansa.png"
                   width="150"
@@ -503,7 +502,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.griferiasgalindo.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/galindo.jpg"
                   width="150"
@@ -514,7 +513,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.teka.com/es-es/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/teka.png"
                   width="150"
@@ -533,7 +532,7 @@ export default function Fabricantes() {
           >
             <Link href="https://tresgriferia.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/Captura.png"
                   width="150"
@@ -544,7 +543,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.teka.com/es-es/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/teka.png"
                   width="150"
@@ -555,7 +554,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.roca.es/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/roca.jpg"
                   width="150"
@@ -566,7 +565,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.leroymerlin.es/marcas-de-la-casa/sensea">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/sensea.png"
                   width="150"
@@ -577,7 +576,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.grohe.es/es_es/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/gr.png"
                   width="150"
@@ -588,7 +587,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.hansa.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/hansa.png"
                   width="150"
@@ -599,7 +598,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.griferiasgalindo.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/galindo.jpg"
                   width="150"
@@ -618,7 +617,7 @@ export default function Fabricantes() {
           >
             <Link href="https://www.royogroup.com/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/royogrup.jpg"
                   width="150"
@@ -629,7 +628,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.kyrya.es">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/kyrya.jpg"
                   width="150"
@@ -640,7 +639,7 @@ export default function Fabricantes() {
 
             <Link href="https://fiorabath.com">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/fiora.jpg"
                   width="150"
@@ -651,7 +650,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.visobath.com/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/viso.jpg"
                   width="150"
@@ -662,7 +661,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.bayro.es/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/b.png"
                   width="150"
@@ -673,7 +672,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.doca.es">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/doca.png"
                   width="150"
@@ -684,7 +683,7 @@ export default function Fabricantes() {
 
             <Link href="https://www.cosentino.com/es/dekton/">
               <a className="espaciado" target="_blank">
-                <Image
+                <img
                   className="imagen"
                   src="/marcas/dekton.png"
                   width="150"

@@ -228,12 +228,12 @@ export default function NavBar() {
                       <a class="dropdown-item">¿QUIÉNES SOMOS?</a>
                     </Link>
                   </li>
-                  {/* <li>
-                    <Link href="#">
+                  <li>
+                    <Link href="/fabricantes">
                       <a class="dropdown-item">NUESTROS FABRICANTES</a>
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link href="#">
                       <a class="dropdown-item">PREGUNTAS FRECUENTES</a>
                     </Link>

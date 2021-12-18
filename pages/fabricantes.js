@@ -91,28 +91,17 @@ export default function Fabricantes() {
             </button>
             <button
               class="nav-link"
-              id="nav-contact-tab"
+              id="nav-mueblesbano-tab"
               data-bs-toggle="tab"
-              data-bs-target="#nav-contact"
+              data-bs-target="#nav-mueblesbano"
               type="button"
               role="tab"
-              aria-controls="nav-contact"
+              aria-controls="nav-mueblesbano"
               aria-selected="false"
             >
               MUEBLES DE BAÑO
             </button>
-            <button
-              class="nav-link"
-              id="nav-contact-tab"
-              data-bs-toggle="tab"
-              data-bs-target="#nav-contact"
-              type="button"
-              role="tab"
-              aria-controls="nav-contact"
-              aria-selected="false"
-            >
-              ACCESORIOS DE BAÑO
-            </button>
+
             <button
               class="nav-link"
               id="nav-contact-tab"
@@ -171,8 +160,21 @@ export default function Fabricantes() {
               aria-controls="nav-contact"
               aria-selected="false"
             >
+              ELECTRICIDAD
+            </button>
+            <button
+              class="nav-link"
+              id="nav-contact-tab"
+              data-bs-toggle="tab"
+              data-bs-target="#nav-contact"
+              type="button"
+              role="tab"
+              aria-controls="nav-contact"
+              aria-selected="false"
+            >
               AIRE ACONDICIONADO
             </button>
+
             <button
               class="nav-link"
               id="nav-contact-tab"
@@ -605,12 +607,86 @@ export default function Fabricantes() {
                 />
               </a>
             </Link>
+          </div>
 
-            <Link href="https://www.griferiasgalindo.com">
+          {/*Mueblesbano*/}
+          <div
+            class="tab-pane fade"
+            id="nav-mueblesbano"
+            role="tabpanel"
+            aria-labelledby="nav-mueblesbano-tab"
+          >
+            <Link href="https://www.royogroup.com/">
               <a className="espaciado" target="_blank">
                 <Image
                   className="imagen"
-                  src="/marcas/galindo.jpg"
+                  src="/marcas/royogrup.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.kyrya.es">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/kyrya.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://fiorabath.com">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/fiora.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.visobath.com/">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/viso.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.bayro.es/">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/b.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.doca.es">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/doca.png"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
+            <Link href="https://www.cosentino.com/es/dekton/">
+              <a className="espaciado" target="_blank">
+                <Image
+                  className="imagen"
+                  src="/marcas/dekton.png"
                   width="150"
                   height="100"
                 />

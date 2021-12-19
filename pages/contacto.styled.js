@@ -51,6 +51,19 @@ const SCContacto = styled.section`
 
 /*SECCION CONTACTO*/
 
+.h2-rubi{
+  color:rgb(236,167,0);
+  font-family: 'Oswald';
+  font-size: 25px;
+}
+
+.h2-encontrar{
+  color:black;
+  font-family: 'Oswald';
+  margin-left: 10px;
+  font-size: 25px;
+}
+
 .h2-contacto{
   color:black;
   margin-top:60px;
@@ -171,6 +184,10 @@ const SCContacto = styled.section`
 @media (max-width: 500px) {
   .div-general-contacto{
   margin-left:0;
+}
+}
+}
+}
 }
 
 

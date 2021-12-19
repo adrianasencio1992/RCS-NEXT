@@ -34,10 +34,11 @@ export default function Financiacion() {
                   </div>
                 </div>
                 <div class="text-container">
-                  <h3>Pago con tarjeta hasta 12 MESES</h3>
+                  <h3>Hasta 12 MESES</h3>
                   <div>
-                    Consulte el precio estimado de la reforma de un baño, un
-                    aseo o la sustitución de su bañera por plato de ducha.
+                    Financiamos el precio de tu obra o reforma hasta 12 meses
+                    sin intereses si el pago se realiza con targeta. Consulta
+                    con nuestros profesionales para tu plan de financiación.
                   </div>
                 </div>
               </div>
@@ -57,8 +58,9 @@ export default function Financiacion() {
                 <div class="text-container">
                   <h3>3 PAGOS</h3>
                   <div>
-                    Consulte el precio estimado de la instalación de una nueva
-                    caldera, aire acondicionado o calefacción.
+                    Te ayudamos al pago de tu proyecto con el fraccionamiento de
+                    su coste en 3 cuotas sin intereses. Consulta con nuestros
+                    profesionales para tu plan de financiación.
                   </div>
                 </div>
               </div>
@@ -77,10 +79,11 @@ export default function Financiacion() {
                   </div>
                 </div>
                 <div class="text-container">
-                  <h3>Hasta 36 MESES sin intereses</h3>
+                  <h3>Hasta 36 MESES</h3>
                   <div>
-                    Consulte el precio estimado de la variación de la
-                    instalación electrica en función de su estancia.
+                    Financiamos el precio de tu obra o reforma hasta 36 meses
+                    con entidad bancaria. Consulta con nuestros profesionales
+                    para crear el plan de financiación que más se adapte a ti.
                   </div>
                 </div>
               </div>

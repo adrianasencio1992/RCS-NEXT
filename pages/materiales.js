@@ -17,7 +17,7 @@ export default function Materiales() {
           <div className="div-general-obra">
             <div className="div-general-cartas">
               <div className="div-primera-carta">
-                <img className="imagen-carta" src="/reforma5.png"></img>
+                <img className="imagen-carta" src="/logo-calidad2.png"></img>
                 <div className="div-primera-subcarta">
                   <p className="p2-obra">CALIDAD</p>
                   <p className="p3-obra">
@@ -34,10 +34,10 @@ export default function Materiales() {
                     nuestros productos adaptandonos a tus necesidades.
                   </p>
                 </div>
-                <img className="imagen-carta" src="/reforma7.png"></img>
+                <img className="imagen-carta" src="/logo-precio.png"></img>
               </div>
               <div className="div-primera-carta">
-                <img className="imagen-carta" src="/reforma6.png"></img>
+                <img className="imagen-carta" src="/logo-ladrillos.png"></img>
                 <div className="div-primera-subcarta">
                   <p className="p2-obra">NUESTRA GAMMA</p>
                   <p className="p3-obra">
@@ -55,7 +55,7 @@ export default function Materiales() {
                     un acabado perfecto en el diseño de tu hogar
                   </p>
                 </div>
-                <img className="imagen-carta" src="/reforma7.png"></img>
+                <img className="imagen-carta" src="/logo-medida.png"></img>
               </div>
             </div>
           </div>

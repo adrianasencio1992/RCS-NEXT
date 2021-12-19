@@ -8,7 +8,7 @@ export default function Fabricantes() {
     <SCFabricantes>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Nuestros Fabricantes</h1>
+        <h1 className="h1-obra-nueva">Fabricantes</h1>
         <p className="p-obra-nueva">
           ¡Te presentamos las marcas con las que trabajamos!
         </p>
@@ -1049,7 +1049,7 @@ export default function Fabricantes() {
               </a>
             </Link>
 
-            <Link href="hhttps://www.chaffoteaux.es/es-es/">
+            <Link href="https://www.chaffoteaux.es/es-es/">
               <a className="espaciado" target="_blank">
                 <img
                   className="imagen"
@@ -2869,7 +2869,7 @@ export default function Fabricantes() {
               </a>
             </Link>
 
-            <Link href="hhttps://www.chaffoteaux.es/es-es/">
+            <Link href="https://www.chaffoteaux.es/es-es/">
               <a className="espaciado" target="_blank">
                 <img
                   className="imagen"
@@ -3222,6 +3222,63 @@ export default function Fabricantes() {
                 />
               </a>
             </Link>
+          </div>
+        </div>
+      </section>
+      <section className="section-obra-formulario2">
+        <h2 className="h2-formulario">NUESTROS FABRICANTES</h2>
+        <hr className="hr-formulario"></hr>
+      </section>
+      <section className="section-obra-formulario">
+        <div className="div-general-obra">
+          <div className="div-general-cartas">
+            <div className="div-primera-carta">
+              <img className="imagen-carta" src="/logo-calidad.png"></img>
+              <div className="div-primera-subcarta">
+                <p className="p2-obra">CALIDAD</p>
+                <p className="p3-obra">
+                  Elegimos nuestros fabricantes priorizando la calidad de sus
+                  materiales. De este modo ofrecemos unos resultados de primera
+                  y a la altura de las expectativas de cada cliente.
+                </p>
+              </div>
+            </div>
+            <div className="div-primera-carta2">
+              <div className="div-primera-subcarta2">
+                <p className="p2-obra">PRECIO</p>
+                <p className="p3-obra2">
+                  Te ofrecemos una gran variedad de fabricantes entre los que
+                  elegir los materiales para tu obra o reforma con un amplio
+                  abanico de precios que se adapten a tu bolsillo.
+                </p>
+              </div>
+              <img className="imagen-carta" src="/logo-precio.png"></img>
+            </div>
+            <div className="div-primera-carta">
+              <img className="imagen-carta" src="/logo-ladrillos.png"></img>
+              <div className="div-primera-subcarta">
+                <p className="p2-obra">NUESTRA GAMMA</p>
+                <p className="p3-obra">
+                  Podras elegir entre una gran gamma de productos de distintos
+                  fabricantes para crear el diseño que deseas en cada una de las
+                  estancias de tu hogar.
+                </p>
+              </div>
+            </div>
+            <div className="div-primera-carta2">
+              <div className="div-primera-subcarta2">
+                <p className="p2-obra">FLEXIBILIDAD</p>
+                <p className="p3-obra2">
+                  Nos adaptamos a tus gustos y necesidades para crear tu nuevo
+                  hogar. En caso de que desees productos de fabricantes
+                  concretos, nos encargaremos de conseguirlos para ti.
+                </p>
+              </div>
+              <img
+                className="imagen-carta"
+                src="/logo-flexibilidadmental.png"
+              ></img>
+            </div>
           </div>
         </div>
       </section>

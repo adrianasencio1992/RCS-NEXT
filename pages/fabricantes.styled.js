@@ -100,6 +100,11 @@ const SCFabricantes = styled.section`
   
 }
 
+.imagen{
+  height:100px;
+  width:150px;
+}
+
 .imagen:hover{
   transform: scale(1.2);
 }

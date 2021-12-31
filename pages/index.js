@@ -5,6 +5,7 @@ import SCIndex from "./index.styled";
 import SCCarrousel from "../components/carrousel";
 import SCFooter from "../components/footer";
 import Link from "next/dist/client/link";
+import SCFormulario from "../components/formulario";
 
 export default function Home() {
   return (
@@ -18,82 +19,14 @@ export default function Home() {
       <SCIndex>
         <div id="slider">
           <figure>
-            <img src="/cocina2.jpg" alt=""></img>
-            <img src="/cocina6.jpg" alt=""></img>
-            <img src="/bano1.jpg" alt=""></img>
-            <img src="/cocina.jpg" alt=""></img>
-            <img src="/cocina2.jpg" alt=""></img>
+            <img src="/cocina.jpg" alt="" height="800"></img>
+            <img src="/cocina6.jpg" alt="" height="800"></img>
+            <img src="/bano1.jpg" alt="" height="800"></img>
+            <img src="/cocina2.jpg" alt="" height="800"></img>
+            <img src="/cocina.jpg" alt="" height="800"></img>
           </figure>
         </div>
-        <section className="section-formulario">
-          <div className="contenedor">
-            <div className="wrapper animated bounceInLeft">
-              <div className="info-empresa">
-                <h3>¿Desea un presupuesto GRATUITO?</h3>
-              </div>
-              <div className="contacto">
-                <h3>Rellene el Formulario</h3>
-                <form
-                  action="https://formsubmit.co/rcs.reformas@hotmail.com"
-                  method="POST"
-                  class="formulario"
-                  name="contacto"
-                  id="contacto"
-                >
-                  <p>
-                    <label>Nombre</label>
-                    <input
-                      className="input-formulario"
-                      type="text"
-                      name="nombre"
-                      required
-                    ></input>
-                  </p>
-                  <p>
-                    <label>Población</label>
-                    <input
-                      className="input-formulario"
-                      type="text"
-                      name="poblacion"
-                      required
-                    ></input>
-                  </p>
-                  <p>
-                    <label>Correo</label>
-                    <input
-                      className="input-formulario"
-                      type="email"
-                      name="email"
-                      required
-                    ></input>
-                  </p>
-                  <p>
-                    <label>Teléfono</label>
-                    <input
-                      className="input-formulario"
-                      type="text"
-                      name="teléfono"
-                      required
-                    ></input>
-                  </p>
-                  <p className="full">
-                    <label>Mensaje</label>
-                    <textarea
-                      className="input-formulario"
-                      name="mensaje"
-                      required
-                    ></textarea>
-                  </p>
-                  <p className="full full2">
-                    <button className="boton-enviar" type="submit">
-                      Enviar
-                    </button>
-                  </p>
-                </form>
-              </div>
-            </div>
-          </div>
-        </section>
+        <SCFormulario></SCFormulario>
         <section className="section-provincia">
           <h2 className="h2-provincia">
             REFORMAS EN LA PROVINCIA DE BARCELONA

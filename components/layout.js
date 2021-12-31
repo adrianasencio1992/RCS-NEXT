@@ -96,10 +96,10 @@ export default function Layout({ children }) {
           </div>
         </div>
         <SCNavBar></SCNavBar>
-        <Link href="/reformas-disena-presupuesto">
+        <Link href="/reformas-solicita-presupuesto">
           <div className={styles.divPrecio}>
             <a className={styles.aPrecio}>
-              <h3 className={styles.divH3Precio}>DISEÑA TU PRESUPUESTO</h3>
+              <h3 className={styles.divH3Precio}>SOLICITA TU PRESUPUESTO</h3>
             </a>
           </div>
         </Link>

@@ -10,7 +10,7 @@ function ContadorReformas() {
     <SCDiseñaPresupuesto>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Diseña tu Presupuesto</h1>
+        <h1 className="h1-obra-nueva">Nuestros Precios</h1>
         <p className="p-obra-nueva">
           Pasos para saber el precio de su reforma ¿Empezamos?
         </p>

@@ -107,12 +107,12 @@ export default function NavBar() {
                   data-bs-toggle="dropdown"
                   aria-expanded="false"
                 >
-                  PRESUPUESTOS
+                  PRECIOS
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
                     <Link href="/reformas-disena-presupuesto">
-                      <a class="dropdown-item">DISEÑA TU PROPIO PRESUPUESTO</a>
+                      <a class="dropdown-item">NUESTROS PRECIOS</a>
                     </Link>
                   </li>
                   <li>
@@ -123,35 +123,6 @@ export default function NavBar() {
                   <li>
                     <Link href="/financiacion">
                       <a class="dropdown-item">FINANCIACIÓN</a>
-                    </Link>
-                  </li>
-                  <li>
-                    <hr class="dropdown-divider"></hr>
-                  </li>
-                  <li>
-                    <Link href="/contacto">
-                      <a class="dropdown-item">CONTACTANOS</a>
-                    </Link>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle text-white"
-                  href="#"
-                  id="navbarDropdown"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  PRECIOS
-                </a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                  <li>
-                    <Link href="/reformas-disena-presupuesto">
-                      <a class="dropdown-item">
-                        PRECIO ORIENTATIVO<br></br>REFORMA/OBRA
-                      </a>
                     </Link>
                   </li>
                   {/* <li>
@@ -168,12 +139,13 @@ export default function NavBar() {
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <Link href="/financiacion">
-                      <a class="dropdown-item">FINANCIACIÓN</a>
+                    <Link href="/contacto">
+                      <a class="dropdown-item">CONTACTANOS</a>
                     </Link>
                   </li>
                 </ul>
               </li>
+
               {/* <li class="nav-item dropdown">
                 <a
                   class="nav-link dropdown-toggle text-white"

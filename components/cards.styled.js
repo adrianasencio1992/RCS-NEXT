@@ -141,15 +141,17 @@ body {
 @media (max-width: 588px) {
   .cards {
      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-    
+    gap: 100px 30px;
   }
 }
 
-@media (max-width: 522px) {
+${
+  "" /* @media (max-width: 522px) {
   .cards {
      grid-template-columns: repeat(auto-fit, minmax(160px, 10fr));
      gap: 100px 30px;
   }
+} */
 }
 `;
 

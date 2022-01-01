@@ -46,11 +46,8 @@ const SCObraNueva = styled.section`
 /*SECCION Y FORMULARIO*/
 
   .div-general-obra{
-  width:70%;
-}
-
-.formulario-lateral{
-  width: 30%;
+ 
+  margin:30px 80px;
 }
 
 .section-obra-formulario{
@@ -65,10 +62,7 @@ const SCObraNueva = styled.section`
   }
 }
 
-.div-general-obra{
-  margin:30px 80px;;
-  
-}
+
 
 .p1-obra{
   margin-top:30px;
@@ -91,6 +85,7 @@ const SCObraNueva = styled.section`
   height:4px;
   color: rgb(236,167,0);
   margin:auto;
+  margin-bottom: 10px;
 }
 
 .div-primera-carta{

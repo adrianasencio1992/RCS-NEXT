@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCSliderParquet from "../components/slider-parquet";
 import SCParquet from "./reformas-parquet.styled";
+import SCFormulario from "../components/formulario";
 
 export default function ReformasParquet() {
   return (
@@ -59,77 +60,11 @@ export default function ReformasParquet() {
             </div>
           </div>
         </div>
-        <div className="contenedor">
-          <div className="wrapper animated bounceInLeft">
-            <div className="info-empresa">
-              <h3>¿Desea un presupuesto GRATUITO?</h3>
-            </div>
-            <div className="contacto">
-              <h3>Rellene el Formulario</h3>
-              <form
-                action="https://formsubmit.co/rcs.reformas@hotmail.com"
-                method="POST"
-                class="formulario"
-                name="contacto"
-                id="contacto"
-              >
-                <p>
-                  <label>Nombre</label>
-                  <input
-                    className="input-formulario"
-                    type="text"
-                    name="nombre"
-                    required
-                  ></input>
-                </p>
-                <p>
-                  <label>Población</label>
-                  <input
-                    className="input-formulario"
-                    type="text"
-                    name="empresa"
-                    required
-                  ></input>
-                </p>
-                <p>
-                  <label>Correo</label>
-                  <input
-                    className="input-formulario"
-                    type="email"
-                    name="email"
-                    required
-                  ></input>
-                </p>
-                <p>
-                  <label>Teléfono</label>
-                  <input
-                    className="input-formulario"
-                    type="text"
-                    name="teléfono"
-                    required
-                  ></input>
-                </p>
-                <p className="full">
-                  <label>Mensaje</label>
-                  <textarea
-                    className="input-formulario"
-                    name="mensaje"
-                    required
-                  ></textarea>
-                </p>
-                <p className="full full2">
-                  <button className="boton-enviar" type="submit">
-                    Enviar
-                  </button>
-                </p>
-              </form>
-            </div>
-          </div>
-        </div>
       </section>
       <h2 className="h2-formulario">¡INSPÍRATE!</h2>
       <hr className="hr-formulario"></hr>
       <SCSliderParquet></SCSliderParquet>
+      <SCFormulario></SCFormulario>
       <SCFooter></SCFooter>
     </SCParquet>
   );

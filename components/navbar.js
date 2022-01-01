@@ -93,7 +93,7 @@ export default function NavBar() {
                   </li>
                   <li>
                     <Link href="/reformas-disena-presupuesto">
-                      <a class="dropdown-item">DISEÑA TU PROPIO PRESUPUESTO</a>
+                      <a class="dropdown-item">NUESTROS PRECIOS</a>
                     </Link>
                   </li>
                 </ul>

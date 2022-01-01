@@ -62,11 +62,11 @@ const ObraNueva = () => (
           </div>
         </div>
       </div>
-      <SCFormulario></SCFormulario>
     </section>
     <h2 className="h2-formulario">¡INSPÍRATE!</h2>
     <hr className="hr-formulario"></hr>
     <SCSlider></SCSlider>
+    <SCFormulario></SCFormulario>
     <SCFooter></SCFooter>
   </SCObraNueva>
 );

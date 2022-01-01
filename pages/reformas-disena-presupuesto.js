@@ -4,6 +4,7 @@ import SCFooter from "../components/footer";
 import SCDiseñaPresupuesto from "./reformas-disena-presupuesto.styled";
 import SCCarrouselPresupuestos from "../components/reformas-carrousel-presupuestos";
 import SCCards from "../components/cards";
+import SCFormulario from "../components/formulario";
 
 function ContadorReformas() {
   return (
@@ -153,77 +154,7 @@ function ContadorReformas() {
           </div>
         </ul>
       </form>
-
-      {/* FORMULARIO*/}
-      <section className="section-formulario">
-        <div className="contenedor">
-          <div className="wrapper animated bounceInLeft">
-            <div className="info-empresa">
-              <h3>¿Desea un presupuesto GRATUITO?</h3>
-            </div>
-            <div className="contacto">
-              <h3>Rellene el Formulario</h3>
-              <form
-                action="https://formsubmit.co/rcs.reformas@hotmail.com"
-                method="POST"
-                class="formulario"
-                name="contacto"
-                id="contacto"
-              >
-                <p>
-                  <label>Nombre</label>
-                  <input
-                    className="input-formulario"
-                    type="text"
-                    name="nombre"
-                    required
-                  ></input>
-                </p>
-                <p>
-                  <label>Población</label>
-                  <input
-                    className="input-formulario"
-                    type="text"
-                    name="empresa"
-                    required
-                  ></input>
-                </p>
-                <p>
-                  <label>Correo</label>
-                  <input
-                    className="input-formulario"
-                    type="email"
-                    name="email"
-                    required
-                  ></input>
-                </p>
-                <p>
-                  <label>Teléfono</label>
-                  <input
-                    className="input-formulario"
-                    type="text"
-                    name="teléfono"
-                    required
-                  ></input>
-                </p>
-                <p className="full">
-                  <label>Mensaje</label>
-                  <textarea
-                    className="input-formulario"
-                    name="mensaje"
-                    required
-                  ></textarea>
-                </p>
-                <p className="full full2">
-                  <button className="boton-enviar" type="submit">
-                    Enviar
-                  </button>
-                </p>
-              </form>
-            </div>
-          </div>
-        </div>
-      </section>
+      <SCFormulario></SCFormulario>
       <SCFooter></SCFooter>
     </SCDiseñaPresupuesto>
   );

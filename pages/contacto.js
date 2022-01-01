@@ -1,6 +1,8 @@
+import React from "react";
 import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCContacto from "./contacto.styled";
+import SCFormulario from "../components/formulario";
 
 export default function Contacto() {
   return (
@@ -74,6 +76,7 @@ export default function Contacto() {
           </div>
         </div>
       </section>
+      <SCFormulario></SCFormulario>
       <SCFooter></SCFooter>
     </SCContacto>
   );

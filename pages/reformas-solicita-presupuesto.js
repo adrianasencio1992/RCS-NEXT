@@ -9,7 +9,7 @@ export default function ReformasSolicitaPresupuesto() {
       <Layout></Layout>
       <div className="div-obra-nueva">
         <h1 className="h1-obra-nueva">Solicita tu Presupuesto</h1>
-        <p className="p-obra-nueva">Pasos para pedir cita.</p>
+        <p className="p-obra-nueva">¡Contáctanos ahora!</p>
       </div>
       <SCFormulario></SCFormulario>
       <SCFooter></SCFooter>

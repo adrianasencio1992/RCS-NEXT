@@ -92,8 +92,8 @@ export default function NavBar() {
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>
-                    <Link href="/reformas-disena-presupuesto">
-                      <a class="dropdown-item">NUESTROS PRECIOS</a>
+                    <Link href="/reformas-solicita-presupuesto">
+                      <a class="dropdown-item">CONTACTANOS</a>
                     </Link>
                   </li>
                 </ul>
@@ -201,6 +201,14 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/filosofia-empresa">
+                      <a class="dropdown-item">FILOSOFÍA DE LA EMPRESA</a>
+                    </Link>
+                  </li>
+                  <li>
+                    <hr class="dropdown-divider"></hr>
+                  </li>
+                  <li>
                     <Link href="/fabricantes">
                       <a class="dropdown-item">NUESTROS FABRICANTES</a>
                     </Link>
@@ -215,14 +223,6 @@ export default function NavBar() {
                       <a class="dropdown-item">
                         ¿QUIERES TRABAJAR CON NOSOTROS?
                       </a>
-                    </Link>
-                  </li> */}
-                  {/* <li>
-                    <hr class="dropdown-divider"></hr>
-                  </li>
-                  <li>
-                    <Link href="#">
-                      <a class="dropdown-item">FILOSOFÍA DE LA EMPRESA</a>
                     </Link>
                   </li> */}
                 </ul>

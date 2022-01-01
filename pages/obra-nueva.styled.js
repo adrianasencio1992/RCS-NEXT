@@ -17,6 +17,7 @@ const SCObraNueva = styled.section`
     background-color: white;
     height: 400px;
     overflow-x: hidden;
+    z-index: 1000;
   }
 
   @media only screen and (max-width: 500px) {

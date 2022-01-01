@@ -6,7 +6,8 @@ const SCCarrousel = styled.section`
   }
   
 .section-opiniones{
-  background: rgb(244,244,244);
+  background: white;
+  margin-top: 50px;
 }
 
 .h2-opiniones{
@@ -59,7 +60,7 @@ ul.slider li {
     width: inherit;
     height: inherit;
     transition: opacity .3s;
-    background:rgb(244,244,244);
+    background:white;
     display: flex;
   justify-content: center;
   align-items: center;
@@ -99,7 +100,6 @@ ul.slider li:target {
   justify-content: center;
   align-items:center;
   margin-right:5px;
-  margin-top:20px;
   color: white;
   text-decoration: none;
   background-color: rgb(236,167,0);
@@ -188,15 +188,23 @@ span{
 @media (max-width: 650px) {
   .div-general-comentarios {
      width: 500px;
+     height: 300px;
+  }
+
+  .menu li a{
+    margin-top:10px;
   }
 }
 
 @media (max-width: 520px) {
   .div-general-comentarios {
      width: 400px;
-     height: 300px;
+     height: 320px;
      flex-direction: column;
-     
+  }
+
+  .menu li a{
+    margin-top:20px;
   }
 }
 

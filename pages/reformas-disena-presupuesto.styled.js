@@ -184,27 +184,27 @@ ul {
 }
 
 .li1 input:checked {
-  counter-increment: checked 6500;
+  counter-increment: checked 7369;
 }
 
 .li2 input:checked {
-  counter-increment: checked 10000;
+  counter-increment: checked 4210;
 }
 
 .li3 input:checked {
-  counter-increment: checked 5000;
+  counter-increment: checked 1990;
 }
 
 .li4 input:checked {
-  counter-increment: checked 7000;
+  counter-increment: checked 5226;
 }
 
 .li5 input:checked {
-  counter-increment: checked 3000;
+  counter-increment: checked 1190;
 }
 
 .li6 input:checked {
-  counter-increment: checked 1000;
+  counter-increment: checked 1099;
 }
 
 .li7 input:checked {
@@ -212,23 +212,23 @@ ul {
 }
 
 .li8 input:checked {
-  counter-increment: checked 4000;
+  counter-increment: checked 3189;
 }
 
 .li9 input:checked {
-  counter-increment: checked 6000;
+  counter-increment: checked 4946;
 }
 
 .li10 input:checked {
-  counter-increment: checked 8000;
+  counter-increment: checked 3485;
 }
 
 .li11 input:checked {
-  counter-increment: checked 10000;
+  counter-increment: checked 5820;
 }
 
 .li12 input:checked {
- counter-increment: checked 10000;
+ counter-increment: checked 6410;
 }
 
 .count:after {

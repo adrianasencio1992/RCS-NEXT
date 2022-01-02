@@ -13,13 +13,13 @@ div#slider figure img { width: 20%; float: left; }
 div#slider figure { 
   position: relative;
   width: 500%;
-
   margin: 0;
   left: 0;
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite; /*el movimiento se va a mantener de forma indefinida -infinito-*/
 }
+
 
 
 /*esta parte del código define el movimiento de las imágenes a la izquierda*/

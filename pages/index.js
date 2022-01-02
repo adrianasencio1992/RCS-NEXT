@@ -19,11 +19,11 @@ export default function Home() {
       <SCIndex>
         <div id="slider">
           <figure>
-            <img src="/cocina.jpg" alt="" height="800"></img>
-            <img src="/cocina6.jpg" alt="" height="800"></img>
-            <img src="/bano1.jpg" alt="" height="800"></img>
-            <img src="/cocina2.jpg" alt="" height="800"></img>
-            <img src="/cocina.jpg" alt="" height="800"></img>
+            <img className="imagen-slider" src="/cocina-ok.jpg" alt=""></img>
+            <img className="imagen-slider" src="/cocina6-ok.jpg" alt=""></img>
+            <img className="imagen-slider" src="/bano1-ok.jpg" alt=""></img>
+            <img className="imagen-slider" src="/cocina2-ok.jpg" alt=""></img>
+            <img className="imagen-slider" src="/cocina-ok.jpg" alt=""></img>
           </figure>
         </div>
         <SCFormulario></SCFormulario>

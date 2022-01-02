@@ -141,6 +141,7 @@ td{
 .p-iva{
   font-style: oblique;
   margin-bottom:10px;
+  margin-top:10px;
 }
 
 .cocina-tabla-manodeobra{

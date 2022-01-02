@@ -57,25 +57,20 @@ const SCFilosofia = styled.section`
 
 .h2-principal{
   color:white;
-  margin-top:60px;
-  margin-bottom:20px;
+  margin-top:40px;
+  margin-bottom:30px;
   font-family: 'Oswald','Arial';
   text-align: center; 
 }
-
-.hr-principal{
-  width:100px;
-  height:4px;
-  color: white;
-  margin:auto;
-  margin-bottom: 50px;
-}
-
 
 /*Seccion mision */
 
 .section-filosofia{
   margin-top: 120px;
+}
+
+.section-filosofia-vision{
+  margin-top: 50px;
 }
 
 .div-contenedor-mision{
@@ -84,23 +79,97 @@ const SCFilosofia = styled.section`
   
 }
 
+.div-contenedor-vision{
+  display:flex;
+  flex-direction: row-reverse;
+  
+}
+
 .foto{
   width: 400px;
-  height:300px;
+  height:360px;
   object-fit: cover;
   position: relative;
   top: 50px;
   left:50px;
+}
 
+.foto-vision{
+  width: 400px;
+  height:360px;
+  object-fit: cover;
+  position: relative;
+  top: 50px;
+  left:-50px;
 }
 
 .div-contenedor-texto{
-  background: linear-gradient(to right, rgb(236,167,0),rgb(236,167,0) , white);
+  background-color: rgb(254,187,47);
+  width:100%;
+  height:460px;
+  padding-left: 100px;
+  padding-right: 70px;
+  padding-bottom:40px;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+}
+
+.div-contenedor-texto-vision{
+  background: linear-gradient(to left,darkorange,darkorange , white);
   width:100%;
   padding-left: 100px;
   padding-right: 70px;
+  padding-bottom:40px;
 }
 
+.posicionamiento-span{
+  display:flex;
+  flex-direction:row;
+  align-items: flex-start;
+  margin:0;
+}
+
+.span-flechas{
+  font-size: 30px;
+  color: white;
+  margin-right:20px;
+  position: relative;
+  top: -12px;
+}
+
+.p-texto{
+  color: black;
+  font-size:14px;
+}
+
+
+/*MEDIA QUERY*/
+@media (max-width: 1170px) {
+  .p-texto{
+    width:500px;
+  }
+}
+
+@media (max-width: 1070px) {
+  .p-texto{
+    width:400px;
+  }
+
+  .div-contenedor-texto{
+    height:480px;
+  }
+}
+
+@media (max-width: 980px) {
+  .div-contenedor-mision{
+    flex-direction:column;
+  }
+
+  .p-texto{
+    width:100%;
+  }
+}
 
 `;
 

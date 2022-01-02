@@ -199,7 +199,7 @@ export default function ReformasCarrouselPresupuestos() {
       >
         <div class="offcanvas-header">
           <h5 id="offcanvasRightLabel">
-            PRESUPUESTO COCINA - PRECIO TOTAL COCINA COMPLETA 14.294,50€
+            PRESUPUESTO COCINA - PRECIO TOTAL COCINA COMPLETA - 14.294,50€
           </h5>
           <button
             type="button"
@@ -494,7 +494,11 @@ export default function ReformasCarrouselPresupuestos() {
               <td>7.681€</td>
             </tr>
           </table>
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
 
           {/* Mano de obra cocina */}
           <table>
@@ -866,7 +870,11 @@ export default function ReformasCarrouselPresupuestos() {
               <td>6.613,50€</td>
             </tr>
           </table>
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
         </div>
       </div>
 
@@ -879,7 +887,7 @@ export default function ReformasCarrouselPresupuestos() {
       >
         <div class="offcanvas-header">
           <h5 id="offcanvasRightLabel">
-            PRESUPUESTO BAÑO PRECIO TOTAL BAÑO COMPLET0 ((14.294,50€))
+            PRESUPUESTO BAÑO - PRECIO TOTAL BAÑO COMPLET0 - 7.369€
           </h5>
           <button
             type="button"
@@ -955,9 +963,9 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td className="td-texto">Techo de pladur</td>
 
-              <td>20€</td>
+              <td>30€</td>
 
-              <td>80€</td>
+              <td>120€</td>
             </tr>
 
             <tr className="td-naranja">
@@ -1073,9 +1081,9 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td className="td-texto">Mampara</td>
 
-              <td>300€</td>
+              <td>380€</td>
 
-              <td>300€</td>
+              <td>380€</td>
             </tr>
 
             <tr>
@@ -1132,10 +1140,14 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>7.681€</td>
+              <td>3.089€</td>
             </tr>
           </table>
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
 
           {/* Mano de obra baño */}
           <table>
@@ -1162,46 +1174,23 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>ud</td>
 
+              <td className="td-texto">Desmontar Techo alumino o pladur</td>
+
+              <td>60€</td>
+
+              <td>60€</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
               <td className="td-texto">Desmontar WC</td>
 
-              <td>135€</td>
+              <td>30€</td>
 
-              <td>135€</td>
-            </tr>
-
-            <tr>
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">Desmontar Horno</td>
-
-              <td>15€</td>
-
-              <td>15€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>36</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">Desmontar Campana extractora</td>
-
-              <td>20€</td>
-
-              <td>20€</td>
-            </tr>
-            <tr>
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">Desmontar fregadera</td>
-
-              <td>20€</td>
-
-              <td>20€</td>
+              <td>30€</td>
             </tr>
 
             <tr className="td-naranja">
@@ -1209,40 +1198,63 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>ud</td>
 
-              <td className="td-texto">Desmontar Vitro</td>
+              <td className="td-texto">Desmontar Mueble de baño y espejo</td>
 
-              <td>15€</td>
+              <td>40€</td>
 
-              <td>15€</td>
+              <td>40€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar mampara</td>
+
+              <td>40€</td>
+
+              <td>40€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar bidet</td>
+
+              <td>25€</td>
+
+              <td>25€</td>
             </tr>
 
             <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Desmontar Bañera o plato de ducha</td>
+
+              <td>80€</td>
+
+              <td>80€</td>
+            </tr>
+            <tr className="td-naranja">
               <td>1</td>
 
               <td>ud</td>
 
               <td className="td-texto">
-                Desmontar encimera de madera o marmol
+                Retirada de mobiliario a la deixalleria
               </td>
 
               <td>55€</td>
 
               <td>55€</td>
             </tr>
-            <tr className="td-naranja">
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">Desmontar falso techo</td>
-
-              <td>95€</td>
-
-              <td>95€</td>
-            </tr>
 
             <tr>
-              <td>28</td>
+              <td>20</td>
 
               <td>m2</td>
 
@@ -1252,11 +1264,11 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>15€</td>
 
-              <td>420€</td>
+              <td>300€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>8</td>
+              <td>4</td>
 
               <td>m2</td>
 
@@ -1266,10 +1278,10 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>25€</td>
 
-              <td>200€</td>
+              <td>100€</td>
             </tr>
             <tr>
-              <td>8</td>
+              <td>4</td>
 
               <td>ml</td>
 
@@ -1279,11 +1291,11 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>30€</td>
 
-              <td>240€</td>
+              <td>120€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>28</td>
+              <td>20</td>
 
               <td>m2</td>
 
@@ -1291,11 +1303,11 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>22€</td>
 
-              <td>616€</td>
+              <td>440€</td>
             </tr>
 
             <tr>
-              <td>28</td>
+              <td>20</td>
 
               <td>m2</td>
 
@@ -1305,10 +1317,10 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>45€</td>
 
-              <td>1.260€</td>
+              <td>900€</td>
             </tr>
             <tr className="td-naranja">
-              <td>8</td>
+              <td>4</td>
 
               <td>m2</td>
 
@@ -1316,9 +1328,9 @@ export default function ReformasCarrouselPresupuestos() {
                 Colocación pavimento del suelo incluido borada
               </td>
 
-              <td>45€</td>
+              <td>55€</td>
 
-              <td>360€</td>
+              <td>220€</td>
             </tr>
 
             <tr>
@@ -1328,9 +1340,9 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td className="td-texto">Instalación de agua completa</td>
 
-              <td>428€</td>
+              <td>450€</td>
 
-              <td>428€</td>
+              <td>450€</td>
             </tr>
 
             <tr className="td-naranja">
@@ -1340,20 +1352,20 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td className="td-texto">Instalación de luz completa</td>
 
-              <td>355€</td>
+              <td>285€</td>
 
-              <td>355€</td>
+              <td>285€</td>
             </tr>
             <tr>
               <td>1</td>
 
               <td>ud</td>
 
-              <td className="td-texto">Instalación desague</td>
+              <td className="td-texto">Instalación desagues</td>
 
-              <td>95€</td>
+              <td>175€</td>
 
-              <td>95€</td>
+              <td>175€</td>
             </tr>
             <tr className="td-naranja">
               <td>1</td>
@@ -1361,7 +1373,7 @@ export default function ReformasCarrouselPresupuestos() {
               <td>ud</td>
 
               <td className="td-texto">
-                Desmontar tapetas puerta y volver a colocar
+                Desmontar tapetas puerta y volverlas a colocar
               </td>
 
               <td>45€</td>
@@ -1391,37 +1403,33 @@ export default function ReformasCarrouselPresupuestos() {
               <td>20€</td>
             </tr>
             <tr>
-              <td>4,50</td>
+              <td>1</td>
 
-              <td>ml</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Colocación muebles de cocina altos y bajos
-              </td>
+              <td className="td-texto">Colocación plato de ducha o bañera</td>
 
-              <td>225€</td>
+              <td>110€</td>
 
-              <td>1.012,50€</td>
+              <td>110€</td>
             </tr>
             <tr className="td-naranja">
               <td>1</td>
 
               <td>ud</td>
 
-              <td className="td-texto">Colocación de campana extractora</td>
+              <td className="td-texto">Colocación mampara</td>
 
-              <td>70€</td>
+              <td>110€</td>
 
-              <td>70€</td>
+              <td>110€</td>
             </tr>
             <tr>
               <td>1</td>
 
               <td>ud</td>
 
-              <td className="td-texto">
-                Colocación fregadera, grifería y desague
-              </td>
+              <td className="td-texto">Colocación grifería ducha</td>
 
               <td>80€</td>
 
@@ -1432,49 +1440,50 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>ud</td>
 
-              <td className="td-texto">Colocación vitro</td>
-
-              <td>40€</td>
-
-              <td>40€</td>
-            </tr>
-            <tr>
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">Colocación horno</td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>1</td>
-
-              <td>ud</td>
-
-              <td className="td-texto">Colocación Microondas</td>
-
-              <td>30€</td>
-
-              <td>30€</td>
-            </tr>
-            <tr>
-              <td>3,20</td>
-
-              <td>ml</td>
-
               <td className="td-texto">
-                Colocación encimera silestone o granito
+                Colocación Pack mueble de baño 120cm + lavabo + espejo + aplique
+                LED
               </td>
 
-              <td>98€</td>
+              <td>80€</td>
 
-              <td>313€</td>
+              <td>80€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación Water</td>
+
+              <td>60€</td>
+
+              <td>60€</td>
             </tr>
             <tr className="td-naranja">
-              <td>8</td>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación Bidet</td>
+
+              <td>45€</td>
+
+              <td>45€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Colocación grifería lavabo</td>
+
+              <td>25€</td>
+
+              <td>25€</td>
+            </tr>
+            <tr className="td-naranja">
+              <td>4</td>
 
               <td>m2</td>
 
@@ -1482,10 +1491,10 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td>60€</td>
 
-              <td>480€</td>
+              <td>240€</td>
             </tr>
             <tr>
-              <td>8</td>
+              <td>4</td>
 
               <td>m2</td>
 
@@ -1493,9 +1502,9 @@ export default function ReformasCarrouselPresupuestos() {
                 Encitar, lijar y pintar techo de pladur
               </td>
 
-              <td>18€</td>
+              <td>30€</td>
 
-              <td>144€</td>
+              <td>120€</td>
             </tr>
 
             <tr className="td-naranja-oscuro">
@@ -1504,10 +1513,14 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>6.613,50€</td>
+              <td>4.280€</td>
             </tr>
           </table>
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
         </div>
       </div>
 
@@ -1563,7 +1576,7 @@ export default function ReformasCarrouselPresupuestos() {
               <td>m2</td>
 
               <td className="td-texto">
-                Saca autorizada + retirada de saca (posibles regatas paleta))
+                Saca autorizada + retirada de saca (posibles regatas paleta)
               </td>
 
               <td>50€</td>
@@ -1580,9 +1593,9 @@ export default function ReformasCarrouselPresupuestos() {
                 Caldera condensacion eco 24/24f baxi o similar
               </td>
 
-              <td>1.180€</td>
+              <td>1.099€</td>
 
-              <td>1.189€</td>
+              <td>1.099€</td>
             </tr>
             <tr>
               <td>1</td>
@@ -1727,8 +1740,8 @@ export default function ReformasCarrouselPresupuestos() {
               <td>uds</td>
 
               <td className="td-texto">
-                Tubo multicapa norma une + piezas especiales( precio por
-                radiador )
+                Tubo multicapa norma une + piezas especiales (precio por
+                radiador)
               </td>
 
               <td>35€</td>
@@ -1752,7 +1765,7 @@ export default function ReformasCarrouselPresupuestos() {
               <td>uds</td>
 
               <td className="td-texto">
-                Juego tuercas -biconos multicapa 16x2
+                Juego tuercas - biconos multicapa 16x2
               </td>
 
               <td>20€</td>
@@ -1790,9 +1803,9 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td className="td-texto">Mano de obra profesional lampista</td>
 
-              <td>1.600€</td>
+              <td>1.495€</td>
 
-              <td>1.600€</td>
+              <td>1.495€</td>
             </tr>
             <tr className="td-naranja">
               <td>1</td>
@@ -1801,9 +1814,9 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td className="td-texto">Mano de obra profesional paleta</td>
 
-              <td>1.100€</td>
+              <td>980€</td>
 
-              <td>1.100€</td>
+              <td>980€</td>
             </tr>
 
             <tr className="td-naranja-oscuro">
@@ -1812,11 +1825,15 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>5.541€</td>
+              <td>5.226€</td>
             </tr>
           </table>
 
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
           <table>
             <tr className="td-naranja-oscuro">
               <th> UNIDADES </th>
@@ -1841,9 +1858,9 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td className="td-texto">Split fujitsu o similar</td>
 
-              <td>7450€</td>
+              <td>685€</td>
 
-              <td>745€</td>
+              <td>685€</td>
             </tr>
 
             <tr>
@@ -1853,9 +1870,9 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td className="td-texto">Tubo aislado de 1/4x3/8 hasta 5ml</td>
 
-              <td>80€</td>
+              <td>75€</td>
 
-              <td>80€</td>
+              <td>75€</td>
             </tr>
 
             <tr className="td-naranja">
@@ -1867,9 +1884,9 @@ export default function ReformasCarrouselPresupuestos() {
                 Juego de soportes reforzado 50x40 + kit antivibrante
               </td>
 
-              <td>80€</td>
+              <td>75€</td>
 
-              <td>80€</td>
+              <td>75€</td>
             </tr>
             <tr>
               <td>1</td>
@@ -1880,9 +1897,9 @@ export default function ReformasCarrouselPresupuestos() {
                 Canaleta para instalacion vista split 1x1
               </td>
 
-              <td>65€</td>
+              <td>60€</td>
 
-              <td>65€</td>
+              <td>60€</td>
             </tr>
 
             <tr className="td-naranja">
@@ -1892,9 +1909,9 @@ export default function ReformasCarrouselPresupuestos() {
 
               <td className="td-texto">Mano de obra profesional frigorista</td>
 
-              <td>380€</td>
+              <td>295€</td>
 
-              <td>380€</td>
+              <td>295€</td>
             </tr>
 
             <tr className="td-naranja-oscuro">
@@ -1903,10 +1920,14 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>1.350€</td>
+              <td>1.190€</td>
             </tr>
           </table>
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
         </div>
       </div>
 
@@ -1918,7 +1939,9 @@ export default function ReformasCarrouselPresupuestos() {
         aria-labelledby="offcanvasRightLabel"
       >
         <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">PRESUPUESTO ELECTRICIDAD</h5>
+          <h5 id="offcanvasRightLabel">
+            PRESUPUESTO ELECTRICIDAD - Piso 75 m2 - 5.820€
+          </h5>
           <button
             type="button"
             class="btn-close text-reset"
@@ -1945,242 +1968,65 @@ export default function ReformasCarrouselPresupuestos() {
             </tr>
 
             <tr className="td-naranja">
-              <td>25</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
+                Materiales electricidad (incluye cableados, tubos,
+                magnetotermico, caja de empalmes, cajetines...)
               </td>
 
-              <td>25€</td>
+              <td>995€</td>
 
-              <td>25€</td>
+              <td>995€</td>
             </tr>
 
             <tr>
-              <td>7</td>
+              <td>35</td>
 
-              <td>m2</td>
+              <td>uds</td>
 
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Enchufes a elegir</td>
 
-              <td>25€</td>
+              <td>15€</td>
 
-              <td>175€</td>
+              <td>570€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>32</td>
+              <td>16</td>
 
-              <td>m2</td>
+              <td>uds</td>
 
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
+              <td className="td-texto">Interruptores a elegir</td>
 
-              <td>11€</td>
+              <td>15€</td>
 
-              <td>352€</td>
+              <td>240€</td>
             </tr>
             <tr>
-              <td>25</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Mano de obra profesional paleta</td>
 
-              <td>25€</td>
+              <td>1.935€</td>
 
-              <td>25€</td>
+              <td>1.935€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>7</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Mano de obra profesional lampista</td>
 
-              <td>25€</td>
+              <td>2.080€</td>
 
-              <td>175€</td>
-            </tr>
-
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr>
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr>
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr>
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>3522€</td>
+              <td>2.080€</td>
             </tr>
 
             <tr className="td-naranja-oscuro">
@@ -2189,10 +2035,14 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>7.900€</td>
+              <td>5.820€</td>
             </tr>
           </table>
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
         </div>
       </div>
 
@@ -2204,7 +2054,7 @@ export default function ReformasCarrouselPresupuestos() {
         aria-labelledby="offcanvasRightLabel"
       >
         <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">PRESUPUESTO PARQUET</h5>
+          <h5 id="offcanvasRightLabel">PRESUPUESTO PARQUET Y PUERTAS</h5>
           <button
             type="button"
             class="btn-close text-reset"
@@ -2219,7 +2069,7 @@ export default function ReformasCarrouselPresupuestos() {
 
               <th>TIPO</th>
 
-              <th>CONCEPTO</th>
+              <th>PARQUET</th>
 
               <th>
                 PRECIO<br></br>UNIDAD
@@ -2231,242 +2081,62 @@ export default function ReformasCarrouselPresupuestos() {
             </tr>
 
             <tr className="td-naranja">
-              <td>25</td>
+              <td>65</td>
 
               <td>m2</td>
 
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Parquet AC-5</td>
 
-              <td>25€</td>
+              <td>16€</td>
 
-              <td>25€</td>
+              <td>1.040€</td>
             </tr>
 
             <tr>
-              <td>7</td>
+              <td>70</td>
 
-              <td>m2</td>
+              <td>ml</td>
 
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Zocalo canto recto</td>
 
-              <td>25€</td>
+              <td>4,50€</td>
 
-              <td>175€</td>
+              <td>315€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>32</td>
+              <td>65</td>
 
               <td>m2</td>
 
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
+              <td className="td-texto">Espuma gold alta densidad caucho</td>
 
-              <td>11€</td>
+              <td>2,30€</td>
 
-              <td>352€</td>
+              <td>149,50€</td>
             </tr>
             <tr>
-              <td>25</td>
+              <td>4</td>
 
-              <td>m2</td>
+              <td>uds</td>
 
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Pletina suelo</td>
 
-              <td>25€</td>
+              <td>15€</td>
 
-              <td>25€</td>
+              <td>60€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>7</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Mano de obra profesional carpintero</td>
 
-              <td>25€</td>
+              <td>1.625€</td>
 
-              <td>175€</td>
-            </tr>
-
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr>
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr>
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr>
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>3522€</td>
+              <td>1.625€</td>
             </tr>
 
             <tr className="td-naranja-oscuro">
@@ -2475,10 +2145,150 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>7.900€</td>
+              <td>3.189€</td>
             </tr>
           </table>
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
+          <table>
+            <tr className="td-naranja-oscuro">
+              <th> UNIDADES </th>
+
+              <th>TIPO</th>
+
+              <th>PUERTAS</th>
+
+              <th>
+                PRECIO<br></br>UNIDAD
+              </th>
+
+              <th>
+                PRECIO<br></br>TOTAL
+              </th>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>7</td>
+
+              <td>uds</td>
+
+              <td className="td-texto">
+                Puerta ciega lisa + tapetas + batientes + herrajes
+              </td>
+
+              <td>245€</td>
+
+              <td>1.715€</td>
+            </tr>
+
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Puerta cristalera lisa + tapetas + batientes + herrajes 4v o 3v
+              </td>
+
+              <td>355€</td>
+
+              <td>355€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Cristales doble mate al corte</td>
+
+              <td>115€</td>
+
+              <td>115€</td>
+            </tr>
+            <tr>
+              <td>8</td>
+
+              <td>uds</td>
+
+              <td className="td-texto">
+                Maneta inoxidable a escoger según catálogo
+              </td>
+
+              <td>32€</td>
+
+              <td>256€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Puerta entrada nueva blindada laca-xapa
+              </td>
+
+              <td>545€</td>
+
+              <td>545€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Cerradura de seguridad tipo arcus o similar antipalanca
+              </td>
+
+              <td>300€</td>
+
+              <td>300€</td>
+            </tr>
+
+            <tr className="td-naranja">
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">
+                Pomo i mirilla plateados nuevos puerta de entrada
+              </td>
+
+              <td>60€</td>
+
+              <td>60€</td>
+            </tr>
+            <tr>
+              <td>1</td>
+
+              <td>ud</td>
+
+              <td className="td-texto">Mano de obra profesional Carpintero</td>
+
+              <td>1.600€</td>
+
+              <td>1.600€</td>
+            </tr>
+
+            <tr className="td-naranja-oscuro">
+              <td className="td-blanco"></td>
+              <td className="td-blanco"></td>
+              <td className="td-blanco"></td>
+              <td>TOTAL</td>
+
+              <td>4.946€</td>
+            </tr>
+          </table>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
         </div>
       </div>
 
@@ -2490,7 +2300,7 @@ export default function ReformasCarrouselPresupuestos() {
         aria-labelledby="offcanvasRightLabel"
       >
         <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">PRESUPUESTO ALUMINIO</h5>
+          <h5 id="offcanvasRightLabel">PRESUPUESTO ALUMINIO - 6.410€</h5>
           <button
             type="button"
             class="btn-close text-reset"
@@ -2517,242 +2327,125 @@ export default function ReformasCarrouselPresupuestos() {
             </tr>
 
             <tr className="td-naranja">
-              <td>25</td>
+              <td>1</td>
 
               <td>m2</td>
 
               <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
+                Perfileria, herrajes y cristales ventana cocina
               </td>
 
-              <td>25€</td>
+              <td>190€</td>
 
-              <td>25€</td>
+              <td>190€</td>
             </tr>
 
             <tr>
-              <td>7</td>
+              <td>1</td>
 
               <td>m2</td>
 
               <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
+                Perfileria, herrajes y cristales puerta cocina
               </td>
 
-              <td>25€</td>
+              <td>310€</td>
 
-              <td>175€</td>
+              <td>310€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>32</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
+                Perfileria, herrajes y cristales corredera galeria
               </td>
 
-              <td>11€</td>
+              <td>325€</td>
 
-              <td>352€</td>
+              <td>325€</td>
             </tr>
             <tr>
-              <td>25</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
+                Perfileria, herrajes y cristales ventana baño
               </td>
 
-              <td>25€</td>
+              <td>180€</td>
 
-              <td>25€</td>
+              <td>180€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>7</td>
+              <td>1</td>
 
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
+                Perfileria, herrajes y cristales ventana habitacion 1
               </td>
 
-              <td>11€</td>
+              <td>325€</td>
 
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
+              <td>325€</td>
             </tr>
 
             <tr>
-              <td>7</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
+                Perfileria, herrajes y cristales ventana habitacion 2
               </td>
 
-              <td>25€</td>
+              <td>325€</td>
 
-              <td>175€</td>
+              <td>325€</td>
             </tr>
-
             <tr className="td-naranja">
-              <td>32</td>
+              <td>1</td>
 
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr>
-              <td>25</td>
-
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
+                Perfileria, herrajes y cristales ventana habitacion 3
               </td>
 
-              <td>25€</td>
+              <td>325€</td>
 
-              <td>25€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
+              <td>325€</td>
             </tr>
 
             <tr>
-              <td>32</td>
+              <td>1</td>
 
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>25</td>
-
-              <td>m2</td>
+              <td>ud</td>
 
               <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
+                Perfileria, herrajes y cristales corredera comedor
               </td>
 
-              <td>25€</td>
+              <td>520€</td>
 
-              <td>25€</td>
-            </tr>
-
-            <tr>
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
+              <td>520€</td>
             </tr>
 
             <tr className="td-naranja">
-              <td>32</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
+              <td className="td-texto">Mano de obra profesional carpintero</td>
 
-              <td>11€</td>
+              <td>3.910€</td>
 
-              <td>352€</td>
-            </tr>
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>3522€</td>
+              <td>3.910€</td>
             </tr>
 
             <tr className="td-naranja-oscuro">
@@ -2761,10 +2454,19 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>7.900€</td>
+              <td>6.410€</td>
             </tr>
           </table>
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Aluminio en blanco lacado con rotura de puente térmico en: 3
+            habitaciones, corredera en comedor con forro recto y vidrio de
+            camara bajo emisivo, con vidrio de camara en cocina, galeria y baño
+          </p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
         </div>
       </div>
 
@@ -2776,7 +2478,7 @@ export default function ReformasCarrouselPresupuestos() {
         aria-labelledby="offcanvasRightLabel"
       >
         <div class="offcanvas-header">
-          <h5 id="offcanvasRightLabel">PRESUPUESTO PINTURA</h5>
+          <h5 id="offcanvasRightLabel">PRESUPUESTO PINTURA - 3.485€</h5>
           <button
             type="button"
             class="btn-close text-reset"
@@ -2803,242 +2505,29 @@ export default function ReformasCarrouselPresupuestos() {
             </tr>
 
             <tr className="td-naranja">
-              <td>25</td>
+              <td>70</td>
 
               <td>m2</td>
 
               <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
+                Pintura plastica marca valentine o similar
               </td>
 
-              <td>25€</td>
+              <td>495€</td>
 
-              <td>25€</td>
+              <td>495€</td>
             </tr>
 
             <tr>
-              <td>7</td>
+              <td>1</td>
 
-              <td>m2</td>
+              <td>ud</td>
 
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
+              <td className="td-texto">Mano de obra profesional pintor</td>
 
-              <td>25€</td>
+              <td>2.990€</td>
 
-              <td>175€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr>
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr>
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr>
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>25</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Azulejos pared a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>25€</td>
-            </tr>
-
-            <tr>
-              <td>7</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Pavimento suelo a escoger segun muestras exposicion
-              </td>
-
-              <td>25€</td>
-
-              <td>175€</td>
-            </tr>
-
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr>
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>352€</td>
-            </tr>
-            <tr className="td-naranja">
-              <td>32</td>
-
-              <td>m2</td>
-
-              <td className="td-texto">
-                Materiales paleteria(mortero-pegoland especial-borada
-                impermeable)
-              </td>
-
-              <td>11€</td>
-
-              <td>3522€</td>
+              <td>2.990€</td>
             </tr>
 
             <tr className="td-naranja-oscuro">
@@ -3047,10 +2536,14 @@ export default function ReformasCarrouselPresupuestos() {
               <td className="td-blanco"></td>
               <td>TOTAL</td>
 
-              <td>7.900€</td>
+              <td>3.485€</td>
             </tr>
           </table>
-          <p className="p-iva">* Los precios son sin IVA</p>
+          <p className="p-iva">
+            * Precios sin IVA (si el 60% o más del importe es mano de obra se
+            aplica un tipo impositivo del 10%, en caso contrario se aplicará del
+            21%)
+          </p>
         </div>
       </div>
     </SCCarrouselPresupuestos>

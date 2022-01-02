@@ -58,16 +58,15 @@ export default function ReformasSolicitaPresupuesto() {
           </div>
         </div>
       </section>
-
       <section className="section-filosofia-vision">
         <div className="div-contenedor-vision">
-          <div className="div-contenedor-foto">
-            <img className="foto-vision" src="/mision-empresa.jpg"></img>
+          <div className="div-contenedor-foto-vision">
+            <img className="foto-vision" src="/señor-vision.jpg"></img>
           </div>
           <div className="div-contenedor-texto-vision">
-            <h2 className="h2-principal">MISIÓN</h2>
+            <h2 className="h2-principal-vision">VISIÓN</h2>
             <div className="posicionamiento-span">
-              <p className="span-flechas">》</p>
+              <p className="span-numeros">❶</p>
               <p className="p-texto">
                 Proporcionar soluciones integrales en la construcción y reforma
                 de viviendas, negocios, comunidades de vecinos, locales
@@ -76,7 +75,7 @@ export default function ReformasSolicitaPresupuesto() {
               </p>
             </div>
             <div className="posicionamiento-span">
-              <span className="span-flechas">》</span>
+              <span className="span-numeros">❷</span>
               <p className="p-texto">
                 Centrar nuestra acción en las personas con un servicio
                 responsable hacia nuestros clientes y los más exigentes valores
@@ -84,21 +83,21 @@ export default function ReformasSolicitaPresupuesto() {
               </p>
             </div>
             <div className="posicionamiento-span">
-              <span className="span-flechas">》</span>
+              <span className="span-numeros">❸</span>
               <p className="p-texto">
                 Satisfacer ampliamente las necesidades y expectativas de
                 nuestros clientes a un precio justo y excelente servicio.
               </p>
             </div>
             <div className="posicionamiento-span">
-              <span className="span-flechas">》</span>
+              <span className="span-numeros">❹</span>
               <p className="p-texto">
                 Ofrecer un amplio abanico de productos y servicios de
                 construcción acorde con las necesidades del mercado.
               </p>
             </div>
             <div className="posicionamiento-span">
-              <span className="span-flechas">》</span>
+              <span className="span-numeros">❺</span>
               <p className="p-texto">
                 Crecer de forma rentable y segura con pleno respeto a la
                 sociedad y al medio ambiente.

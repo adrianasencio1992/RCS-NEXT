@@ -200,11 +200,11 @@ export default function NavBar() {
                       <a class="dropdown-item">¿QUIÉNES SOMOS?</a>
                     </Link>
                   </li>
-                  {/* <li>
+                  <li>
                     <Link href="/filosofia-empresa">
                       <a class="dropdown-item">FILOSOFÍA DE LA EMPRESA</a>
                     </Link>
-                  </li> */}
+                  </li>
                   <li>
                     <hr class="dropdown-divider"></hr>
                   </li>

@@ -20,6 +20,8 @@ export default function Layout({ children }) {
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
           crossOrigin="anonymous"
         ></link>
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       </Head>
       <body className={styles.body}>
         <div className={styles.divPrincipalLayout}>
@@ -105,6 +107,7 @@ export default function Layout({ children }) {
         </Link>
 
         {children}
+        <script>AOS.init();</script>
       </body>
     </div>
   );

@@ -15,6 +15,10 @@
   cursor: pointer;
 }
 
+.contendorNombreYEslogan {
+  margin-top: 45px;
+}
+
 .nombreEmpresa {
   margin-top: 10px;
 }
@@ -214,6 +218,10 @@
 
   .divPrecio {
     display: none;
+  }
+
+  .contendorNombreYEslogan {
+    margin-top: 0px;
   }
 
   @media (max-width: 700px) {

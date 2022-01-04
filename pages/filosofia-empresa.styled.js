@@ -118,6 +118,7 @@ const SCFilosofia = styled.section`
   position: relative;
   top: 50px;
   left:50px;
+  z-index:10;
 }
 
 .foto-valores{
@@ -127,6 +128,7 @@ const SCFilosofia = styled.section`
   position: relative;
   top: 50px;
   left:50px;
+  z-index:10;
 }
 
 .foto-vision{
@@ -136,6 +138,7 @@ const SCFilosofia = styled.section`
   position: relative;
   top: 50px;
   left:-50px;
+  z-index:10;
 }
 
 .div-contenedor-texto{

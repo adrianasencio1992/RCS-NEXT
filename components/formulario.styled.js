@@ -154,7 +154,6 @@ align-items:center;
   width:33% !important;
   color: white;
   font-family: 'Arial';
-  font-weight:100;
   
  
   

@@ -104,7 +104,6 @@ margin-bottom:30px;
 
 .p-provincias{
   color:grey;
-  font-weight:100;
   font-family: 'Arial';
   font-size: 15px;
 }

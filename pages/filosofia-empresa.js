@@ -10,17 +10,23 @@ export default function ReformasSolicitaPresupuesto() {
         <h1 className="h1-obra-nueva">Nuestra Filosofía</h1>
         <p className="p-obra-nueva">Misión, Visión y Valores</p>
       </div>
-      <section
-        className="section-filosofia"
-        data-aos="fade-right"
-        data-aos-offset="50"
-        data-aos-easing="ease-in-sine"
-      >
+      <section className="section-filosofia">
         <div className="div-contenedor-mision">
           <div className="div-contenedor-foto">
-            <img className="foto" src="/mision-empresa2.jpg"></img>
+            <img
+              className="foto"
+              src="/mision-empresa2.jpg"
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+            ></img>
           </div>
-          <div className="div-contenedor-texto">
+          <div
+            className="div-contenedor-texto"
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine"
+          >
             <h2 className="h2-principal">MISIÓN</h2>
             <div className="posicionamiento-span">
               <p className="span-flechas">》</p>
@@ -63,17 +69,23 @@ export default function ReformasSolicitaPresupuesto() {
           </div>
         </div>
       </section>
-      <section
-        className="section-filosofia-vision"
-        data-aos="fade-left"
-        data-aos-offset="50"
-        data-aos-easing="ease-in-sine"
-      >
+      <section className="section-filosofia-vision">
         <div className="div-contenedor-vision">
           <div className="div-contenedor-foto-vision">
-            <img className="foto-vision" src="/señor-vision.jpg"></img>
+            <img
+              className="foto-vision"
+              src="/señor-vision.jpg"
+              data-aos="fade-left"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+            ></img>
           </div>
-          <div className="div-contenedor-texto-vision">
+          <div
+            className="div-contenedor-texto-vision"
+            data-aos="fade-right"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine"
+          >
             <h2 className="h2-principal-vision">VISIÓN</h2>
             <div className="posicionamiento-span">
               <p className="span-numeros">✔</p>
@@ -101,17 +113,23 @@ export default function ReformasSolicitaPresupuesto() {
           </div>
         </div>
       </section>
-      <section
-        className="section-filosofia-valores"
-        data-aos="fade-right"
-        data-aos-offset="50"
-        data-aos-easing="ease-in-sine"
-      >
+      <section className="section-filosofia-valores">
         <div className="div-contenedor-valores">
           <div className="div-contenedor-foto">
-            <img className="foto-valores" src="/valores-foto.jpg"></img>
+            <img
+              className="foto-valores"
+              src="/valores-foto.jpg"
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+            ></img>
           </div>
-          <div className="div-contenedor-texto-valores">
+          <div
+            className="div-contenedor-texto-valores"
+            data-aos="fade-left"
+            data-aos-offset="100"
+            data-aos-easing="ease-in-sine"
+          >
             <h2 className="h2-principal-valores">VALORES</h2>
             <div className="columnas">
               <div className="div-contenedor-valores-4">

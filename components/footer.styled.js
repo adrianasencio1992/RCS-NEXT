@@ -32,7 +32,6 @@ font-family: "Oswald", sans-serif;
 .p-footer{
     margin-bottom: 20px;
     font-family: 'Arial';
-    font-weight:100;
     font-size:14px;
     text-align:justify;
 }
@@ -80,7 +79,6 @@ font-family: "Oswald", sans-serif;
     display:flex;
     flex-direction:row;
     font-family: 'Arial';
-    font-weight:100;
     font-size:14px;
 }
 
@@ -113,7 +111,6 @@ color:rgb(236,167,0);
 
 .div-contacto-footer{
     font-family: 'Arial';
-    font-weight:100;
     font-size:14px;
 }
 

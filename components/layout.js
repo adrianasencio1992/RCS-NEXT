@@ -1,3 +1,4 @@
+import React from "react";
 import Link from "next/link";
 import styles from "./layout.module.css";
 import Head from "next/head";
@@ -21,7 +22,6 @@ export default function Layout({ children }) {
           crossOrigin="anonymous"
         ></link>
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
       </Head>
       <body className={styles.body}>
         <div className={styles.divPrincipalLayout}>
@@ -105,8 +105,8 @@ export default function Layout({ children }) {
             </a>
           </div>
         </Link>
-
         {children}
+        <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init();</script>
       </body>
     </div>

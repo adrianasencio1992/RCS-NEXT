@@ -161,7 +161,6 @@ align-items:center;
   height:40px;
   color: white;
   font-family: 'Arial';
-  font-weight:100;
   z-index:10;
   margin-bottom:40px;
 }

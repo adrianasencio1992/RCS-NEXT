@@ -10,7 +10,7 @@ const SCMateriales = styled.section`
 
   .div-obra-nueva{
   background-image: url(
-    /materiales.png);
+    /materiales.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;

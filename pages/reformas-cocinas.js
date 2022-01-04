@@ -65,8 +65,8 @@ export default function ReformasCocinas() {
       </section>
       <h2 className="h2-formulario">¡INSPÍRATE!</h2>
       <hr className="hr-formulario"></hr>
-      <SCFormulario></SCFormulario>
       <SCSliderCocinas></SCSliderCocinas>
+      <SCFormulario></SCFormulario>
       <SCFooter></SCFooter>
     </SCCocinas>
   );

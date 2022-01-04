@@ -127,8 +127,7 @@ color:rgb(236,167,0);
 .p-final-footer{
     margin-left: 40px;
     font-family: 'Arial';
-    margin-left:10px;
-    margin-right:10px;
+    margin-bottom:0px;
 }
 
 
@@ -152,7 +151,13 @@ color:rgb(236,167,0);
   .facebook {
     left:40%;
   }
- 
+ }
+
+  @media (max-width: 500px) {
+  .div-final-footer {
+    height:100px;
+  }
+ }
 
   @media (max-width: 430px) {
   .div-li-footer {

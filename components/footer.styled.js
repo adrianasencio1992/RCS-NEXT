@@ -37,43 +37,29 @@ font-family: "Oswald", sans-serif;
 }
 
 .p2-footer{
-  padding:10px;
   text-align:center;
 }
 
 .div-redes-sociales-footer{
     display:flex;
     flex-direction: row;
+    justify-content:center;
 }
 
 .facebook{
     width:40px;
     height:40px;
-    position:absolute;
-    left:47%;
     visibility: visible;
     cursor:pointer;
+    margin-bottom:20px;
 }
-
-.facebook:hover{
-    opacity:0;
-}
-
 .instagram{
     width:40px;
     height:40px;
     margin-left:10px;
-    position:absolute;
-    left: 50%;
     visibility: visible;
     cursor:pointer; 
 }
-
-.instagram:hover{
-    opacity:0;
-}
-
-
 
 .div-li-footer{
     display:flex;
@@ -82,7 +68,6 @@ font-family: "Oswald", sans-serif;
     font-size:14px;
 }
 
-
 .ul-footer{
     list-style-type: circle;
     color:rgb(236,167,0);
@@ -90,9 +75,6 @@ font-family: "Oswald", sans-serif;
     margin-left: 10px;
 
 }
-
-
-
 
 .li-footer{
     margin-bottom: 15px;
@@ -131,20 +113,30 @@ color:rgb(236,167,0);
 }
 
 
- @media (max-width: 1220px) {
+ @media (max-width: 1130px) {
   .div-general-footer {
     flex-direction:column;
-    margin-left:20px;
-    margin-right:20px;
-    
+    align-items:center; 
   }
-  .div-subgeneral-footer{
-    width:100%;
-    margin-bottom: 30px;
+
+  .div-subgeneral-footer {
+   width:100%;
   }
-  .facebook{
-    left:45%
+
+  .div-li-footer{
+    flex-direction:row;
   }
+
+ .ul-footer{
+   display:flex;
+   flex-wrap: wrap;
+   justify-content:space-around;
+   margin:0;
+ }
+
+ .li-footer{
+   width:100px;
+ }
  }
 
  @media (max-width: 650px) {

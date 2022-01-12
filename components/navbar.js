@@ -4,9 +4,7 @@ import Link from "next/link";
 export default function NavBar() {
   return (
     <SCNavBar>
-      <div className="cuadrado"></div>
       <div className="triangulo"></div>
-
       <nav className="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">
           <button

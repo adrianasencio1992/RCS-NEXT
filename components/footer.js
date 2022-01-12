@@ -73,13 +73,7 @@ export default function Footer() {
                 <a
                   href="https://www.facebook.com/rcs.empresadereformas/"
                   target="_blank"
-                >
-                  <img
-                    className="facebook"
-                    src="/facebook2.png"
-                    alt="facebook"
-                  ></img>
-                </a>
+                ></a>
                 <img
                   className="instagram"
                   src="/instagram.png"
@@ -88,13 +82,7 @@ export default function Footer() {
                 <a
                   href="https://www.instagram.com/rcs_reformas/"
                   target="_blank"
-                >
-                  <img
-                    className="instagram"
-                    src="/instagram2.png"
-                    alt="instagram"
-                  ></img>
-                </a>
+                ></a>
               </div>
             </div>
           </div>
@@ -113,13 +101,13 @@ export default function Footer() {
             </p>
           </div>
         </div>
-        <div className="div-final-footer">
-          <p className="p-final-footer">
-            © 2021 SRC | Aviso legal | Política de cookies | Política de
-            privacidad | Desarrollado por RCS. Todos los derechos reservados
-          </p>
-        </div>
       </section>
+      <div className="div-final-footer">
+        <p className="p-final-footer">
+          © 2021 SRC | Aviso legal | Política de cookies | Política de
+          privacidad | Desarrollado por RCS. Todos los derechos reservados
+        </p>
+      </div>
     </SCFooter>
   );
 }

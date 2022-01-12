@@ -203,15 +203,17 @@ align-items:center;
   }
 
   .grupos-general-checkbox{
-    flex-direction:column; 
+    flex-wrap:wrap; 
+    justify-content: flex-start;
   }
 
   .label-checkbox{
-    margin-left: 30%;
+    margin-right:15px;
+    margin-left:15px;
   }
 
   .text-area-checkbox{
-    margin-left:30%;
+    width:290px;
   }
 
   .p-contacto{

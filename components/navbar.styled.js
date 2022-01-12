@@ -1,77 +1,77 @@
 import styled from "styled-components";
 
 const SCNavBar = styled.section`
-    display:flex;
-    justify-content:flex-end;
-    }
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  top: 30px;
+  }
 
-.navbar{
-  z-index:1100;
- 
-}
+  .section3{
+    border: 5px solid red;
+  }
 
-.margin{
-  margin-right:60px;
-}
+  .navbar {
+    z-index: 1100;
+  }
 
-.dropdown:hover .dropdown-menu {
+  .margin {
+    margin-right: 60px;
+  }
+
+  .dropdown:hover .dropdown-menu {
     display: block;
-    margin-top:0px;
- }
-
-  .cuadrado{
-    width: 100vw;
-    height:60px;
-    background-color: rgb(254,251,241);
+    margin-top: 0px;
   }
 
   .triangulo {
     width: 0;
     height: 0;
-    border-bottom: 60px solid rgb(236,167,0); 
-    border-left: 80px solid rgb(254,251,241);
-       
-}
+    border-bottom: 60px solid rgb(236, 167, 0);
+    border-left: 80px solid transparent;
+    z-index: 1100;
+  }
 
   .nav-link {
     color: white;
     font-family: "Oswald", sans-serif;
   }
 
-  .nav-link:hover{
+  .nav-link:hover {
     color: black;
   }
 
-  .dropdown-menu{
-    background-color: rgb(245,226,180);
+  .dropdown-menu {
+    background-color: rgb(245, 226, 180);
   }
 
-  .dropdown-item:hover{
-    background-color:rgb(254,251,241);
+  .dropdown-item:hover {
+    background-color: rgb(254, 251, 241);
   }
 
-.dropdown-item{
-font-family: "Oswald", sans-serif;
-}
-
-.text-white:hover{
-  color:black !important;
-}
-
-.bg-warning{
-  background-color: rgb(236,167,0) !important;
-}
-
-@media (max-width: 990px) {
-  .triangulo {
-    display: none;
+  .dropdown-item {
+    font-family: "Oswald", sans-serif;
   }
 
-  .navbar{
-    position: absolute;
-    z-index: 2000;
+  .text-white:hover {
+    color: black !important;
   }
-}
+
+  .bg-warning {
+    background-color: rgb(236, 167, 0) !important;
+  }
+
+  @media (max-width: 992px) {
+    .navbar {
+      position: absolute;
+      z-index: 2000;
+    }
+    .triangulo {
+      border-bottom: 60px solid transparent;
+    }
+
+    
+  }
 `;
 
 export default SCNavBar;

@@ -6,12 +6,17 @@ const SCPrueba = styled.section`
  font-size:15px;
  
   }
-
-h1{
-  color: red;
+body, html, #container {
+  width: 100%;
+  height: 100%;
+  overflow:hidden;
 }
 
-
+div, img {
+  position:absolute;
+  user-select: none;
+  overflow:hidden;  
+}
 
 `;
 

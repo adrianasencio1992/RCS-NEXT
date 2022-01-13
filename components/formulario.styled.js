@@ -204,7 +204,7 @@ align-items:center;
 
   .grupos-general-checkbox{
     flex-wrap:wrap; 
-    justify-content: flex-start;
+    justify-content: center;
   }
 
   .label-checkbox{

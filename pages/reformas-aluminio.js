@@ -9,8 +9,25 @@ export default function ReformasAluminio() {
     <SCAluminio>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Carpintería Metálica y de Aluminio</h1>
-        <p className="p-obra-nueva">¡Innovación que hará tu vida más fácil!</p>
+        <h1
+          className="h1-obra-nueva"
+          data-aos="flip-up"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Carpintería Metálica y de Aluminio
+        </h1>
+        <p
+          className="p-obra-nueva"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          ¡Innovación que hará tu vida más fácil!
+        </p>
       </div>
 
       <section className="section-obra-formulario">

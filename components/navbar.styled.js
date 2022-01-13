@@ -6,7 +6,7 @@ const SCNavBar = styled.section`
   position: relative;
   top: 30px;
   }
-
+  
   .section3{
     border: 5px solid red;
   }

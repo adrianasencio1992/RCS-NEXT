@@ -33,7 +33,13 @@ export default function Home() {
           </h2>
           <hr className="hr-titulo"></hr>
           <div className="div-general-provincias">
-            <div className="div-subgeneral">
+            <div
+              className="div-subgeneral"
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+              data-aos-once={true}
+            >
               <img className="img-provincias" src="/reformas1.png" alt=""></img>
               <h3 className="h3-provincias">SOMOS EXPERTOS</h3>
               <hr className="hr-provincias"></hr>
@@ -44,7 +50,13 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="div-subgeneral">
+            <div
+              className="div-subgeneral"
+              data-aos="fade-left"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+              data-aos-once={true}
+            >
               <img className="img-provincias" src="/reformas2.png" alt=""></img>
               <h3 className="h3-provincias">SOMOS CERCANOS</h3>
               <hr className="hr-provincias"></hr>
@@ -55,7 +67,13 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="div-subgeneral">
+            <div
+              className="div-subgeneral"
+              data-aos="fade-right"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+              data-aos-once={true}
+            >
               <img className="img-provincias" src="/reformas3.png" alt=""></img>
               <h3 className="h3-provincias">SOMOS PERFECCIONISTAS</h3>
               <hr className="hr-provincias"></hr>
@@ -66,7 +84,13 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="div-subgeneral">
+            <div
+              className="div-subgeneral"
+              data-aos="fade-left"
+              data-aos-offset="100"
+              data-aos-easing="ease-in-sine"
+              data-aos-once={true}
+            >
               <img className="img-provincias" src="/reformas4.png" alt=""></img>
               <h3 className="h3-provincias">SOMOS DE CONFIANZA</h3>
               <hr className="hr-provincias"></hr>
@@ -102,6 +126,7 @@ export default function Home() {
             <img className="imagen-disena-presupuesto" src="/chica.png"></img>
           </div>
         </section>
+
         <SCFooter></SCFooter>
       </SCIndex>
     </div>

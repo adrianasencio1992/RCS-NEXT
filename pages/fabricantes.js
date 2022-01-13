@@ -8,8 +8,23 @@ export default function Fabricantes() {
     <SCFabricantes>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Fabricantes</h1>
-        <p className="p-obra-nueva">
+        <h1
+          className="h1-obra-nueva"
+          data-aos="flip-up"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Fabricantes
+        </h1>
+        <p
+          className="p-obra-nueva"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
           ¡Te presentamos las marcas con las que trabajamos!
         </p>
       </div>

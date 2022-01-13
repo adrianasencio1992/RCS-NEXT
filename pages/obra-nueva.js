@@ -9,8 +9,25 @@ const ObraNueva = () => (
   <SCObraNueva>
     <Layout></Layout>
     <div className="div-obra-nueva">
-      <h1 className="h1-obra-nueva">Obra nueva</h1>
-      <p className="p-obra-nueva">Construye tu vivienda de ensueño</p>
+      <h1
+        className="h1-obra-nueva"
+        data-aos="flip-up"
+        data-aos-offset="100"
+        data-aos-easing="ease-in-sine"
+        data-aos-once={true}
+      >
+        Obra nueva
+      </h1>
+      <p
+        className="p-obra-nueva"
+        data-aos="fade-up"
+        data-aos-offset="100"
+        data-aos-delay="200"
+        data-aos-easing="ease-in-sine"
+        data-aos-once={true}
+      >
+        Construye tu vivienda de ensueño
+      </p>
     </div>
 
     <section className="section-obra-formulario">

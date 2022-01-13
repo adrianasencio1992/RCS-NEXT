@@ -9,8 +9,25 @@ export default function Contacto() {
     <SCContacto>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Contacto</h1>
-        <p className="p-obra-nueva">Estamos a tu disposición</p>
+        <h1
+          className="h1-obra-nueva"
+          data-aos="flip-up"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Contacto
+        </h1>
+        <p
+          className="p-obra-nueva"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Estamos a tu disposición
+        </p>
       </div>
       <section className="section-contacto">
         <h2 className="h2-contacto">CONTÁCTANOS</h2>

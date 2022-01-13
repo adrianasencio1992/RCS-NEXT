@@ -7,8 +7,25 @@ export default function QuienesSomos() {
     <SCQuienesSomos>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">¿Quiénes Somos?</h1>
-        <p className="p-obra-nueva">Conoce nuestra empresa</p>
+        <h1
+          className="h1-obra-nueva"
+          data-aos="flip-up"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          ¿Quiénes Somos?
+        </h1>
+        <p
+          className="p-obra-nueva"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Conoce nuestra empresa
+        </p>
       </div>
       <section className="section-financiacion">
         <h2 className="h2-formulario">¿Quiénes Somos?</h2>

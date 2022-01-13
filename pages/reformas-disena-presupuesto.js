@@ -11,8 +11,23 @@ function ContadorReformas() {
     <SCDiseñaPresupuesto>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Nuestros Precios</h1>
-        <p className="p-obra-nueva">
+        <h1
+          className="h1-obra-nueva"
+          data-aos="flip-up"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Nuestros Precios
+        </h1>
+        <p
+          className="p-obra-nueva"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
           Pasos para saber el precio de su reforma ¿Empezamos?
         </p>
       </div>

@@ -7,8 +7,25 @@ export default function ReformasSolicitaPresupuesto() {
     <SCFilosofia>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Nuestra Filosofía</h1>
-        <p className="p-obra-nueva">Misión, Visión y Valores</p>
+        <h1
+          className="h1-obra-nueva"
+          data-aos="flip-up"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Nuestra Filosofía
+        </h1>
+        <p
+          className="p-obra-nueva"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Misión, Visión y Valores
+        </p>
       </div>
       <section className="section-filosofia">
         <div className="div-contenedor-mision">

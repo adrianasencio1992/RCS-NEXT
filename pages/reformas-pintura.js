@@ -9,8 +9,25 @@ export default function ReformasPintura() {
     <SCPintura>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Pintura</h1>
-        <p className="p-obra-nueva">Colores para el futuro</p>
+        <h1
+          className="h1-obra-nueva"
+          data-aos="flip-up"
+          data-aos-offset="100"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Pintura
+        </h1>
+        <p
+          className="p-obra-nueva"
+          data-aos="fade-up"
+          data-aos-offset="100"
+          data-aos-delay="200"
+          data-aos-easing="ease-in-sine"
+          data-aos-once={true}
+        >
+          Colores para el futuro
+        </p>
       </div>
 
       <section className="section-obra-formulario">

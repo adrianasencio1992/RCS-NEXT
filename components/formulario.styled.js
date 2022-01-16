@@ -203,8 +203,9 @@ align-items:center;
   }
 
   .grupos-general-checkbox{
-    flex-wrap:wrap; 
+    flex-direction:column; 
     justify-content: center;
+    
   }
 
   .label-checkbox{

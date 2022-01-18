@@ -36,6 +36,7 @@ export default function ReformasSolicitaPresupuesto() {
               data-aos="fade-right"
               data-aos-offset="100"
               data-aos-easing="ease-in-sine"
+              data-aos-once={true}
             ></img>
           </div>
           <div
@@ -43,6 +44,7 @@ export default function ReformasSolicitaPresupuesto() {
             data-aos="fade-left"
             data-aos-offset="100"
             data-aos-easing="ease-in-sine"
+            data-aos-once={true}
           >
             <h2 className="h2-principal">MISIÓN</h2>
             <div className="posicionamiento-span">
@@ -95,6 +97,7 @@ export default function ReformasSolicitaPresupuesto() {
               data-aos="fade-left"
               data-aos-offset="100"
               data-aos-easing="ease-in-sine"
+              data-aos-once={true}
             ></img>
           </div>
           <div
@@ -102,6 +105,7 @@ export default function ReformasSolicitaPresupuesto() {
             data-aos="fade-right"
             data-aos-offset="100"
             data-aos-easing="ease-in-sine"
+            data-aos-once={true}
           >
             <h2 className="h2-principal-vision">VISIÓN</h2>
             <div className="posicionamiento-span">
@@ -139,6 +143,7 @@ export default function ReformasSolicitaPresupuesto() {
               data-aos="fade-right"
               data-aos-offset="100"
               data-aos-easing="ease-in-sine"
+              data-aos-once={true}
             ></img>
           </div>
           <div
@@ -146,6 +151,7 @@ export default function ReformasSolicitaPresupuesto() {
             data-aos="fade-left"
             data-aos-offset="100"
             data-aos-easing="ease-in-sine"
+            data-aos-once={true}
           >
             <h2 className="h2-principal-valores">VALORES</h2>
             <div className="columnas">

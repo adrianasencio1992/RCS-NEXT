@@ -9,6 +9,7 @@ html{
 
 body{
   margin: 0;
+  height: 145px;
   font-family: Arial, Helvetica, sans-serif;
 }
 `;

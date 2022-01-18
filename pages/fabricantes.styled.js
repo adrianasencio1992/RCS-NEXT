@@ -79,6 +79,11 @@ const SCFabricantes = styled.section`
   text-decoration: underline;
 }
 
+.active{
+  color:rgb(236,167,0) !important;
+   text-decoration: underline;
+}
+
 /*CONTENIDO*/
 
 .tab-content{

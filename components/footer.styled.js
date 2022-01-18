@@ -53,12 +53,21 @@ font-family: "Oswald", sans-serif;
     cursor:pointer;
     margin-bottom:20px;
 }
+
+.facebook:hover{
+  transform: scale(1.2);
+}
+
 .instagram{
     width:40px;
     height:40px;
     margin-left:10px;
     visibility: visible;
     cursor:pointer; 
+}
+
+.instagram:hover{
+  transform: scale(1.2);
 }
 
 .div-li-footer{
@@ -78,7 +87,14 @@ font-family: "Oswald", sans-serif;
 
 .li-footer{
     margin-bottom: 15px;
+    color: black;
     
+}
+
+.p-valles{
+  margin-bottom:10;
+  font-family: 'Arial';
+ font-size: 14.5px;
 }
 
 a{

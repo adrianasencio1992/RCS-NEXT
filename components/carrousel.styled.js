@@ -27,6 +27,8 @@ const SCCarrousel = styled.section`
 .p-opiniones{
   text-align:center;
   margin-bottom:20px;
+  font-family: 'Arial';
+  color: grey;
 }
 
 

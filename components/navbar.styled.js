@@ -4,7 +4,7 @@ const SCNavBar = styled.section`
   display: flex;
   justify-content: flex-end;
   position: relative;
-  top: 30px;
+  top: 0px;
   }
   
   .section3{

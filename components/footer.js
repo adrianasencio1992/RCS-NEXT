@@ -8,47 +8,23 @@ export default function Footer() {
         <div className="div-general-footer">
           <div className="div-subgeneral-footer">
             <h2 className="h2-footer">DONDE TRABAJAMOS</h2>
+            <p className="p-valles">Vallés Occidental y alrededores:</p>
             <div className="div-li-footer">
               <ul className="ul-footer">
-                <li className="li-footer">
-                  <a href="#">Barcelona</a>
-                </li>
-
-                <li className="li-footer">
-                  <a href="#">Sabadell</a>
-                </li>
-                <li className="li-footer">
-                  <a href="#">Terrassa</a>
-                </li>
-                <li className="li-footer">
-                  <a href="#">Sant Cugat</a>
-                </li>
-                <li className="li-footer">
-                  <a href="#">Valldoreix</a>
-                </li>
-                <li className="li-footer">
-                  <a href="#">Rubí</a>
-                </li>
+                <li className="li-footer">Barcelona</li>
+                <li className="li-footer">Sabadell</li>
+                <li className="li-footer">Terrassa</li>
+                <li className="li-footer">Sant Cugat</li>
+                <li className="li-footer">Valldoreix</li>
+                <li className="li-footer">Rubí</li>
               </ul>
               <ul className="ul-footer">
-                <li className="li-footer">
-                  <a href="#">Cerdanyola</a>
-                </li>
-                <li className="li-footer">
-                  <a href="#">Sant Quirze</a>
-                </li>
-                <li className="li-footer">
-                  <a href="#">Ripollet</a>
-                </li>
-                <li className="li-footer">
-                  <a href="#">Matadepera</a>
-                </li>
-                <li className="li-footer">
-                  <a href="#">Castellbisbal</a>
-                </li>
-                <li className="li-footer">
-                  <a href="#">Molins de Rei</a>
-                </li>
+                <li className="li-footer">Cerdanyola</li>
+                <li className="li-footer">Sant Quirze</li>
+                <li className="li-footer">Ripollet</li>
+                <li className="li-footer">Matadepera</li>
+                <li className="li-footer">Castellbisbal</li>
+                <li className="li-footer">Molins de Rei</li>
               </ul>
             </div>
           </div>
@@ -65,24 +41,26 @@ export default function Footer() {
                 <p className="p2-footer">☏ 674686045 - 635126596</p>
               </div>
               <div className="div-redes-sociales-footer">
-                <img
-                  className="facebook"
-                  src="/facebook.png"
-                  alt="facebook"
-                ></img>
                 <a
                   href="https://www.facebook.com/rcs.empresadereformas/"
                   target="_blank"
-                ></a>
-                <img
-                  className="instagram"
-                  src="/instagram.png"
-                  alt="instagram"
-                ></img>
+                >
+                  <img
+                    className="facebook"
+                    src="/facebook.png"
+                    alt="facebook"
+                  ></img>
+                </a>
                 <a
                   href="https://www.instagram.com/rcs_reformas/"
                   target="_blank"
-                ></a>
+                >
+                  <img
+                    className="instagram"
+                    src="/instagram.png"
+                    alt="instagram"
+                  ></img>
+                </a>
               </div>
             </div>
           </div>

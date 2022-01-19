@@ -10,6 +10,7 @@ export default function Layout({ children }) {
       <Head>
         <title>RCS | Reformas, Construcciones y Servicios</title>
         <link rel="icon" href="/logo-imagenes.png" />
+        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
         <script
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
@@ -21,7 +22,6 @@ export default function Layout({ children }) {
           integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
           crossOrigin="anonymous"
         ></link>
-        <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
       </Head>
       <body className={styles.body}>
         <div className={styles.divPrincipalLayout}>
@@ -105,6 +105,7 @@ export default function Layout({ children }) {
             </a>
           </div>
         </Link>
+
         {children}
         <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
         <script>AOS.init();</script>

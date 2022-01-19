@@ -3,6 +3,7 @@ import SCFooter from "../components/footer";
 import SCReformasCasas from "./reformas-casas.styled";
 import SCSliderReformasCasas from "../components/slider-reformas-casas";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasCasas() {
   return (
@@ -84,6 +85,7 @@ export default function ReformasCasas() {
       <hr className="hr-formulario"></hr>
       <SCSliderReformasCasas></SCSliderReformasCasas>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCReformasCasas>
   );

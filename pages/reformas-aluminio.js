@@ -3,6 +3,7 @@ import SCFooter from "../components/footer";
 import SCSliderAluminio from "../components/slider-aluminio";
 import SCAluminio from "./reformas-aluminio.styled";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasAluminio() {
   return (
@@ -84,6 +85,7 @@ export default function ReformasAluminio() {
       <hr className="hr-formulario"></hr>
       <SCSliderAluminio></SCSliderAluminio>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCAluminio>
   );

@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCQuienesSomos from "./quienes-somos.styled";
+import SCWatsap from "../components/watsap";
 
 export default function QuienesSomos() {
   return (
@@ -157,6 +158,7 @@ export default function QuienesSomos() {
           </div>
         </div>
       </section>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCQuienesSomos>
   );

@@ -2,6 +2,16 @@ import SCNavBar from "./navbar.styled";
 import Link from "next/link";
 
 export default function NavBar() {
+  // if (typeof $ !== "undefined") {
+  //   // browser code por si algo no funciona ponerlo despues de typeof y escribir le codigo dentro
+  //   $(window).scroll(function () {
+  //     if ($(this).scrollTop() > 100) {
+  //       $(".navbar").addClass("sticky");
+  //     } else {
+  //       $(".navbar").removeClass("sticky");
+  //     }
+  //   });
+  // }
   return (
     <SCNavBar>
       <div className="triangulo"></div>

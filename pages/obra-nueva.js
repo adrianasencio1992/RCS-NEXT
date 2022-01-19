@@ -4,6 +4,7 @@ import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCSlider from "../components/slider";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 const ObraNueva = () => (
   <SCObraNueva>
@@ -84,6 +85,7 @@ const ObraNueva = () => (
     <hr className="hr-formulario"></hr>
     <SCSlider></SCSlider>
     <SCFormulario></SCFormulario>
+    <SCWatsap></SCWatsap>
     <SCFooter></SCFooter>
   </SCObraNueva>
 );

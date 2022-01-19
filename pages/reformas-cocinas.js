@@ -3,6 +3,7 @@ import SCFooter from "../components/footer";
 import SCSliderCocinas from "../components/slider-cocinas";
 import SCCocinas from "./reformas-cocinas.styled";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasCocinas() {
   return (
@@ -84,6 +85,7 @@ export default function ReformasCocinas() {
       <hr className="hr-formulario"></hr>
       <SCSliderCocinas></SCSliderCocinas>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCCocinas>
   );

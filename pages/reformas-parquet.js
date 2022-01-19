@@ -3,6 +3,7 @@ import SCFooter from "../components/footer";
 import SCSliderParquet from "../components/slider-parquet";
 import SCParquet from "./reformas-parquet.styled";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasParquet() {
   return (
@@ -82,6 +83,7 @@ export default function ReformasParquet() {
       <hr className="hr-formulario"></hr>
       <SCSliderParquet></SCSliderParquet>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCParquet>
   );

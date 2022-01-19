@@ -5,6 +5,7 @@ import SCDiseñaPresupuesto from "./reformas-disena-presupuesto.styled";
 import SCCarrouselPresupuestos from "../components/reformas-carrousel-presupuestos";
 import SCCards from "../components/cards";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 function ContadorReformas() {
   return (
@@ -170,6 +171,7 @@ function ContadorReformas() {
         </ul>
       </form>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCDiseñaPresupuesto>
   );

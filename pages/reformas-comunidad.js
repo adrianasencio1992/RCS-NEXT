@@ -3,6 +3,7 @@ import SCFooter from "../components/footer";
 import SCSliderComunidad from "../components/slider-comunidad";
 import SCComunidad from "./reformas-comunidad.styled";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasComunidad() {
   return (
@@ -84,6 +85,7 @@ export default function ReformasComunidad() {
       <hr className="hr-formulario"></hr>
       <SCSliderComunidad></SCSliderComunidad>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCComunidad>
   );

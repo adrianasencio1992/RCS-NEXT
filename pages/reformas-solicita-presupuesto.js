@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCSolicitaPresupuesto from "./reformas-solicita-presupuesto.styled";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasSolicitaPresupuesto() {
   return (
@@ -29,6 +30,7 @@ export default function ReformasSolicitaPresupuesto() {
         </p>
       </div>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCSolicitaPresupuesto>
   );

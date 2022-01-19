@@ -6,6 +6,18 @@ const SCNavBar = styled.section`
   position: relative;
   top: 0px;
   }
+
+  .div-general{
+    display:flex;
+    flex-direction:row;
+    z-index: 1100;
+  }
+
+  .sticky{
+    position: fixed;
+    top: 0;
+}
+
   
   .section3{
     border: 5px solid red;
@@ -22,6 +34,7 @@ const SCNavBar = styled.section`
   .dropdown:hover .dropdown-menu {
     display: block;
     margin-top: 0px;
+    z-index: 1100;
   }
 
   .triangulo {
@@ -69,6 +82,8 @@ const SCNavBar = styled.section`
     .triangulo {
       border-bottom: 60px solid transparent;
     }
+
+
 
     
   }

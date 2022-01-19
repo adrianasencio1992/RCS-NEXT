@@ -3,6 +3,7 @@ import SCFooter from "../components/footer";
 import SCSliderBano from "../components/slider-bano";
 import SCBanos from "./reformas-banos.styled";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasBanos() {
   return (
@@ -84,6 +85,7 @@ export default function ReformasBanos() {
       <hr className="hr-formulario"></hr>
       <SCSliderBano></SCSliderBano>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCBanos>
   );

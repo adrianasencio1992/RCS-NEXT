@@ -3,6 +3,7 @@ import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCContacto from "./contacto.styled";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function Contacto() {
   return (
@@ -94,6 +95,7 @@ export default function Contacto() {
         </div>
       </section>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCContacto>
   );

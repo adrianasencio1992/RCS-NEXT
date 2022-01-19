@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCFilosofia from "./filosofia-empresa.styled";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasSolicitaPresupuesto() {
   return (
@@ -242,7 +243,7 @@ export default function ReformasSolicitaPresupuesto() {
           </div>
         </div>
       </section>
-
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCFilosofia>
   );

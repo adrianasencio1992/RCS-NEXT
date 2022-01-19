@@ -3,6 +3,7 @@ import SCFooter from "../components/footer";
 import SCSliderFontaneria from "../components/slider-fontaneria";
 import SCFontaneria from "./reformas-fontaneria.styled";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasFontaneria() {
   return (
@@ -85,6 +86,7 @@ export default function ReformasFontaneria() {
       <hr className="hr-formulario"></hr>
       <SCSliderFontaneria></SCSliderFontaneria>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCFontaneria>
   );

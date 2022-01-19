@@ -2,6 +2,7 @@ import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCFabricantes from "./fabricantes.styled";
 import Link from "next/link";
+import SCWatsap from "../components/watsap";
 
 export default function Fabricantes() {
   return (
@@ -3297,7 +3298,7 @@ export default function Fabricantes() {
           </div>
         </div>
       </section>
-
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCFabricantes>
   );

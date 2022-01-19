@@ -1,6 +1,7 @@
 import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCFinanciacion from "./financiacion.styled";
+import SCWatsap from "../components/watsap";
 
 export default function Financiacion() {
   return (
@@ -106,7 +107,7 @@ export default function Financiacion() {
           </div>
         </div>
       </section>
-
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCFinanciacion>
   );

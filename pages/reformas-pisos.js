@@ -3,6 +3,7 @@ import SCFooter from "../components/footer";
 import SCSliderPisos from "../components/slider-pisos";
 import SCPisos from "./reformas-pisos.styled";
 import SCFormulario from "../components/formulario";
+import SCWatsap from "../components/watsap";
 
 export default function ReformasPisos() {
   return (
@@ -84,6 +85,7 @@ export default function ReformasPisos() {
       <hr className="hr-formulario"></hr>
       <SCSliderPisos></SCSliderPisos>
       <SCFormulario></SCFormulario>
+      <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
     </SCPisos>
   );

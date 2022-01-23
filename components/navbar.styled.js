@@ -76,7 +76,6 @@ const SCNavBar = styled.section`
 
   @media (max-width: 992px) {
     .navbar {
-      position: absolute;
       z-index: 2000;
     }
     .triangulo {

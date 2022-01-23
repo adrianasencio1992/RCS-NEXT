@@ -20,7 +20,7 @@ export default function Watsap() {
   return (
     <SCWatsap>
       <div id="contact-wa">
-        <Link href="https://api.whatsapp.com/send?phone=+34674686045&text=Hola, Nececito mas informacion!">
+        <Link href="https://api.whatsapp.com/send?phone=+34674686045&text=Hola, me gustaría recibir más información.">
           <a target="blank" class="sticky-btn">
             <img src="https://byjaris.com/code/icons/whatsapp-icon.svg" />
           </a>

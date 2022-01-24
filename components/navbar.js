@@ -11,9 +11,23 @@ export default function NavBar() {
         $(".navbar").removeClass("sticky");
       }
     });
+
+    $(window).scroll(function () {
+      if ($(this).scrollTop() > 100) {
+        $(".main").addClass("sticky2");
+        document.getElementsByClassName("main")[0].style.visibility = "visible";
+      } else {
+        $(".main").removeClass("sticky2");
+        document.getElementsByClassName("main")[0].style.visibility = "hidden";
+      }
+    });
   }
+
   return (
     <SCNavBar>
+      <div id="main" className="main">
+        <img className="imagen-navbar-sticky" src="/logo-inicio.png" />
+      </div>
       <div className="triangulo"></div>
       <nav className="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">

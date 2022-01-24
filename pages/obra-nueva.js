@@ -1,5 +1,4 @@
 import React from "react";
-import Head from "next/head";
 import SCObraNueva from "./obra-nueva.styled";
 import Layout from "../components/layout";
 import SCFooter from "../components/footer";

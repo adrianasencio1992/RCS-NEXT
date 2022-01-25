@@ -49,7 +49,7 @@ const SCNavBar = styled.section`
    box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 10px -10px;
    display:flex;
    justify-content:center;
-   z-index:10000;
+   z-index:1000;
    padding-right:500px;
    flex-direction:row;
    background: linear-gradient(to right, white 53%, rgb(236, 167, 0) 30%);

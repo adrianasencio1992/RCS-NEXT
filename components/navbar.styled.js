@@ -40,14 +40,20 @@ const SCNavBar = styled.section`
   }
 
 .main{
-  height:55px;
+  height:56px;
   width:100%;
   z-index: 100;
-  background-color: white;
   visibility: hidden;
    transform: skew(-40deg);
    margin-left:25px;
    box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 10px -10px;
+   display:flex;
+   justify-content:center;
+   z-index:10000;
+   padding-right:500px;
+   flex-direction:row;
+   background: linear-gradient(to right, white 53%, rgb(236, 167, 0) 30%);
+  
 }
 
 .imagen-navbar-sticky{
@@ -55,10 +61,110 @@ const SCNavBar = styled.section`
   height:55px;
   background-color: white;
   z-index: 100;
-  margin-left: 300px;
   transform: skew(40deg);
-  
-  
+}
+
+.contendor-nombre-y-eslogan{
+  display:flex;
+  align-items: center;
+  justify-content:center;
+  flex-direction: column;
+  width: 500px;
+}
+
+.h1-navbar{
+  transform: skew(40deg);
+  margin-top: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.35em;
+  border: 4px rgba(0, 0, 0, 0.25);
+  border-width: 4px 0;
+  width: 30em;
+  font-size: 16px;
+  font-family: "Oswald", sans-serif;
+  font-weight: 700;
+  text-align: center;
+}
+
+.div-eslogan{
+  text-align:center;
+}
+
+.eslogan {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  transform: skew(40deg);
+  font-size: 12px;
+}
+
+.eslogan:first-of-type {
+  /* For increasing performance 
+                       ID/className should've been used. 
+                       For a small demo 
+                       it's okaish for now */
+  animation: showup 7s infinite;
+}
+
+.eslogan:last-of-type {
+  width: 0px;
+  animation: reveal 7s infinite;
+}
+
+.eslogan:last-of-type span {
+  margin-left: -355px;
+  animation: slidein2 7s infinite;
+}
+
+@keyframes showup {
+  0% {
+    opacity: 0;
+  }
+  20% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes slidein2 {
+  0% {
+    margin-left: -800px;
+  }
+  20% {
+    margin-left: -800px;
+  }
+  35% {
+    margin-left: 0px;
+  }
+  100% {
+    margin-left: 0px;
+  }
+}
+
+@keyframes reveal {
+  0% {
+    opacity: 0;
+    width: 0px;
+  }
+  20% {
+    opacity: 1;
+    width: 0px;
+  }
+  30% {
+    width: 116px;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    width: 116px;
+  }
 }
 
   .navbar {
@@ -89,7 +195,6 @@ const SCNavBar = styled.section`
     border-bottom: 60px solid rgb(236, 167, 0);
     border-left: 80px solid transparent;
     z-index: 1100;
-    transform: skew(40deg);
   }
 
   .nav-link {
@@ -111,6 +216,7 @@ const SCNavBar = styled.section`
 
   .dropdown-item {
     font-family: "Oswald", sans-serif;
+ 
   }
 
   .text-white:hover {
@@ -119,6 +225,50 @@ const SCNavBar = styled.section`
 
   .bg-warning {
     background-color: rgb(236, 167, 0) !important;
+  }
+
+   @media (max-width: 1256px) {
+    .main {
+      background: linear-gradient(to right, white 50%, rgb(236, 167, 0) 30%);
+       padding-right:600px;
+    }
+  }
+
+  @media (max-width: 1177px) {
+    .main {
+      background: linear-gradient(to right, white 47%, rgb(236, 167, 0) 30%);
+       padding-right:600px;
+    }
+
+    .h1-navbar{
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 1112px) {
+    .main {
+      background: linear-gradient(to right, white 44%, rgb(236, 167, 0) 30%);
+    }
+
+    .h1-navbar{
+      font-size: 12px;
+    }
+  }
+
+  @media (max-width: 1056px) {
+    .main {
+      background: linear-gradient(to right, white 42%, rgb(236, 167, 0) 30%);
+    }
+
+    .h1-navbar{
+      font-size: 10px;
+    }
+  }
+
+  @media (max-width: 1018px) {
+    .main {
+      background: linear-gradient(to right, white 40%, rgb(236, 167, 0) 30%);
+    }
   }
 
   @media (max-width: 992px) {

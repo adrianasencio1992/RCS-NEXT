@@ -13,8 +13,8 @@ export default function Home() {
     // browser code por si algo no funciona ponerlo despues de typeof y escribir le codigo dentro
 
     <Switch>
-      <Route exact path="/" component={index} />
-      <Route path="/obra-nueva" component={obra - nueva} />
+      <Route exact path="/" />
+      <Route path="/pages/obra-nueva" />
     </Switch>;
   }
 

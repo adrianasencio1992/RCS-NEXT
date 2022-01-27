@@ -16,14 +16,12 @@ const SCNavBar = styled.section`
   .sticky{
     position: fixed;
     top: 0;
-
 }
 
   .sticky2{
       position: fixed;
-      top: 0;
-      left: 0;
-      animation-duration: 2s;
+      top: 0%;
+      animation-duration: 0s;
       animation-name: slidein;
     animation-iteration-count: 1,0;
   @keyframes slidein {
@@ -41,25 +39,22 @@ const SCNavBar = styled.section`
 
 .main{
   height:56px;
-  width:100%;
+  width:565px;
   z-index: 100;
   visibility: hidden;
    transform: skew(-40deg);
    margin-left:25px;
-   box-shadow: rgba(0, 0, 0, 0.45) 0px 15px 10px -10px;
    display:flex;
-   justify-content:center;
    z-index:1000;
-   padding-right:500px;
    flex-direction:row;
-   background: linear-gradient(to right, white 53%, rgb(236, 167, 0) 30%);
+   justify-content:flex-end;
+   background-color: rgb(236, 167, 0);
   
 }
 
 .imagen-navbar-sticky{
   width:100px;
   height:55px;
-  background-color: white;
   z-index: 100;
   transform: skew(40deg);
 }
@@ -73,7 +68,6 @@ const SCNavBar = styled.section`
 }
 
 .h1-navbar{
-  transform: skew(40deg);
   margin-top: 10px;
   text-transform: uppercase;
   letter-spacing: 0.35em;
@@ -185,15 +179,7 @@ const SCNavBar = styled.section`
     width: 0;
     height: 0;
     border-bottom: 60px solid rgb(236, 167, 0);
-    border-left: 80px solid transparent;
-    z-index: 1100;
-  }
-
-  .triangulo2{
-    width: 0;
-    height: 0;
-    border-bottom: 60px solid rgb(236, 167, 0);
-    border-left: 80px solid transparent;
+    border-left: 55px solid transparent;
     z-index: 1100;
   }
 
@@ -227,49 +213,7 @@ const SCNavBar = styled.section`
     background-color: rgb(236, 167, 0) !important;
   }
 
-   @media (max-width: 1256px) {
-    .main {
-      background: linear-gradient(to right, white 50%, rgb(236, 167, 0) 30%);
-       padding-right:600px;
-    }
-  }
-
-  @media (max-width: 1177px) {
-    .main {
-      background: linear-gradient(to right, white 47%, rgb(236, 167, 0) 30%);
-       padding-right:600px;
-    }
-
-    .h1-navbar{
-      font-size: 12px;
-    }
-  }
-
-  @media (max-width: 1112px) {
-    .main {
-      background: linear-gradient(to right, white 44%, rgb(236, 167, 0) 30%);
-    }
-
-    .h1-navbar{
-      font-size: 12px;
-    }
-  }
-
-  @media (max-width: 1056px) {
-    .main {
-      background: linear-gradient(to right, white 42%, rgb(236, 167, 0) 30%);
-    }
-
-    .h1-navbar{
-      font-size: 10px;
-    }
-  }
-
-  @media (max-width: 1018px) {
-    .main {
-      background: linear-gradient(to right, white 40%, rgb(236, 167, 0) 30%);
-    }
-  }
+  
 
   @media (max-width: 992px) {
     .navbar {

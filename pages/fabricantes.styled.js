@@ -42,10 +42,6 @@ const SCFabricantes = styled.section`
   text-shadow: 2px 2px black;
 }
 
-.section-fabricantes{
- 
-}
-
 /* NAVEGADOR*/
 .nav{
   display:flex;
@@ -256,6 +252,7 @@ const SCFabricantes = styled.section`
   flex-direction: column;
 }
 }
+
 `;
 
 export default SCFabricantes;

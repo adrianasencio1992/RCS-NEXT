@@ -1,3 +1,4 @@
+import React from "react";
 import SCNavBar from "./navbar.styled";
 import Link from "next/link";
 
@@ -25,18 +26,7 @@ export default function NavBar() {
 
   return (
     <SCNavBar>
-      <div id="main" className="main">
-        <img className="imagen-navbar-sticky" src="/logo-inicio.png" />
-        <div className="contendor-nombre-y-eslogan">
-          <h1 className="h1-navbar">Reformas, Construcciones y Servicios</h1>
-          <div className="div-eslogan">
-            <div className="eslogan">Tú lo imaginas</div>
-            <div className="eslogan">
-              <span>, nosotros lo creamos</span>
-            </div>
-          </div>
-        </div>
-      </div>
+      <div id="main" className="main"></div>
       <div className="triangulo"></div>
       <nav className="navbar navbar-expand-lg navbar-light bg-warning">
         <div class="container-fluid">

@@ -9,15 +9,6 @@ import SCFormulario from "../components/formulario";
 import SCWatsap from "../components/watsap";
 
 export default function Home() {
-  if (typeof Switch !== "undefined") {
-    // browser code por si algo no funciona ponerlo despues de typeof y escribir le codigo dentro
-
-    <Switch>
-      <Route exact path="/" />
-      <Route path="/pages/obra-nueva" />
-    </Switch>;
-  }
-
   return (
     <div>
       <Layout>

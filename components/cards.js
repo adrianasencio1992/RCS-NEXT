@@ -13,7 +13,7 @@ export default function Cards() {
                 <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
-                <img class="card__thumb" src="logo-inicio.png" alt="" />
+                <img class="card__thumb" src="/logo-inicio.png" alt="" />
                 <div class="card__header-text">
                   <h3 class="card__title">Nuestros precios</h3>
                 </div>
@@ -37,7 +37,7 @@ export default function Cards() {
                 <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">
                   <path />
                 </svg>
-                <img class="card__thumb" src="logo-inicio.png" alt="" />
+                <img class="card__thumb" src="/logo-inicio.png" alt="" />
                 <div class="card__header-text">
                   <h3 class="card__title">Materiales</h3>
                 </div>
@@ -71,7 +71,7 @@ export default function Cards() {
         </li>
         <li>
           <a class="card">
-            <img src="ordenador2.jpg" class="card__image" alt="" />
+            <img src="/ordenador2.jpg" class="card__image" alt="" />
             <div class="card__overlay">
               <div class="card__header">
                 <svg class="card__arc" xmlns="http://www.w3.org/2000/svg">

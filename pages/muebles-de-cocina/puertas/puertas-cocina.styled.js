@@ -121,13 +121,13 @@ span{
   border: 2px solid rgb(191, 191, 191);
 }
 .card0{
-  background: url('/puerta.png') center center no-repeat;
-  background-size: 130px;
+  background: url('/lacadas/yakarta.jpg') center center no-repeat;
+  background-size: 170px;
   
 
   &:hover{
-    background: url('/puerta.png') left center no-repeat;
-    background-size: 205px;
+    background: url('/lacadas/yakarta.jpg') left center no-repeat;
+    background-size: 235px;
 
     h2{
       opacity: 1;

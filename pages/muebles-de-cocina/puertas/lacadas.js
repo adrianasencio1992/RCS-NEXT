@@ -1,16 +1,16 @@
 import React from "react";
 import Layout from "../../../components/layout";
 import SCFooter from "../../../components/footer";
-import SCTiradorPuertas from "./tirador-puertas.styled";
+import SCLacadas from "./lacadas.styled";
 import Link from "next/link";
 
-export default function TiradorPuertas() {
+export default function Lacadas() {
   return (
-    <SCTiradorPuertas>
+    <SCLacadas>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Puertas con Tirador</h1>
-        <p className="p-obra-nueva">Nuestra gamma de productos</p>
+        <h1 className="h1-obra-nueva">Puertas Lacadas</h1>
+        <p className="p-obra-nueva">Un estilo moderno</p>
       </div>
       <section className="section">
         <div className="div-links">
@@ -27,9 +27,18 @@ export default function TiradorPuertas() {
           </Link>
           <span className="span"> ˃ </span>
           <Link href="#">
-            <a className="link2">Puertas con tirador</a>
+            <a className="link2">Puertas lacadas</a>
           </Link>
         </div>
+
+        <section className="section-card">
+          <Link href="/muebles-de-cocina/puertas/lacadas/yakarta">
+            <div class="div-card">
+              <img className="imagen-card" src="/lacadas/yakarta.jpg"></img>
+              <h2 className="h2-card">YAKARTA</h2>
+            </div>
+          </Link>
+        </section>
 
         {/*MADERA*/}
         <div className="div-nombre">
@@ -3384,6 +3393,6 @@ export default function TiradorPuertas() {
         </div>
       </section>
       <SCFooter></SCFooter>
-    </SCTiradorPuertas>
+    </SCLacadas>
   );
 }

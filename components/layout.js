@@ -39,7 +39,7 @@ export default function Layout({ children }) {
             <a href="/">
               <img
                 className={styles.logoNavbar}
-                src="../../../logo-inicio.png"
+                src="../../../../logo-inicio.png"
                 alt="lapiz"
               />
             </a>

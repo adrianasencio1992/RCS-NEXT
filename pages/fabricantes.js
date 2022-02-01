@@ -2056,6 +2056,17 @@ export default function Fabricantes() {
               </a>
             </Link>
 
+            <Link href="https://grupoacb.com/">
+              <a className="espaciado" target="_blank">
+                <img
+                  className="imagen"
+                  src="/marcas/acb.jpg"
+                  width="150"
+                  height="100"
+                />
+              </a>
+            </Link>
+
             <Link href="https://www.gama-decor.com/">
               <a className="espaciado" target="_blank">
                 <img

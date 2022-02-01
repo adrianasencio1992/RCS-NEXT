@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SCTiradorPuertas = styled.section`
+const SCLacadas = styled.section`
  overflow-x: hidden;
  font-family: 'Arial';
  font-size:15px;
@@ -562,6 +562,39 @@ footer span a {
 #demo-menu:hover, #demo-share:hover, footer span a:hover {
   color: #999;
 }
+
+.section-card{
+  margin-top:50px;
+}
+
+/*CARD*/
+.div-card{
+  margin: 20px;
+  width: 305px;
+  height:355px;
+  display:flex;
+  justify-content:center;
+  flex-direction:column;
+  align-items:center;
+  cursor:pointer;
+}
+
+
+.imagen-card{
+  width:225px;
+  height:315px;
+}
+
+.imagen-card:hover{
+  transform: scale(1.2);
+  transition-duration: 500ms;
+}
+
+.h2-card{
+  z-index:10;
+  font-size:20px;
+}
+
 `;
 
-export default SCTiradorPuertas;
+export default SCLacadas;

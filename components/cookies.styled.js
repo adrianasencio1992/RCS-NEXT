@@ -7,7 +7,7 @@ const SCCookies = styled.section`
 body{
   margin:0;
   padding:0;
-  z-index:100000;
+  
 }
 @mixin media-query($device) {
     @media screen and (max-width: $device) {
@@ -26,23 +26,23 @@ body{
   width: 100%;
   z-index: 999999;
   display:none;
-  z-index:100000;
+  
   @include media-query(480){
     display: none !important;
   }
   p{
-    color: #fff;
+    color: white;
     font-size: .8em;
     margin-bottom: 0;
     font-weight: 400;
     letter-spacing: normal;
     text-align:center;
-    z-index:100000;
+    
   }
   a, a:hover{
-    color: #fff;
+    color: white;
     margin-left: 30px;
-    z-index:100000;
+    
   }
 
 
@@ -52,7 +52,7 @@ body{
     text-decoration:none;
     outline: none;
     border:0;
-    z-index:100000;
+    
   }
 }
 

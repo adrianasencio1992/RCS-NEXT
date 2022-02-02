@@ -5,9 +5,29 @@ import Head from "next/head";
 import SCNavBar from "./navbar";
 
 export default function Layout({ children }) {
+  /*MARKETING*/
+  if (typeof window !== "undefined") {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      someKey: "someValue",
+    });
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-218480164-1");
+    gtag("config", "AW-10845351716");
+  }
   return (
     <div className={styles.container}>
       <Head>
+        {/*MARKETING*/}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-218480164-1"
+        ></script>
         <title>RCS | Reformas, Construcciones y Servicios</title>
         <link rel="icon" href="/logo-imagenes.png" />
         <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />

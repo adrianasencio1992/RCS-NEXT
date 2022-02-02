@@ -7,9 +7,16 @@ import SCFooter from "../components/footer";
 import Link from "next/dist/client/link";
 import SCFormulario from "../components/formulario";
 import SCWatsap from "../components/watsap";
+import SCCookies from "../components/cookies";
 
 export default function Home() {
+  /*MARKETING*/
   if (typeof window !== "undefined") {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      someKey: "someValue",
+    });
+
     window.dataLayer = window.dataLayer || [];
     function gtag() {
       dataLayer.push(arguments);
@@ -22,13 +29,17 @@ export default function Home() {
     <div>
       <Layout>
         <Head>
-          <title>RCS | Reformas, Construcciones y Servicios</title>
-          <link rel="icon" href="/logo-imagenes.png" />
+          {/*MARKETING*/}
           <script
             async
             src="https://www.googletagmanager.com/gtag/js?id=UA-218480164-1"
           ></script>
-          <script></script>
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-218480164-1"
+          ></script>
+          <title>RCS | Reformas, Construcciones y Servicios</title>
+          <link rel="icon" href="/logo-imagenes.png" />
         </Head>
       </Layout>
       <SCIndex>
@@ -41,6 +52,7 @@ export default function Home() {
             <img className="imagen-slider" src="/cocina-ok.jpg" alt=""></img>
           </figure>
         </div>
+        <SCCookies></SCCookies>
         <SCFormulario></SCFormulario>
         <section className="section-provincia">
           <h2 className="h2-provincia">

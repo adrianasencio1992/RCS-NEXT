@@ -563,13 +563,19 @@ footer span a {
   color: #999;
 }
 
-.section-card{
-  margin-top:50px;
-}
+
 
 /*CARD*/
+
+.section-card{
+  margin-top:50px;
+  display: flex;
+  flex-direction: row;
+}
+
 .div-card{
-  margin: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   width: 305px;
   height:355px;
   display:flex;

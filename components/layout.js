@@ -5,6 +5,21 @@ import Head from "next/head";
 import SCNavBar from "./navbar";
 
 export default function Layout({ children }) {
+  if (typeof window !== "undefined") {
+    window.dataLayer = window.dataLayer || [];
+    window.dataLayer.push({
+      someKey: "someValue",
+    });
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-218480164-1");
+    gtag("config", "AW-10845351716");
+  }
+
   return (
     <div className={styles.container}>
       <Head>
@@ -21,6 +36,11 @@ export default function Layout({ children }) {
           src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
           integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
           crossOrigin="anonymous"
+        ></script>
+        {/*MARKETING*/}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=UA-218480164-1"
         ></script>
       </Head>
       <body className={styles.body}>

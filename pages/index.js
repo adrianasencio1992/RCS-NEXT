@@ -9,12 +9,26 @@ import SCFormulario from "../components/formulario";
 import SCWatsap from "../components/watsap";
 
 export default function Home() {
+  if (typeof window !== "undefined") {
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+    gtag("config", "UA-218480164-1");
+    gtag("config", "AW-10845351716");
+  }
   return (
     <div>
       <Layout>
         <Head>
           <title>RCS | Reformas, Construcciones y Servicios</title>
           <link rel="icon" href="/logo-imagenes.png" />
+          <script
+            async
+            src="https://www.googletagmanager.com/gtag/js?id=UA-218480164-1"
+          ></script>
+          <script></script>
         </Head>
       </Layout>
       <SCIndex>

@@ -1,7 +1,7 @@
 import React from "react";
-import Layout from "../../../components/layout";
-import SCFooter from "../../../components/footer";
-import SCLacadas from "./lacadas.styled";
+import Layout from "../../../../components/layout";
+import SCFooter from "../../../../components/footer.styled";
+import SCLacadas from "../lacadas.styled";
 import Link from "next/link";
 
 export default function Lacadas() {

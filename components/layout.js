@@ -5,6 +5,7 @@ import Head from "next/head";
 import SCNavBar from "./navbar";
 
 export default function Layout({ children }) {
+  /*MARKETING*/
   if (typeof window !== "undefined") {
     window.dataLayer = window.dataLayer || [];
     window.dataLayer.push({
@@ -18,6 +19,29 @@ export default function Layout({ children }) {
     gtag("js", new Date());
     gtag("config", "UA-218480164-1");
     gtag("config", "AW-10845351716");
+
+    if (typeof initialise !== "undefined") {
+      /*COOKIES*/
+      window.addEventListener("load", function () {
+        window.cookieconsent.initialise({
+          palette: {
+            popup: {
+              background: "#000000",
+            },
+            button: {
+              background: "#ffffff",
+            },
+          },
+          content: {
+            message:
+              "Utilizamos cookies propias y de terceros para mejorar nuestros servicios. Si continúa con la navegación, consideraremos que acepta este uso.",
+            dismiss: "ACEPTAR",
+            link: "Leer más",
+            href: "#",
+          },
+        });
+      });
+    }
   }
 
   return (
@@ -118,6 +142,13 @@ export default function Layout({ children }) {
           </div>
         </div>
         <SCNavBar></SCNavBar>
+        <iframe
+          width="560"
+          height="315"
+          src="https://www.youtube.com/embed/2YBtspm8j8M"
+          frameborder="0"
+          allowfullscreen
+        ></iframe>
         <Link href="/reformas-solicita-presupuesto">
           <div className={styles.divPrecio}>
             <a className={styles.aPrecio}>

@@ -25,6 +25,14 @@ export default function Formulario() {
                 <p className="p-input">
                   <label>Nombre y apellidos*</label>
                 </p>
+                {/*Para enviar a la pagina y no tener el control de personas*/}
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://www.rcs.cat/gracias/"
+                ></input>
+                <input type="hidden" name="_captcha" value="false"></input>
+                {/**/}
                 <input
                   className="input-formulario"
                   type="text"

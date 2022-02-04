@@ -12,7 +12,7 @@ body{
 }
 
 .barra-aceptacion-cookie{
-  background: rgba(0,0,0, .9);
+  background: rgba(42,42,42, .8);
   border-top: thin solid #606060;
   box-sizing: border-box;
   position: fixed;

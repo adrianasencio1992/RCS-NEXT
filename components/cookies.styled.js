@@ -7,6 +7,7 @@ const SCCookies = styled.section`
 body{
   margin:0;
   padding:0;
+  color: white;
   
 }
 @mixin media-query($device) {
@@ -40,7 +41,7 @@ body{
     
   }
   a, a:hover{
-    color: white;
+    color: white !important;
     margin-left: 30px;
     
   }

@@ -4,9 +4,12 @@ import SCFooter from "../components/footer";
 import SCGracias from "./gracias.styled";
 
 export default function Gracias() {
-  gtag("event", "conversion", {
-    send_to: "AW-10845351716/bV4qCLiFtJUDEKTeu7Mo",
-  });
+  if (typeof $ !== "undefined") {
+    // browser code por si algo no funciona ponerlo despues de typeof y escribir le codigo dentro
+    gtag("event", "conversion", {
+      send_to: "AW-10845351716/bV4qCLiFtJUDEKTeu7Mo",
+    });
+  }
 
   return (
     <SCGracias>

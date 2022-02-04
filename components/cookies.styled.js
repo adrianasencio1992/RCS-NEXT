@@ -7,16 +7,12 @@ const SCCookies = styled.section`
 body{
   margin:0;
   padding:0;
-  color: white;
+  
   
 }
-@mixin media-query($device) {
-    @media screen and (max-width: $device) {
-        @content;
-    }
-}
+
 .barra-aceptacion-cookie{
-  background: rgba(42,42,42, .9);
+  background: rgba(0,0,0, .9);
   border-top: thin solid #606060;
   box-sizing: border-box;
   position: fixed;
@@ -25,19 +21,18 @@ body{
   font-size: 14px;
   font-family: sans-serif, arial, verdana;
   width: 100%;
-  z-index: 999999;
+  z-index: 999998;
   display:none;
   
-  @include media-query(480){
-    display: none !important;
-  }
-  p{
-    color: white;
+ 
+  .p-cookies{
+    color: white !important;
     font-size: .8em;
     margin-bottom: 0;
     font-weight: 400;
     letter-spacing: normal;
     text-align:center;
+    z-index: 999999;
     
   }
   a, a:hover{

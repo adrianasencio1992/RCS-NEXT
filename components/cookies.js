@@ -53,8 +53,8 @@ export default function Cookies() {
       <Head>
         <script src="https://code.jquery.com/jquery-2.1.3.min.js"></script>
       </Head>
-      <div class="barra-aceptacion-cookie" id="js_barra_aceptacion_cookie">
-        <p>
+      <div className="barra-aceptacion-cookie" id="js_barra_aceptacion_cookie">
+        <p className="p-cookies">
           {" "}
           Solicitamos su permiso para obtener datos estadísticos de su
           navegación en esta web, en cumplimiento del Real Decreto-ley 13/2012.

@@ -1,15 +1,15 @@
 import React from "react";
 import Layout from "../../../../components/layout";
 import SCFooter from "../../../../components/footer";
-import SCYakarta from "./yakarta.styled";
+import SCMadrid from "./madrid.styled";
 import Link from "next/link";
 
-export default function Yakarta() {
+export default function Madrid() {
   return (
-    <SCYakarta>
+    <SCMadrid>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Yakarta</h1>
+        <h1 className="h1-obra-nueva">Madrid</h1>
         <p className="p-obra-nueva">Un estilo moderno</p>
       </div>
       <section className="section">
@@ -30,17 +30,17 @@ export default function Yakarta() {
             <a className="link2">Puertas lacadas</a>
           </Link>
           <span className="span"> ˃ </span>
-          <Link href="/muebles-de-cocina/puertas/lacadas/yakarta">
-            <a className="link2">Yakarta</a>
+          <Link href="/muebles-de-cocina/puertas/lacadas/madrid">
+            <a className="link2">Madrid</a>
           </Link>
         </div>
 
         <section className="section-fotos">
-          <h2 className="h2-formulario">YAKARTA</h2>
+          <h2 className="h2-formulario">MADRID</h2>
           <hr className="hr-formulario"></hr>
           <div className="div-fotos">
-            <img className="imagen-1" src="/lacadas/yakarta.jpg"></img>
-            <img className="imagen-2" src="/lacadas/yakarta-cocina.jpg"></img>
+            <img className="imagen-1" src="/lacadas/Madrid.jpg"></img>
+            <img className="imagen-2" src="/lacadas/Madrid-cocina.jpg"></img>
           </div>
         </section>
         <section className="section-datos">
@@ -55,12 +55,12 @@ export default function Yakarta() {
               <tr>
                 <td>MODELO</td>
 
-                <td className="derecha">Yakarta</td>
+                <td className="derecha">Madrid</td>
               </tr>
               <tr>
                 <td>ACABADO</td>
 
-                <td className="derecha">Mate</td>
+                <td className="derecha">Brillo</td>
               </tr>
               <tr>
                 <td>MATERIAL</td>
@@ -70,7 +70,7 @@ export default function Yakarta() {
               <tr>
                 <td>GROSOR</td>
 
-                <td className="derecha">22 mm</td>
+                <td className="derecha">19 mm | 22 mm</td>
               </tr>
               <tr>
                 <td>TIRADOR</td>
@@ -94,7 +94,7 @@ export default function Yakarta() {
               <tr>
                 <td>COLOR COCINA IMÁGEN</td>
 
-                <td className="derecha">Ayure</td>
+                <td className="derecha">Stone</td>
               </tr>
               <tr>
                 <td>COLORES DISPONIBLES</td>
@@ -117,6 +117,6 @@ export default function Yakarta() {
       </section>
 
       <SCFooter></SCFooter>
-    </SCYakarta>
+    </SCMadrid>
   );
 }

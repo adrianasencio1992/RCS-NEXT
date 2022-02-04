@@ -48,6 +48,11 @@ export default function Nantes() {
             <h3 className="h3-datos">DATOS TÉCNICOS</h3>
             <table className="tabla">
               <tr>
+                <td>FABRICANTE</td>
+
+                <td className="derecha">Grupo ACB</td>
+              </tr>
+              <tr>
                 <td>MODELO</td>
 
                 <td className="derecha">Nantes</td>

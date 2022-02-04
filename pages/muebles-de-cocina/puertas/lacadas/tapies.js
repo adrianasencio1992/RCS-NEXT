@@ -30,8 +30,8 @@ export default function Tapies() {
             <a className="link2">Puertas lacadas</a>
           </Link>
           <span className="span"> ˃ </span>
-          <Link href="/muebles-de-cocina/puertas/lacadas/yakarta">
-            <a className="link2">Nantes</a>
+          <Link href="/muebles-de-cocina/puertas/lacadas/tapies">
+            <a className="link2">Tapies</a>
           </Link>
         </div>
 
@@ -47,6 +47,11 @@ export default function Tapies() {
           <div className="div-tabla">
             <h3 className="h3-datos">DATOS TÉCNICOS</h3>
             <table className="tabla">
+              <tr>
+                <td>FABRICANTE</td>
+
+                <td className="derecha">Grupo ACB</td>
+              </tr>
               <tr>
                 <td>MODELO</td>
 

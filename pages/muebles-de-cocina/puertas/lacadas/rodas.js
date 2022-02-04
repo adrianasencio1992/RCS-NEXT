@@ -1,15 +1,15 @@
 import React from "react";
 import Layout from "../../../../components/layout";
 import SCFooter from "../../../../components/footer";
-import SCYakarta from "./yakarta.styled";
+import SCRodas from "./rodas.styled";
 import Link from "next/link";
 
-export default function Yakarta() {
+export default function Rodas() {
   return (
-    <SCYakarta>
+    <SCRodas>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Yakarta</h1>
+        <h1 className="h1-obra-nueva">Rodas</h1>
         <p className="p-obra-nueva">Un estilo moderno</p>
       </div>
       <section className="section">
@@ -30,17 +30,17 @@ export default function Yakarta() {
             <a className="link2">Puertas lacadas</a>
           </Link>
           <span className="span"> ˃ </span>
-          <Link href="/muebles-de-cocina/puertas/lacadas/yakarta">
-            <a className="link2">Yakarta</a>
+          <Link href="/muebles-de-cocina/puertas/lacadas/rodas">
+            <a className="link2">Rodas</a>
           </Link>
         </div>
 
         <section className="section-fotos">
-          <h2 className="h2-formulario">YAKARTA</h2>
+          <h2 className="h2-formulario">RODAS</h2>
           <hr className="hr-formulario"></hr>
           <div className="div-fotos">
-            <img className="imagen-1" src="/lacadas/yakarta.jpg"></img>
-            <img className="imagen-2" src="/lacadas/yakarta-cocina.jpg"></img>
+            <img className="imagen-1" src="/lacadas/rodas.jpg"></img>
+            <img className="imagen-2" src="/lacadas/rodas-cocina.jpg"></img>
           </div>
         </section>
         <section className="section-datos">
@@ -55,7 +55,7 @@ export default function Yakarta() {
               <tr>
                 <td>MODELO</td>
 
-                <td className="derecha">Yakarta</td>
+                <td className="derecha">Rodas</td>
               </tr>
               <tr>
                 <td>ACABADO</td>
@@ -117,6 +117,6 @@ export default function Yakarta() {
       </section>
 
       <SCFooter></SCFooter>
-    </SCYakarta>
+    </SCRodas>
   );
 }

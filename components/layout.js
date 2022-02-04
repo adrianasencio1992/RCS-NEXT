@@ -19,6 +19,10 @@ export default function Layout({ children }) {
     gtag("js", new Date());
     gtag("config", "UA-218480164-1");
     gtag("config", "AW-10845351716");
+
+    window.onload = function () {
+      // también puede usar window.addEventListener('load', (event) => { cargar el css antes que el html
+    };
   }
   return (
     <div className={styles.container}>

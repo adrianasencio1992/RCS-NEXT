@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../components/layout";
 import SCFooter from "../components/footer";
 import SCGracias from "./gracias.styled";
+import Head from "next/head";
 
 export default function Gracias() {
   if (typeof $ !== "undefined") {
@@ -14,6 +15,7 @@ export default function Gracias() {
 
   return (
     <SCGracias>
+      <Head>gtag("config", "AW-10845351716");</Head>
       <Layout></Layout>
 
       <div className="section-gracias">

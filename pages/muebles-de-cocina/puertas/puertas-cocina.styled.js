@@ -138,12 +138,12 @@ span{
 }
 }
 .card1{
-  background: url('/tirador-integrado.png') center center no-repeat;
-  background-size: 160px;
+  background: url('/madera/Yakarta.jpg') center center no-repeat;
+  background-size: 190px;
 
   &:hover{
-    background: url('/tirador-integrado.png') left center no-repeat;
-    background-size: 200px;
+    background: url('/madera/Yakarta.jpg') left center no-repeat;
+    background-size: 265px;
 
     h2{
       opacity: 1;

@@ -9,6 +9,7 @@ export default function Gracias() {
     gtag("event", "conversion", {
       send_to: "AW-10845351716/bV4qCLiFtJUDEKTeu7Mo",
     });
+    gtag("config", "AW-10845351716");
   }
 
   return (

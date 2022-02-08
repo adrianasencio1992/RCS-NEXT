@@ -28,11 +28,11 @@ export default function Cambridge() {
             <a className="link2">Puertas cocina</a>
           </Link>
           <span className="span"> ˃ </span>
-          <Link href="/muebles-de-cocina/puertas/lacadas">
-            <a className="link2">Puertas lacadas</a>
+          <Link href="/muebles-de-cocina/puertas/madera">
+            <a className="link2">Puertas madera</a>
           </Link>
           <span className="span"> ˃ </span>
-          <Link href="/muebles-de-cocina/puertas/lacadas/cambridge">
+          <Link href="/muebles-de-cocina/puertas/madera/cambridge">
             <a className="link2">Cambridge</a>
           </Link>
         </div>
@@ -44,7 +44,7 @@ export default function Cambridge() {
 
         <section className="section-datos">
           <div className="div-fotos">
-            <img className="imagen-1" src="/lacadas/Cambridge.jpg"></img>
+            <img className="imagen-1" src="/madera/Cambridge.jpg"></img>
           </div>
           <div className="div-tabla">
             <h3 className="h3-datos">DATOS TÉCNICOS</h3>
@@ -105,22 +105,32 @@ export default function Cambridge() {
             <input type="radio" id="s-1" name="slider-control" />
             <input type="radio" id="s-2" name="slider-control" />
             <input type="radio" id="s-3" name="slider-control" />
+            <input type="radio" id="s-4" name="slider-control" />
+            <input type="radio" id="s-5" name="slider-control" />
 
             <ul class="s-content">
               <li class="s-item s-item-1"></li>
               <li class="s-item s-item-2"></li>
               <li class="s-item s-item-3"></li>
+              <li class="s-item s-item-4"></li>
+              <li class="s-item s-item-5"></li>
             </ul>
             <div class="s-control">
               <label class="s-c-1" for="s-1"></label>
               <label class="s-c-2" for="s-2"></label>
               <label class="s-c-3" for="s-3"></label>
+              <label class="s-c-4" for="s-4"></label>
+              <label class="s-c-5" for="s-5"></label>
             </div>
             <div class="s-nav">
               <label class="s-nav-1 right" for="s-2"></label>
               <label class="s-nav-2 left" for="s-1"></label>
               <label class="s-nav-2 right" for="s-3"></label>
               <label class="s-nav-3 left" for="s-2"></label>
+              <label class="s-nav-3 right" for="s-4"></label>
+              <label class="s-nav-4 left" for="s-3"></label>
+              <label class="s-nav-4 right" for="s-5"></label>
+              <label class="s-nav-5 left" for="s-4"></label>
             </div>
           </div>
         </div>

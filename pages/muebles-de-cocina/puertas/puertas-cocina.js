@@ -31,7 +31,7 @@ export default function PuertasCocina() {
             <a className="link3">
               <div class="card card0">
                 <div class="border">
-                  <h2>LACA</h2>
+                  <h2 className="h2">LACA</h2>
                 </div>
               </div>
             </a>
@@ -40,7 +40,7 @@ export default function PuertasCocina() {
             <a className="link3">
               <div class="card card1">
                 <div class="border">
-                  <h2>MADERA</h2>
+                  <h2 className="h2">MADERA</h2>
                 </div>
               </div>
             </a>
@@ -49,7 +49,7 @@ export default function PuertasCocina() {
             <a className="link3">
               <div class="card card2">
                 <div class="border">
-                  <h2>LAMINADO</h2>
+                  <h2 className="h2">LAMINADO</h2>
                 </div>
               </div>
             </a>
@@ -58,7 +58,7 @@ export default function PuertasCocina() {
             <a className="link3">
               <div class="card card3">
                 <div class="border">
-                  <h2>CANTEADO</h2>
+                  <h2 className="h2">CANTEADO</h2>
                 </div>
               </div>
             </a>

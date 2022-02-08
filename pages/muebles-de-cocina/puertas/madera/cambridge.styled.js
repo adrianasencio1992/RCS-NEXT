@@ -11,7 +11,7 @@ const SCCambridge = styled.section`
 
   .div-obra-nueva{
   background-image: url(
-    /lacadas/yakarta-cocina.jpg);
+    /madera/Calabria-cocina.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -148,7 +148,7 @@ margin-top:50px;
   flex-direction:row;
   margin-left: 50px;
   margin-right: 50px;
-  justify-content: center;
+  justify-content: space-around;
 }
 
 .h3-datos{
@@ -197,8 +197,7 @@ a{
 /*CAROUSEL*/
 
 .outer-wrapper {
-  width: 100%;
-  height:auto;
+  max-width: 600px;
   margin: 50px auto;
   display:flex;
   justify-content:center;
@@ -210,12 +209,13 @@ a{
   width: 100%;
   height:auto;
   margin-bottom: 50px;
-  padding-bottom: 100%;
+  padding-bottom: 94%;
   position: relative;
   border: 10px solid #fff;
   background-color: #efefe8;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
   overflow: hidden;
+  
 }
 .s-wrap > input {
   display: none;
@@ -231,6 +231,7 @@ a{
   font-size: 0;
   list-style: none;
   transition: transform 1s;
+  
 }
 .s-wrap .s-item {
   display: inline-block;
@@ -238,21 +239,22 @@ a{
   height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
+  object-fit: contain;
 }
 .s-wrap .s-item-1 {
   background-image: url(/madera/colores1.jpg);
 }
 .s-wrap .s-item-2 {
-  background-image: url("/madera/colores2.jpg");
-}
-.s-wrap .s-item-3 {
   background-image: url("/madera/colores.jpg");
 }
+.s-wrap .s-item-3 {
+  background-image: url("/madera/colores2.jpg");
+}
 .s-wrap .s-item-4 {
-  background-image: url("https://images.unsplash.com/photo-1422393462206-207b0fbd8d6b?crop=entropy&fit=crop&fm=jpg&h=600&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=800");
+  background-image: url("/madera/colores5.jpg");
 }
 .s-wrap .s-item-5 {
-  background-image: url("https://images.unsplash.com/photo-1439736637365-748f240b24fb?crop=entropy&fit=crop&fm=jpg&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=800");
+  background-image: url("/madera/colores4.jpg");
 }
 
 .s-type-1 .s-control {
@@ -336,6 +338,7 @@ a{
 .s-type-1 #s-3:checked ~ .s-nav .s-nav-3 {
   display: block;
 }
+
 .s-type-1 #s-4:checked ~ .s-content {
   transform: translateX(-60%);
 }
@@ -345,6 +348,7 @@ a{
 .s-type-1 #s-4:checked ~ .s-nav .s-nav-4 {
   display: block;
 }
+
 .s-type-1 #s-5:checked ~ .s-content {
   transform: translateX(-80%);
 }
@@ -353,6 +357,8 @@ a{
 }
 .s-type-1 #s-5:checked ~ .s-nav .s-nav-5 {
   display: block;
+}
+
 }
 
 @keyframes slider-animation {

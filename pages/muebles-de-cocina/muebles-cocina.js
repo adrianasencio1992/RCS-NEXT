@@ -25,7 +25,7 @@ export default function MueblesCocina() {
             <a className="link3">
               <div class="card card0">
                 <div class="border">
-                  <h2>Puertas</h2>
+                  <h2 className="h2">Puertas</h2>
                 </div>
               </div>
             </a>
@@ -34,7 +34,7 @@ export default function MueblesCocina() {
             <a className="link3">
               <div class="card card1">
                 <div class="border">
-                  <h2>Tiradores</h2>
+                  <h2 className="h2">Tiradores</h2>
                 </div>
               </div>
             </a>
@@ -42,14 +42,14 @@ export default function MueblesCocina() {
           <a className="link3" href="#">
             <div class="card card2">
               <div class="border">
-                <h2>Mesas</h2>
+                <h2 className="h2">Mesas</h2>
               </div>
             </div>
           </a>
           <a className="link3" href="#">
             <div class="card card3">
               <div class="border">
-                <h2>Sillas</h2>
+                <h2 className="h2">Sillas</h2>
               </div>
             </div>
           </a>

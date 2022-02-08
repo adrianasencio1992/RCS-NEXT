@@ -45,9 +45,6 @@ const SCPuertasCocina = styled.section`
   margin-left:30px;
   text-shadow: 2px 2px black;
 }
-
-
-
 /*Seccion del lineal*/
 
 
@@ -129,7 +126,7 @@ span{
     background: url('/lacadas/Cadaqués.jpg') left center no-repeat;
     background-size: 265px;
 
-    h2{
+    .h2{
       opacity: 1;
 }
     .fa{
@@ -145,7 +142,7 @@ span{
     background: url('/madera/Cambridge.jpg') left center no-repeat;
     background-size: 265px;
 
-    h2{
+    .h2{
       opacity: 1;
 }
     .fa{
@@ -162,7 +159,7 @@ span{
     background: url('/polilaminado/Lima.jpg') left center no-repeat;
     background-size: 265px;
 
-    h2{
+    .h2{
       opacity: 1;
 }
     .fa{
@@ -179,7 +176,7 @@ span{
     background: url('/canteado/vega.jpg') left center no-repeat;
     background-size: 265px;
 
-    h2{
+    .h2{
       opacity: 1;
 }
     .fa{
@@ -188,7 +185,7 @@ span{
 }
 }
 
-h2{
+.h2{
   font-family: 'Oswald';
   color: black;
   margin: 14px;

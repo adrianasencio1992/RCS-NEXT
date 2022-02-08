@@ -124,7 +124,7 @@ span{
     background: url('/puerta.png') left center no-repeat;
     background-size: 205px;
 
-    h2{
+    .h2{
       opacity: 1;
 }
     .fa{
@@ -140,7 +140,7 @@ span{
     background: url('/tirador.png') left center no-repeat;
     background-size: 350px;
 
-    h2{
+    .h2{
       opacity: 1;
 }
     .fa{
@@ -157,7 +157,7 @@ span{
     background-size: 300px;
 
 
-    h2{
+    .h2{
       opacity: 1;
 }
     .fa{
@@ -175,7 +175,7 @@ span{
     background-size: 230px;
 
 
-    h2{
+    .h2{
       opacity: 1;
 }
     .fa{
@@ -183,7 +183,7 @@ span{
 }
 }
 }
-h2{
+.h2{
   font-family: 'Oswald';
   color: black;
   margin: 14px;

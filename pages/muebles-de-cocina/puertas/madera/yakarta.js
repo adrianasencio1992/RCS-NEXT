@@ -4,12 +4,14 @@ import SCFooter from "../../../../components/footer";
 import SCYakarta from "./yakarta.styled";
 import Link from "next/link";
 
-export default function Yakarta() {
+export default function yakarta() {
+  if (typeof $ !== "undefined") {
+  }
   return (
     <SCYakarta>
       <Layout></Layout>
       <div className="div-obra-nueva">
-        <h1 className="h1-obra-nueva">Yakarta</h1>
+        <h1 className="h1-obra-nueva">yakarta</h1>
         <p className="p-obra-nueva">Un estilo moderno</p>
       </div>
       <section className="section">
@@ -26,24 +28,24 @@ export default function Yakarta() {
             <a className="link2">Puertas cocina</a>
           </Link>
           <span className="span"> ˃ </span>
-          <Link href="/muebles-de-cocina/puertas/lacadas">
-            <a className="link2">Puertas lacadas</a>
+          <Link href="/muebles-de-cocina/puertas/madera">
+            <a className="link2">Puertas madera</a>
           </Link>
           <span className="span"> ˃ </span>
-          <Link href="/muebles-de-cocina/puertas/lacadas/yakarta">
+          <Link href="/muebles-de-cocina/puertas/madera/yakarta">
             <a className="link2">Yakarta</a>
           </Link>
         </div>
 
         <section className="section-fotos">
-          <h2 className="h2-formulario">YAKARTA</h2>
+          <h2 className="h2-formulario">yakarta</h2>
           <hr className="hr-formulario"></hr>
-          <div className="div-fotos">
-            <img className="imagen-1" src="/lacadas/yakarta.jpg"></img>
-            <img className="imagen-2" src="/lacadas/yakarta-cocina.jpg"></img>
-          </div>
         </section>
+
         <section className="section-datos">
+          <div className="div-fotos">
+            <img className="imagen-1" src="/madera/yakarta.jpg"></img>
+          </div>
           <div className="div-tabla">
             <h3 className="h3-datos">DATOS TÉCNICOS</h3>
             <table className="tabla">
@@ -55,22 +57,22 @@ export default function Yakarta() {
               <tr>
                 <td>MODELO</td>
 
-                <td className="derecha">Yakarta</td>
+                <td className="derecha">yakarta</td>
+              </tr>
+              <tr>
+                <td>MADERA</td>
+
+                <td className="derecha">Roble Nudos</td>
+              </tr>
+              <tr>
+                <td>COLOR</td>
+
+                <td className="derecha">h08</td>
               </tr>
               <tr>
                 <td>ACABADO</td>
 
-                <td className="derecha">Mate</td>
-              </tr>
-              <tr>
-                <td>MATERIAL</td>
-
-                <td className="derecha">MDF</td>
-              </tr>
-              <tr>
-                <td>GROSOR</td>
-
-                <td className="derecha">22 mm</td>
+                <td className="derecha">-</td>
               </tr>
               <tr>
                 <td>TIRADOR</td>
@@ -78,42 +80,60 @@ export default function Yakarta() {
                 <td className="derecha">No</td>
               </tr>
               <tr>
-                <td>DECORACIÓN COCINA IMÁGEN</td>
+                <td>MATERIAL:</td>
 
-                <td className="derecha">Sin decoración</td>
+                <td className="derecha">Semimacizo</td>
               </tr>
               <tr>
-                <td>DECORACIONES DISPONIBLES</td>
+                <td>MADERAS</td>
 
                 <td className="derecha">
-                  Arista viva | Brocha | Brocha brillo | Filo cromado | Filo oro
-                  | Inox metal cobre | Inox metal plata | Metalizado | Metal
-                  acero | Metal oro | Multibrillo | Patinado
+                  Fresno | Roble | Roble Nudos | Nogal
                 </td>
               </tr>
               <tr>
-                <td>COLOR COCINA IMÁGEN</td>
+                <td>GROSOR</td>
 
-                <td className="derecha">Ayure</td>
-              </tr>
-              <tr>
-                <td>COLORES DISPONIBLES</td>
-
-                <td className="derecha">Consultar catálogo colores</td>
+                <td className="derecha">22 mm</td>
               </tr>
             </table>
           </div>
-
-          <div>
-            <h3 className="h3-datos">CATÁLOGO DE COLORES</h3>
-            <a href="/lacadas/muestra-color-laca.pdf" target="_blank">
-              <img
-                className="imagen-muestrario"
-                src="/lacadas/muestrario-color-lacadas-grupoacb.jpg"
-              ></img>
-            </a>
-          </div>
         </section>
+        <div class="outer-wrapper">
+          <h2 className="h2-formulario">COLORES</h2>
+          <div class="s-wrap s-type-1" role="slider">
+            <input type="radio" id="s-1" name="slider-control" />
+            <input type="radio" id="s-2" name="slider-control" />
+            <input type="radio" id="s-3" name="slider-control" />
+            <input type="radio" id="s-4" name="slider-control" />
+            <input type="radio" id="s-5" name="slider-control" />
+
+            <ul class="s-content">
+              <li class="s-item s-item-1"></li>
+              <li class="s-item s-item-2"></li>
+              <li class="s-item s-item-3"></li>
+              <li class="s-item s-item-4"></li>
+              <li class="s-item s-item-5"></li>
+            </ul>
+            <div class="s-control">
+              <label class="s-c-1" for="s-1"></label>
+              <label class="s-c-2" for="s-2"></label>
+              <label class="s-c-3" for="s-3"></label>
+              <label class="s-c-4" for="s-4"></label>
+              <label class="s-c-5" for="s-5"></label>
+            </div>
+            <div class="s-nav">
+              <label class="s-nav-1 right" for="s-2"></label>
+              <label class="s-nav-2 left" for="s-1"></label>
+              <label class="s-nav-2 right" for="s-3"></label>
+              <label class="s-nav-3 left" for="s-2"></label>
+              <label class="s-nav-3 right" for="s-4"></label>
+              <label class="s-nav-4 left" for="s-3"></label>
+              <label class="s-nav-4 right" for="s-5"></label>
+              <label class="s-nav-5 left" for="s-4"></label>
+            </div>
+          </div>
+        </div>
       </section>
 
       <SCFooter></SCFooter>

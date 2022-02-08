@@ -121,13 +121,13 @@ span{
   border: 2px solid rgb(191, 191, 191);
 }
 .card0{
-  background: url('/lacadas/yakarta.jpg') center center no-repeat;
-  background-size: 170px;
+  background: url('/lacadas/Cadaqués.jpg') center center no-repeat;
+  background-size: 190px;
   
 
   &:hover{
-    background: url('/lacadas/yakarta.jpg') left center no-repeat;
-    background-size: 235px;
+    background: url('/lacadas/Cadaqués.jpg') left center no-repeat;
+    background-size: 265px;
 
     h2{
       opacity: 1;
@@ -138,11 +138,45 @@ span{
 }
 }
 .card1{
-  background: url('/madera/Yakarta.jpg') center center no-repeat;
+  background: url('/madera/Cambridge.jpg') center center no-repeat;
   background-size: 190px;
 
   &:hover{
-    background: url('/madera/Yakarta.jpg') left center no-repeat;
+    background: url('/madera/Cambridge.jpg') left center no-repeat;
+    background-size: 265px;
+
+    h2{
+      opacity: 1;
+}
+    .fa{
+      opacity: 1;
+}
+}
+}
+
+.card2{
+  background: url('/polilaminado/Lima.jpg') center center no-repeat;
+  background-size: 190px;
+
+  &:hover{
+    background: url('/polilaminado/Lima.jpg') left center no-repeat;
+    background-size: 265px;
+
+    h2{
+      opacity: 1;
+}
+    .fa{
+      opacity: 1;
+}
+}
+}
+
+.card3{
+  background: url('/canteado/vega.jpg') center center no-repeat;
+  background-size: 190px;
+
+  &:hover{
+    background: url('/canteado/vega.jpg') left center no-repeat;
     background-size: 265px;
 
     h2{

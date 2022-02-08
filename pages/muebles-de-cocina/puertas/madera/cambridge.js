@@ -60,19 +60,19 @@ export default function Cambridge() {
                 <td className="derecha">Cambridge</td>
               </tr>
               <tr>
+                <td>MADERA</td>
+
+                <td className="derecha">Roble Nudos</td>
+              </tr>
+              <tr>
+                <td>COLOR</td>
+
+                <td className="derecha">h08</td>
+              </tr>
+              <tr>
                 <td>ACABADO</td>
 
-                <td className="derecha">Mate</td>
-              </tr>
-              <tr>
-                <td>MATERIAL</td>
-
-                <td className="derecha">MDF</td>
-              </tr>
-              <tr>
-                <td>GROSOR</td>
-
-                <td className="derecha">22 mm</td>
+                <td className="derecha">-</td>
               </tr>
               <tr>
                 <td>TIRADOR</td>
@@ -80,87 +80,50 @@ export default function Cambridge() {
                 <td className="derecha">No</td>
               </tr>
               <tr>
-                <td>DECORACIÓN COCINA IMÁGEN</td>
+                <td>MATERIAL:</td>
 
-                <td className="derecha">Sin decoración</td>
+                <td className="derecha">Semimacizo</td>
               </tr>
               <tr>
-                <td>DECORACIONES DISPONIBLES</td>
+                <td>MADERAS</td>
 
                 <td className="derecha">
-                  Arista viva | Brocha | Brocha brillo | Filo cromado | Filo oro
-                  | Inox metal cobre | Inox metal plata | Metalizado | Metal
-                  acero | Metal oro | Multibrillo | Patinado
+                  Fresno | Roble | Roble Nudos | Nogal
                 </td>
               </tr>
               <tr>
-                <td>COLOR COCINA IMÁGEN</td>
+                <td>GROSOR</td>
 
-                <td className="derecha">Mouse</td>
-              </tr>
-              <tr>
-                <td>COLORES DISPONIBLES</td>
-
-                <td className="derecha">Consultar catálogo colores</td>
+                <td className="derecha">22 mm</td>
               </tr>
             </table>
           </div>
         </section>
-        <section className="section-carousel">
-          <div
-            id="carouselExampleControls"
-            class="carousel slide"
-            data-bs-ride="carousel"
-          >
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img
-                  src="/madera/colores.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="/madera/colores.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
-              <div class="carousel-item">
-                <img
-                  src="/madera/colores.jpg"
-                  class="d-block w-100"
-                  alt="..."
-                />
-              </div>
+        <div class="outer-wrapper">
+          <h2 className="h2-formulario">COLORES</h2>
+          <div class="s-wrap s-type-1" role="slider">
+            <input type="radio" id="s-1" name="slider-control" />
+            <input type="radio" id="s-2" name="slider-control" />
+            <input type="radio" id="s-3" name="slider-control" />
+
+            <ul class="s-content">
+              <li class="s-item s-item-1"></li>
+              <li class="s-item s-item-2"></li>
+              <li class="s-item s-item-3"></li>
+            </ul>
+            <div class="s-control">
+              <label class="s-c-1" for="s-1"></label>
+              <label class="s-c-2" for="s-2"></label>
+              <label class="s-c-3" for="s-3"></label>
             </div>
-            <button
-              class="carousel-control-prev"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="prev"
-            >
-              <span
-                class="carousel-control-prev-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button
-              class="carousel-control-next"
-              type="button"
-              data-bs-target="#carouselExampleControls"
-              data-bs-slide="next"
-            >
-              <span
-                class="carousel-control-next-icon"
-                aria-hidden="true"
-              ></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+            <div class="s-nav">
+              <label class="s-nav-1 right" for="s-2"></label>
+              <label class="s-nav-2 left" for="s-1"></label>
+              <label class="s-nav-2 right" for="s-3"></label>
+              <label class="s-nav-3 left" for="s-2"></label>
+            </div>
           </div>
-        </section>
+        </div>
       </section>
 
       <SCFooter></SCFooter>

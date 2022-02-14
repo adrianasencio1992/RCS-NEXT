@@ -47,6 +47,10 @@ export default function Layout({ children }) {
           async
           src="https://www.googletagmanager.com/gtag/js?id=UA-218480164-1"
         ></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=AW-10845351716"
+        ></script>
       </Head>
       <body className={styles.body}>
         <div className={styles.divPrincipalLayout}>

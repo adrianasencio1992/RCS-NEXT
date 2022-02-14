@@ -6,9 +6,13 @@ import SCGracias from "./gracias.styled";
 export default function Gracias() {
   if (typeof $ !== "undefined") {
     // browser code por si algo no funciona ponerlo despues de typeof y escribir le codigo dentro
-    gtag("event", "conversion", {
-      send_to: "AW-10845351716/bV4qCLiFtJUDEKTeu7Mo",
-    });
+
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
     gtag("config", "AW-10845351716");
   }
 

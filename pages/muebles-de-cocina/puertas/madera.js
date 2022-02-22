@@ -197,10 +197,10 @@ export default function Madera() {
             </div>
           </Link>
 
-          <Link href="/muebles-de-cocina/puertas/madera/conpenhague">
+          <Link href="/muebles-de-cocina/puertas/madera/copenhague">
             <div class="div-card">
               <img className="imagen-card" src="/madera/Conpenhage.jpg"></img>
-              <h2 className="h2-card">CONPENHAGUE</h2>
+              <h2 className="h2-card">COPENHAGUE</h2>
             </div>
           </Link>
         </section>

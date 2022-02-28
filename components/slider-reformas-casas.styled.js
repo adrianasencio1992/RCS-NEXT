@@ -88,7 +88,7 @@ a:hover {
   background-image: url('/casa-reformas9.jpg');
 }
 .checkbox.nou + label{
-  background-image: url('/casa-reformas10.jpg');
+  background-image: url('/obranueva9.jpg');
 }
 
 .checkbox:checked + label{
@@ -178,7 +178,7 @@ ul li:nth-child(8) {
   background-image: url('/casa-reformas9.jpg');
 }
 ul li:nth-child(9) {
-  background-image: url('/casa-reformas10.jpg');
+  background-image: url('/obranueva9.jpg');
 }
 
 

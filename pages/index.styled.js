@@ -21,7 +21,6 @@ div#slider figure {
 }
 
 
-
 /*esta parte del código define el movimiento de las imágenes a la izquierda*/
 @keyframes slidy {
 0% { left: 0%; }

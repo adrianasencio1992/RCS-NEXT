@@ -171,6 +171,9 @@ td{
      width:500px;
      margin: 10px;
   }
+  .btn-close{
+    margin-top:50px;
+  }
 }
 
 @media (max-width: 520px) {

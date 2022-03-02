@@ -45,124 +45,15 @@ const SCNavBar = styled.section`
    transform: skew(-40deg);
    margin-left:25px;
    display:flex;
-   z-index:1000;
+   z-index:1100;
    flex-direction:row;
    justify-content:flex-end;
    background-color: rgb(236, 167, 0);
   
 }
 
-.imagen-navbar-sticky{
-  width:100px;
-  height:55px;
-  z-index: 100;
-  transform: skew(40deg);
-}
-
-.contendor-nombre-y-eslogan{
-  display:flex;
-  align-items: center;
-  justify-content:center;
-  flex-direction: column;
-  width: 500px;
-}
-
-.h1-navbar{
-  margin-top: 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.35em;
-  border: 4px rgba(0, 0, 0, 0.25);
-  border-width: 4px 0;
-  width: 30em;
-  font-size: 16px;
-  font-family: "Oswald", sans-serif;
-  font-weight: 700;
-  text-align: center;
-}
-
-.div-eslogan{
-  text-align:center;
-}
-
-.eslogan {
-  display: inline-block;
-  overflow: hidden;
-  white-space: nowrap;
-  transform: skew(40deg);
-  font-size: 12px;
-}
-
-.eslogan:first-of-type {
-  /* For increasing performance 
-                       ID/className should've been used. 
-                       For a small demo 
-                       it's okaish for now */
-  animation: showup 7s infinite;
-}
-
-.eslogan:last-of-type {
-  width: 0px;
-  animation: reveal 7s infinite;
-}
-
-.eslogan:last-of-type span {
-  margin-left: -355px;
-  animation: slidein2 7s infinite;
-}
-
-@keyframes showup {
-  0% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 1;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-  }
-}
-
-@keyframes slidein2 {
-  0% {
-    margin-left: -800px;
-  }
-  20% {
-    margin-left: -800px;
-  }
-  35% {
-    margin-left: 0px;
-  }
-  100% {
-    margin-left: 0px;
-  }
-}
-
-@keyframes reveal {
-  0% {
-    opacity: 0;
-    width: 0px;
-  }
-  20% {
-    opacity: 1;
-    width: 0px;
-  }
-  30% {
-    width: 116px;
-  }
-  80% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 0;
-    width: 116px;
-  }
-}
-
   .navbar {
-    z-index: 1100;
+    z-index: 1200;
 }
 
   .margin {

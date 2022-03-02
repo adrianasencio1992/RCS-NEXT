@@ -4,6 +4,7 @@ const SCIndex = styled.section`
   font-family: "Oswald", sans-serif;
   overflow-x: hidden;
   }
+
   /*SLIDER*/
 
 

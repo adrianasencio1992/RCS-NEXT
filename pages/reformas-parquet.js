@@ -65,17 +65,6 @@ export default function ReformasParquet() {
               </div>
               <img className="imagen-carta" src="/reforma7.png"></img>
             </div>
-            <div className="div-primera-carta">
-              <img className="imagen-carta" src="/reforma6.png"></img>
-              <div className="div-primera-subcarta">
-                <p className="p2-obra">DISEÑO 3D GRATUITO</p>
-                <p className="p3-obra">
-                  Una vez elijas todos los elementos de tu baño, elaboraremos un
-                  diseño 3D que te permitirá visualizar el resultado final de tu
-                  reforma. Este diseño no tendrá ningún coste añadido.
-                </p>
-              </div>
-            </div>
           </div>
         </div>
       </section>

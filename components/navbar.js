@@ -110,6 +110,11 @@ export default function NavBar() {
                     </Link>
                   </li>
                   <li>
+                    <Link href="/diseno3d">
+                      <a class="dropdown-item">DISEÑO 3D GRATUITO</a>
+                    </Link>
+                  </li>
+                  <li>
                     <hr class="dropdown-divider"></hr>
                   </li>
                   <li>

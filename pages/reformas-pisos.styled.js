@@ -166,9 +166,18 @@ const SCPisos = styled.section`
 
 .p3-obra2{
   text-align: justify;
-  
-  
 }
+
+.span-3d{
+  text-decoration: none;
+  color:black;
+  padding-left:5px;
+}
+
+.a-3d{
+  color: orange;
+}
+
 `;
 
 export default SCPisos;

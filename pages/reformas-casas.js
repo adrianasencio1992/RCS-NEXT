@@ -4,6 +4,7 @@ import SCReformasCasas from "./reformas-casas.styled";
 import SCSliderReformasCasas from "../components/slider-reformas-casas";
 import SCFormulario from "../components/formulario";
 import SCWatsap from "../components/watsap";
+import Link from "next/link";
 
 export default function ReformasCasas() {
   return (
@@ -76,6 +77,17 @@ export default function ReformasCasas() {
                   un diseño 3D que te permitirá visualizar el resultado final de
                   tu reforma. Este diseño no tendrá ningún coste añadido.
                 </p>
+                <div className="div-3d">
+                  <Link href="/diseno3d">
+                    <a href="/diseno3d" className="a-3d">
+                      Clica aquí
+                    </a>
+                  </Link>
+                  <span className="span-3d">
+                    para saber más sobre nuestros diseños 3D.
+                  </span>
+                  <p className="p-3d"></p>
+                </div>
               </div>
             </div>
           </div>

@@ -1,6 +1,6 @@
 import styled from "styled-components";
 
-const SCBanos = styled.section`
+const SCDiseno3d = styled.section`
  overflow-x: hidden;
  font-family: 'Arial';
  font-size:15px;
@@ -9,7 +9,7 @@ const SCBanos = styled.section`
 
   .div-obra-nueva{
   background-image: url(
-    /bano.jpg);
+    /render-principal.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -44,7 +44,6 @@ const SCBanos = styled.section`
 }
 
 /*SECCION Y FORMULARIO*/
-
 .section-obra-formulario{
   display:flex;
   flex-direction:row;
@@ -167,20 +166,8 @@ const SCBanos = styled.section`
 
 .p3-obra2{
   text-align: justify;
-}
+  
+  
+}`;
 
-.span-3d{
-  text-decoration: none;
-  color:black;
-  padding-left:5px;
-}
-
-.a-3d{
-  color: orange;
-}
-
-
-
-`;
-
-export default SCBanos;
+export default SCDiseno3d;

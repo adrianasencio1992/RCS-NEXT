@@ -5,6 +5,7 @@ import SCFooter from "../components/footer";
 import SCSlider from "../components/slider";
 import SCFormulario from "../components/formulario";
 import SCWatsap from "../components/watsap";
+import Link from "next/link";
 
 const ObraNueva = () => (
   <SCObraNueva>
@@ -76,6 +77,17 @@ const ObraNueva = () => (
                 diseño 3D que te permitirá visualizar el resultado final de tu
                 nuevo proyecto. Este diseño no tendrá ningún coste añadido.
               </p>
+              <div className="div-3d">
+                <Link href="/diseno3d">
+                  <a href="/diseno3d" className="a-3d">
+                    Clica aquí
+                  </a>
+                </Link>
+                <span className="span-3d">
+                  para saber más sobre nuestros diseños 3D.
+                </span>
+                <p className="p-3d"></p>
+              </div>
             </div>
           </div>
         </div>

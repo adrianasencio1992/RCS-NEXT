@@ -1,13 +1,13 @@
 import Layout from "../components/layout";
 import SCFooter from "../components/footer";
-import SCSliderPintura from "../components/slider-pintura";
-import SCPintura from "./reformas-pintura.styled";
+import SCDiseno3d from "./diseno3d.styled";
 import SCFormulario from "../components/formulario";
 import SCWatsap from "../components/watsap";
+import SCSlider3d from "../components/slider-3d";
 
-export default function ReformasPintura() {
+export default function Diseno3d() {
   return (
-    <SCPintura>
+    <SCDiseno3d>
       <Layout></Layout>
       <div className="div-obra-nueva">
         <h1
@@ -17,7 +17,7 @@ export default function ReformasPintura() {
           data-aos-easing="ease-in-sine"
           data-aos-once={true}
         >
-          Pintura
+          Diseño 3D
         </h1>
         <p
           className="p-obra-nueva"
@@ -27,53 +27,55 @@ export default function ReformasPintura() {
           data-aos-easing="ease-in-sine"
           data-aos-once={true}
         >
-          Colores para el futuro
+          ¡Visualiza como será el resultado final!
         </p>
       </div>
 
       <section className="section-obra-formulario">
         <div className="div-general-obra">
           <p className="p1-obra">
-            Nuestro equipo de profesionales cuenta con una amplia experiencia en
-            el sector de la pintura. Utilizamos materiales de la mejor calidad y
-            que se adapten a sus gustos y necesidades. Puede encontrarnos en
-            Rubí y trabajamos en toda la provincia de Barcelona y alrededores.
+            Cuando solicite su presupuesto gratuito, nuestros profesionales
+            concertaran con usted una visita, donde escucharan todas sus
+            necesidades y preferencias. A continuación le enviaremos su
+            presupuesto detallado junto al Diseño 3D de su estancia para que
+            pueda visualizar como sería el resultado final.<br></br>
+            <br></br>Este servicio es totalmente GRATUITO y puede solicitarlo
+            sin compromiso.
           </p>
-          <h2 className="h2-formulario">¿CÓMO FUNCIONAMOS?</h2>
+          <h2 className="h2-formulario">¿QUÉ SOFTWARE UTILIZAMOS?</h2>
           <hr className="hr-formulario"></hr>
           <div className="div-general-cartas">
             <div className="div-primera-carta">
-              <img className="imagen-carta" src="/reforma5.png"></img>
+              <img className="imagen-carta" src="/bolita-sketchup.png"></img>
               <div className="div-primera-subcarta">
-                <p className="p2-obra">ESTAMOS CERCA DE TI</p>
+                <p className="p2-obra">SKETCHUP</p>
                 <p className="p3-obra">
-                  Puedes contactar con nosotros por teléfono, vía mail, página
-                  web, redes sociales o en nuestra tienda física. Escucharemos
-                  todas tus propuestas y juntos crearemos el diseño que deseas.
+                  Todos nuestros diseños son realizados mediante el software 3D
+                  SketchUp. Dicho aplicativo es el número uno en el mercado,
+                  empleado por arquitectos y diseñadores de interiorismo.
                 </p>
               </div>
             </div>
             <div className="div-primera-carta2">
               <div className="div-primera-subcarta2">
-                <p className="p2-obra">PRESUPUESTO GRATUITO</p>
+                <p className="p2-obra">V-RAY</p>
                 <p className="p3-obra2">
-                  A tu lado crearemos el presupuesto que se adapte mejor a tus
-                  necesidades, pudiendo elegir todos los elementos de tu baño.
-                  Elaboramos este presupuesto sin ningún tipo de compromiso en
-                  un plazo de 24 a 48 horas.
+                  V-Ray es el motor de renderizado que empleamos para dar
+                  realismo al diseño creado mediante el software SketchUp. Con
+                  él obtendremos las imágenes finales de su diseño.
                 </p>
               </div>
-              <img className="imagen-carta" src="/reforma7.png"></img>
+              <img className="imagen-carta" src="/bolita-vray.png"></img>
             </div>
           </div>
         </div>
       </section>
       <h2 className="h2-formulario">¡INSPÍRATE!</h2>
       <hr className="hr-formulario"></hr>
-      <SCSliderPintura></SCSliderPintura>
+      <SCSlider3d></SCSlider3d>
       <SCFormulario></SCFormulario>
       <SCWatsap></SCWatsap>
       <SCFooter></SCFooter>
-    </SCPintura>
+    </SCDiseno3d>
   );
 }

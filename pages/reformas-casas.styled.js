@@ -170,6 +170,17 @@ const SCReformasCasas = styled.section`
   
   
 }
+
+.span-3d{
+  text-decoration: none;
+  color:black;
+  padding-left:5px;
+}
+
+.a-3d{
+  color: orange;
+}
+
 `;
 
 export default SCReformasCasas;

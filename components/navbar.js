@@ -231,6 +231,11 @@ export default function NavBar() {
                       <a class="dropdown-item">FILOSOFÍA DE LA EMPRESA</a>
                     </Link>
                   </li>
+                  {/* <li>
+                    <Link href="/quieres-trabajar-con-nosotros">
+                      <a class="dropdown-item">TRABAJA CON NOSOTROS</a>
+                    </Link>
+                  </li> */}
                   <li>
                     <hr class="dropdown-divider"></hr>
                   </li>

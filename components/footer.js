@@ -32,7 +32,7 @@ export default function Footer() {
             <h2 className="h2-footer">CONTACTO</h2>
             <div className="div-contacto-footer">
               <div className="div-subcontacto-footer">
-                <p className="p2-footer">◎ RUBÍ - C/ Lope de Vega, 22 LOCAL</p>
+                <p className="p2-footer">◎ RUBÍ - C/ General Castaños, 49</p>
               </div>
               <div className="div-subcontacto-footer">
                 <p className="p2-footer">✉ rcs.reformas@hotmail.com</p>

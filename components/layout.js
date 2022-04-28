@@ -97,7 +97,7 @@ export default function Layout({ children }) {
                 <div className={styles.divInformacion}>
                   <h2 className={styles.h2Ubicacion}>RUBÍ</h2>
                   <h3 className={styles.h3Ubicacion}>
-                    C/ Lope de Vega, 22 LOCAL
+                    C/ General Castaños, 49
                   </h3>
                   <h3 className={styles.h3Ubicacion}>
                     ☏ 674686045 - 635126596

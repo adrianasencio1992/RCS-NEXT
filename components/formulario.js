@@ -31,7 +31,7 @@ export default function Formulario() {
                   name="_next"
                   value="https://www.rcs.cat/gracias/"
                 ></input>
-                <input type="hidden" name="_captcha" value="false"></input>
+                <input type="hidden" name="_captcha" value="true"></input>
                 {/**/}
                 <input
                   className="input-formulario"
@@ -304,6 +304,7 @@ export default function Formulario() {
                 maxlength="500"
               ></textarea>
             </div>
+
             <p className="full full2">
               <button className="boton-enviar" type="submit">
                 Enviar

@@ -31,7 +31,12 @@ export default function Formulario() {
                   name="_next"
                   value="https://www.rcs.cat/gracias/"
                 ></input>
-                <input type="hidden" name="_captcha" value="true"></input>
+                <input type="hidden" name="_captcha" value="false"></input>
+                <input
+                  className="input-catcha"
+                  type="text"
+                  name="_honey"
+                ></input>
                 {/**/}
                 <input
                   className="input-formulario"

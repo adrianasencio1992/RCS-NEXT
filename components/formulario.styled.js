@@ -180,6 +180,10 @@ align-items:center;
   font-style: italic;
 }
 
+.input-catcha{
+  display:none;
+}
+
 @media (max-width: 650px) {
   .contenedor {
      width:500px;
